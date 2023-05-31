@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbnormalityCardsRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sephirah SephirahType="Malkuth">
+    <AbnormalityCard ID="FairyCarnival_Care">
+      <Abnormality>요정의 축제</Abnormality>
+      <CardName>요정들의 보살핌</CardName>
+      <AbilityDesc>선택시 체력을 25% 회복한다.</AbilityDesc>
+      <FlaborText>요정들은 직원들을 지켜준다. 보살핌을 받는 동안은 모든 것이 평화로워진다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">이제 걱정하지 마! 우리가 너를 소중히 보살펴줄게.</Dialogue>
+        <Dialogue ID="2">놀라지 마. 너를 보호해주기 위해 찾아왔어.</Dialogue>
+        <Dialogue ID="3">요정은 어딜 가나 신성한 법이잖아. 자신감을 가져도 좋아.</Dialogue>
+        <Dialogue ID="4">선의를 베풀고 자연을 사랑하는 너는 보살핌 받아야 마땅해.</Dialogue>
+        <Dialogue ID="5">네가 특별한 거야. 저들은 삶을 돌아보고 반성 좀 해야 해.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="FairyCarnival_Gluttony">
+      <Abnormality>요정의 축제</Abnormality>
+      <CardName>식탐</CardName>
+      <AbilityDesc>5막 동안 막 종료시 체력을 10% 회복한다.
+3번 이상 피격시 현재 체력을 25%만큼 체력을 잃고 이 효과는 사라진다.</AbilityDesc>
+      <FlaborText>요정들은 단지 고기를 좋아하는 괴물이었고, '보호하는' 행위는 고기의 신선도가 떨어지는 걸 방지하기 위해서였다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">우리가 네 곁을 지키는 이유? 당연히 보호하기 위해서지!</Dialogue>
+        <Dialogue ID="2">마음껏 요정들의 보살핌을 즐겨봐.</Dialogue>
+        <Dialogue ID="3">너같이 선량한 사람은 절대 남의 손에 죽어서는 안 돼.</Dialogue>
+        <Dialogue ID="4">네가 나쁜 짓을 하지 않는 이상, 우리는 널 해치지 않아.</Dialogue>
+        <Dialogue ID="5">우리를 의심 하는거니? 나쁜 마음을 먹었구나…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="BeautyandtheBeast_Curse">
+      <Abnormality>미녀와 야수</Abnormality>
+      <CardName>저주의 굴레</CardName>
+      <AbilityDesc>피격시 받는 피해가 1 증가한다.
+사망시 자신을 죽인 적은 이번 무대 동안 피격시 받는 피해가 4 증가한다.</AbilityDesc>
+      <FlaborText>하지만 사실 저주는 되풀이만 될 뿐, 절대 풀리지 않습니다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">저주는 풀리지 않을 거야. 그저…</Dialogue>
+        <Dialogue ID="2">내가 죽기 전까지는 매 순간이 고통스럽겠지.</Dialogue>
+        <Dialogue ID="3">나는 기다릴 거야… 네가 날 이 저주에서 풀어주기를.</Dialogue>
+        <Dialogue ID="4">욕심 많은 자들의 저주는 풀리지 않아. 그저 되풀이 할 뿐이지…</Dialogue>
+        <Dialogue ID="5">이제 너도 바랄 거야. 이 저주의 굴레를 끝내고 싶다고…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="BeautyandtheBeast_Hate">
+      <Abnormality>미녀와 야수</Abnormality>
+      <CardName>자기 혐오</CardName>
+      <AbilityDesc>모든 주사위가 50% 확률로 강화된다.
+주사위를 굴릴 때 마다 체력을 1-2 잃는다.</AbilityDesc>
+      <FlaborText>내겐 순간 순간이 고통이야.
+끝 없이 고통받는 것 보다는 죽는 것이 낫지.'</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">나는 홀로 할 수 없어… 누군가 나를 도와줘야 해.</Dialogue>
+        <Dialogue ID="2">내가 너무 끔찍하고 징그러워서 참을 수가 없어.</Dialogue>
+        <Dialogue ID="3">왜 나를 도와주지 않아? 도움을 원하고 있잖니.</Dialogue>
+        <Dialogue ID="4">네 손으로 날 죽여줘.</Dialogue>
+        <Dialogue ID="5">어서 나를 때려! 이 고통을 끝내고 싶어…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ScorchedGirl_Walk">
+      <Abnormality>불타버린 소녀</Abnormality>
+      <CardName>발걸음</CardName>
+      <AbilityDesc>체력이 20%이하일 경우, 대상에게 도착시 대상에게 전체 체력의 30%만큼의 피해를 주고 사망한다.</AbilityDesc>
+      <FlaborText>너에게 간다. 곧 나처럼 잿더미가 되어 버릴 너에게로.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">만약 내가 사그라져야 한다면, 함께 가자.</Dialogue>
+        <Dialogue ID="2">혼자 죽기에는 너무 슬프잖아… 이 마음 잘 알죠?</Dialogue>
+        <Dialogue ID="3">기다려. 잿더미가 될 너에게로 가고 있으니까…</Dialogue>
+        <Dialogue ID="4">한걸음, 한걸음... 까맣게 타들어가.</Dialogue>
+        <Dialogue ID="5">검게 타버린 제가 할 수 있는 일은 어떤 것이 있을까요?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ScorchedGirl_Ashes">
+      <Abnormality>불타버린 소녀</Abnormality>
+      <CardName>재</CardName>
+      <AbilityDesc>피격시 받는 피해가 1 감소한다.</AbilityDesc>
+      <FlaborText>“까맣게 타버린 몸은 그 아이의 부서진 희망, 그럼에도 여전히 타오르는 촛불은 애정을 갈구하는 집착이라고 볼 수 있습니다."</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">밝은 모든 것들을 남김없이 태워버리기 위해…</Dialogue>
+        <Dialogue ID="2">검게 타버린 몸은 다시 돌아올 수 없는 걸 잘 알아요.</Dialogue>
+        <Dialogue ID="3">재로 변하는 건 무섭지만… 불을 끄고 싶지 않아요.</Dialogue>
+        <Dialogue ID="4">촛불 너머로 행복함이 느껴져요. 따스함과…</Dialogue>
+        <Dialogue ID="5">언젠가 재가 되어 자유로이 날 수 있을지도 몰라요.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="HappyTeddyBear_Hug">
+      <Abnormality>행복한 테디</Abnormality>
+      <CardName>그리웠던 옛날의 포옹</CardName>
+      <AbilityDesc>합 승리시 10%의 확률로 대상에게 주사위값만큼 흐트러짐 피해를 준다. 
+동일한 대상과 합을 할 수록 확률이 증가한다.</AbilityDesc>
+      <FlaborText>테디가 누군가를 꽉 껴안고 있었죠. 테디는 포옹을 매우 좋아했거든요. 그런데 조금 이상했어요.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">나를 꼬옥 안아주지 않을래? 마음이 편해질 거야.</Dialogue>
+        <Dialogue ID="2">포옹은 누구나 좋아해. 그렇지?</Dialogue>
+        <Dialogue ID="3">어서 와서 이 포근하고 따뜻한 감정을 느껴봐.</Dialogue>
+        <Dialogue ID="4">괜찮아. 무섭지 않아. 그저, 꼬옥 끌어 안아줄 뿐이야.</Dialogue>
+        <Dialogue ID="5">힘들었지? 내 품에 와서 쉬도록 해.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="HappyTeddyBear_Memory">
+      <Abnormality>행복한 테디</Abnormality>
+      <CardName>행복한 기억</CardName>
+      <AbilityDesc>손에서 비용이 가장 높은 책장 1개가 선택된다. 그 책장과 동일한 책장들을 사용할 때 마다 그 책장들의 코스트가 1 감소한다.</AbilityDesc>
+      <FlaborText>하지만 테디는 말이야, 두 번 다시 주인과 헤어지고 싶어하지 않았어.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">어째서 나를 떠나려는 거야? 그렇게 친했는데…</Dialogue>
+        <Dialogue ID="2">떠나지 말아줘. 한 번 더 꼬옥 안아주면 생각이 바뀔 거야.</Dialogue>
+        <Dialogue ID="3">두 번 안녕하는 건 슬퍼…</Dialogue>
+        <Dialogue ID="4">왜 나를 두고 가면서 다음에 만나자고 하는 거야?</Dialogue>
+        <Dialogue ID="5">내가 너무 세게 안아서 싫어졌어?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheDreamingCurrent_Sea">
+      <Abnormality>꿈꾸는 해류</Abnormality>
+      <CardName>무지갯빛 바다</CardName>
+      <AbilityDesc>3막 동안 모든 캐릭터의 속도가 3 감소한다.
+3막 동안 모든 캐릭터가 막 시작시 현재 체력의 10%를 잃고 빛을 1 회복한다.</AbilityDesc>
+      <FlaborText>바다에 데려다주는 대신에 바다를 볼 수 있는 사탕을 받았다. 형형색색의 밤과 낮이 지났다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">바다를 보고 싶어요. 반짝이는 바다를…</Dialogue>
+        <Dialogue ID="2">무지갯빛으로 빛나는 찬란한 물결을, 모두가 함께 봐요.</Dialogue>
+        <Dialogue ID="3">바다가 담긴 사탕을 보는 것만으로도 기분이 좋아져요.</Dialogue>
+        <Dialogue ID="4">아름다운 것을 볼 때는, 느릿한 걸음이어도 괜찮잖아요.</Dialogue>
+        <Dialogue ID="5">내 눈도 함께 무지갯빛으로 물들 거예요.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheDreamingCurrent_Run">
+      <Abnormality>꿈꾸는 해류</Abnormality>
+      <CardName>뜀박질</CardName>
+      <AbilityDesc>속도가 3 증가한다</AbilityDesc>
+      <FlaborText>다만 아이가 할 수 있는 건, 햇빛 아래 잔디밭 대신 좁은 실험실을, 불안하지만 기대에 부푼 걸음걸이로 달려나가는 것이다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">무슨 맛의 사탕을 먹을까… 두근거리는 거 있죠?</Dialogue>
+        <Dialogue ID="2">너무 좋아서 몸이 가만히 있지를 못하겠어요.</Dialogue>
+        <Dialogue ID="3">언젠가 더 넓은 곳을 뛰어다닐 수 있을까요?</Dialogue>
+        <Dialogue ID="4">넓은 초원과 따뜻한 햇살 따위를 바라는 것이 아니에요.</Dialogue>
+        <Dialogue ID="5">행복한 꿈을 꿨어요. 바닷속을 헤엄치는… 그런 꿈.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheDreamingCurrent_candy">
+      <Abnormality>꿈꾸는 해류</Abnormality>
+      <CardName>사탕</CardName>
+      <AbilityDesc>막 시작 시 각각의 적이 20%의 확률로 이번 막 동안 무작위 사탕을 얻는다.
+사탕을 가진 적에게 입히는 피해가 50% 증가한다. 포도 사탕일 경우 대신 100% 증가한다.</AbilityDesc>
+      <FlaborText>오늘은 포도 맛 사탕이라고 말해주세요, 그 애가 제일 좋아하는 맛이거든요.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">오늘은 어떤 맛의 사탕을 주실 건가요?</Dialogue>
+        <Dialogue ID="2">포도맛 사탕이라고 해주세요. 제일 좋아하거든요.</Dialogue>
+        <Dialogue ID="3">꼭 포도맛이 아니어도 괜찮아요.</Dialogue>
+        <Dialogue ID="4">저에게 있어 사탕을 먹는 것은… 작은 행복이거든요.</Dialogue>
+        <Dialogue ID="5">사탕을 맛있게 먹으면, 전 행복하게 잠이 들 수 있을 거예요.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="27thofMarch_Shelter">
+      <Abnormality>3월 27일의 방공호</Abnormality>
+      <CardName>방공호</CardName>
+      <AbilityDesc>이번 막 동안 흐릿함 상태가 된다.
+이번 막 동안 행동할 수 없다.
+체력을 50%회복한다</AbilityDesc>
+      <FlaborText>내부는 완벽히 안전했던 방공호는 외부의 현실을 더 큰 절망으로 조정시킨다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">당신을 이 세상에서 가장 안전하게 지켜줄 수 있습니다.</Dialogue>
+        <Dialogue ID="2">바깥의 소리를 신경 쓰지 마십시오. 당신과는 관련 없습니다.</Dialogue>
+        <Dialogue ID="3">당신이 버티고자 한다면, 오랜 세월도 끄덕 없을 것입니다.</Dialogue>
+        <Dialogue ID="4">이 안에 있다면, 당신만은 안전합니다.</Dialogue>
+        <Dialogue ID="5">역시 자신의 안전이 최우선이지요.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Yesod">
+    <AbnormalityCard ID="1.76 MHz_MHz">
+      <Abnormality>1.76 MHz</Abnormality>
+      <CardName>1.76 MHz</CardName>
+      <AbilityDesc>모든 아군의 공격 주사위 위력이 0-1 증가한다.
+모든 아군의 수비 주사위 위력이 0-1 감소한다.</AbilityDesc>
+      <FlaborText>어떤 것이 직원들에게 있어서 집단적인 분노를 느끼게 한 건지는 알 수가 없었다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">도와줘… 이곳은… 괴물… … … 났다고.</Dialogue>
+        <Dialogue ID="2">내 목소… … 들려? … …면 대답 … … 줘.</Dialogue>
+        <Dialogue ID="3">… … 요청 ... … 도움이 … … … 니다…</Dialogue>
+        <Dialogue ID="4">갑작스레 나타난… … … 으로… 전부… …</Dialogue>
+        <Dialogue ID="5">비상… … … 분들은 전부… … …대피… …</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="1.76MHz_423">
+      <Abnormality>1.77 MHz</Abnormality>
+      <CardName>4월 23일의 기억</CardName>
+      <AbilityDesc>책장을 사용할 때, 그 책장의 주사위들의 피해량이 공격 주사위의 수만큼 증가한다.</AbilityDesc>
+      <FlaborText>많은 사람들에겐 잊혀져 갔지만, 결코 잊혀져서는 안 되는 그 현장, 그 혼잡함 속으로 우리 모두를 데려간다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">모두가 잊어도, 우리는 이날을 절대 잊지 말아야 해…</Dialogue>
+        <Dialogue ID="2">흐릿해졌다면, 언제나 다시 반복 해줄게.</Dialogue>
+        <Dialogue ID="3">기억해. 절대로 지워버리면 안 돼. 무슨 이유에서라도.</Dialogue>
+        <Dialogue ID="4">너희가 항상 이 주파수에 맞춰 두고 있길 바라.</Dialogue>
+        <Dialogue ID="5">두고 두고 기억 해야 할 거야. 이 끔찍했던 사건을.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ForsakenMurderer_Tie">
+      <Abnormality>버려진 살인마</Abnormality>
+      <CardName>구속 당한 분노</CardName>
+      <AbilityDesc>속도가 2 감소한다.
+피해량이 1-3 증가한다.</AbilityDesc>
+      <FlaborText>온몸이 구속구로 묶여있지만 그는 누구보다 자유로우며, 폭력을 저지하기엔 턱없이 모자라다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">몸은 묶여있어도… 난 누구보다 자유로운 사람일 거야.</Dialogue>
+        <Dialogue ID="2">풀어줘… 난 어째서 묶여있어야 하는데!</Dialogue>
+        <Dialogue ID="3">그런 눈으로 보지 마. 제일 불쌍한 건 바로 너희들이니까…</Dialogue>
+        <Dialogue ID="4">이딴 걸로 날 묶어둘 수 없을 거야!</Dialogue>
+        <Dialogue ID="5">이런 꼴이어도, 계속해서 나를 두려워해야 할 거야.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ForsakenMurderer_Metal">
+      <Abnormality>버려진 살인마</Abnormality>
+      <CardName>금속성 울림</CardName>
+      <AbilityDesc>타격 주사위가 강화된다.</AbilityDesc>
+      <FlaborText>‘머리가…금속으로.. 뇌의 주름이 매끈해져서..’</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">머릿속이 울려. 맑지만, 시끄러운 금속의 소리가…</Dialogue>
+        <Dialogue ID="2">머리가 차가운 쇳덩어리로 변해가는 느낌이야.</Dialogue>
+        <Dialogue ID="3">정말 제 머리가 철로 변하고 있나요?</Dialogue>
+        <Dialogue ID="4">머리가 부딪히면, 경쾌한 소리가 울려퍼져.</Dialogue>
+        <Dialogue ID="5">머리가 쇠로 변하면, 뇌의 주름까지 없어질 거야.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="LittleHelper_Clean">
+      <Abnormality>무엇이든 도와드립니다</Abnormality>
+      <CardName>청소도구</CardName>
+      <AbilityDesc>참격 주사위가 강화된다.</AbilityDesc>
+      <FlaborText>본래는 청소 도구가 달려있어야 할 손 혹은 발 위치에 날카로운 절단 도구가 달려있었다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">무엇이든 도와드리는 도우미 로봇입니다!</Dialogue>
+        <Dialogue ID="2">어떤 작업을 원하시나요? 무엇이든지 가능합니다.</Dialogue>
+        <Dialogue ID="3">오염 감지 완료. 청소 작업 시작합니다.</Dialogue>
+        <Dialogue ID="4">삐비빅~ 삑. 오염 대상 발견! 쓰레기 처리를 진행합니다.</Dialogue>
+        <Dialogue ID="5">수많은 도구들로 당신에게 도움을 드리겠습니다.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="LittleHelper_Pattern">
+      <Abnormality>무엇이든 도와드립니다</Abnormality>
+      <CardName>패턴 반복 인식 기능</CardName>
+      <AbilityDesc>막 종료시, 그 막동안 적에게 10이상의 피해를 줬다면 신속3과 힘1을 얻는다.</AbilityDesc>
+      <FlaborText>내가 처음으로 새로운 가정에 보내진 날 나는 그 사람이 그토록 바라던 선물을 그들에게 전해주었다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">청소가 끝나면 사람들은 항상 칭찬을 해줍니다!</Dialogue>
+        <Dialogue ID="2">큰 소리로 명령 하십니다. 계속 이렇게 하면 되는 것 입니다.</Dialogue>
+        <Dialogue ID="3">삐뽀~ 삐! 패턴 누적 완료.</Dialogue>
+        <Dialogue ID="4">사람들은 소리를 지르며 칭찬해주는 것을 좋아합니다.</Dialogue>
+        <Dialogue ID="5">도우미 로봇의 학습 능력은, 매우 뛰어납니다.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Schadenfreude_See">
+      <Abnormality>샤덴프로이데</Abnormality>
+      <CardName>시선</CardName>
+      <AbilityDesc>합을 진행한 대상에게 합 종료시 25%의 확률로 허약2와 무장해제2을 부여한다.</AbilityDesc>
+      <FlaborText>기계 안의 열쇠 구멍에는 누군가의 끈질긴 시선이 느껴진다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">당신이 무엇을 하고 있든, 시선은 언제나 당신을 좇을 것 입니다.</Dialogue>
+        <Dialogue ID="2">시선으로부터 벗어나고 싶으셔도, 그것은 어디에나 있을테죠.</Dialogue>
+        <Dialogue ID="3">다른 이들의 불행을 훔쳐보며 자신을 위로해 본 적 없으신가요?</Dialogue>
+        <Dialogue ID="4">당신이 모든 것을 포기하는 그 순간까지도, 놓치지 않을 것입니다.</Dialogue>
+        <Dialogue ID="5">불안함에 뒤를 돌아보아도 소용 없습니다.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Schadenfreude_Eye">
+      <Abnormality>샤덴프로이데</Abnormality>
+      <CardName>눈맞춤</CardName>
+      <AbilityDesc>합 진행 시 모든 주사위의 위력 0-2 증가.
+일방 공격 시 모든 주사위의 위력 0-2 감소.</AbilityDesc>
+      <FlaborText>환상체 방향으로 10초 이상을 서 있는다. 5초 후, 환상체는 공격적인 성향을 띈 채 직원에게 다가왔다. 실험 중단.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">누군가의 시선이 닿는 일은 기분이 더러운 법이지.</Dialogue>
+        <Dialogue ID="2">나에게 시선을 두지 마. 날 보지 마.</Dialogue>
+        <Dialogue ID="3">시선을 돌리지 않으면, 그 눈알을 뽑아주는 방법도 있지.</Dialogue>
+        <Dialogue ID="4">훔쳐보는 것은 한 사람뿐이어야 해.</Dialogue>
+        <Dialogue ID="5">시선이 얽히는 건, 무언가를 드러내는 기분이라 싫어.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="YouMustBeHappy_Q">
+      <Abnormality>당신은 행복해야합니다.</Abnormality>
+      <CardName>질문</CardName>
+      <AbilityDesc>책장의 첫 번째 주사위는 최대값 혹은 최소값만 나온다.</AbilityDesc>
+      <FlaborText>당신은, 당신의 도시를 사랑하십니까?</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">당신은 도시를 사랑하십니까?</Dialogue>
+        <Dialogue ID="2">빠르게 답 하실수록 좋습니다.</Dialogue>
+        <Dialogue ID="3">대답은 ‘그렇다’와 ‘아니다’가 있습니다.</Dialogue>
+        <Dialogue ID="4">‘아니다’로 답하실 경우, 아쉽지만 퇴원할 수 없습니다.</Dialogue>
+        <Dialogue ID="5">‘그렇다’라고 대답 해야 할 의무는 없습니다만… 이해하셨죠?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChangeAnything_Energy">
+      <Abnormality>무엇이든 바꿔드립니다.</Abnormality>
+      <CardName>에너지 전환</CardName>
+      <AbilityDesc>책장을 사용할 때마다 손에서 무작위 책장 한 장을 버리고 빛을 1 회복한다.</AbilityDesc>
+      <FlaborText>기계를 연 후 안으로 들어가 닫음 버튼을 누르십시오. 모든 게 나아질 것입니다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">당신이 마음에 들지 않는 모든 것들을 바꿔 드릴 로봇입니다.</Dialogue>
+        <Dialogue ID="2">당신의 힘, 너무 약하기만 하고 마음에 들지 않으신가요?</Dialogue>
+        <Dialogue ID="3">불만스러운 것들을 바꿔드리겠습니다.</Dialogue>
+        <Dialogue ID="4">모든 게 나아질 것입니다.</Dialogue>
+        <Dialogue ID="5">이 안은 아늑함 그 자체이니 너무 걱정 마시길 바랍니다.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Variant_Dimensional">
+      <Abnormality>차원굴절변이체</Abnormality>
+      <CardName>차원굴절</CardName>
+      <AbilityDesc>이번 전투 동안 흐릿함을 얻는다.
+이 캐릭터의 공격으로는 대상의 공격 대상을 변경할 수 없다.</AbilityDesc>
+      <FlaborText>그 공간은 진공 상태다. 엄밀히 말하자면, 환상체 자체가 진공 현상이다</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">그것은 당신의 팔 다리를 정성스레 떼어줄 것입니다.</Dialogue>
+        <Dialogue ID="2">몸통만 남고 싶지 않다면, 주위에 신경을 곤두세우고 있으시길.</Dialogue>
+        <Dialogue ID="3">그저 항상 긴장해야 한다는 말 밖에는 해줄 수 없습니다.</Dialogue>
+        <Dialogue ID="4">마음의 눈으로 보라는 쓸모 없는 이야기 같은 건 무시하세요.</Dialogue>
+        <Dialogue ID="5">그 공간은 진공의 상태입니다. 숨을 쉴 수가 없죠.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Behavior_Adjustment">
+      <Abnormality>행동 교정</Abnormality>
+      <CardName>교정</CardName>
+      <AbilityDesc>합 패배 시 50%의 확률로 다음 공격 주사위가 강화된다.</AbilityDesc>
+      <FlaborText>악한 이, 오만한 이, 파렴치한 이 가리지 않고 모든 사람들이 정의로워질 수 있게끔 교정해준다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">모든 사람이 정의로워질 수 있게끔 교정해 드립니다.</Dialogue>
+        <Dialogue ID="2">이 기기에 너무 의지하지 마십시오.</Dialogue>
+        <Dialogue ID="3">본 기계를 사용하실 때 절대 생각하는 것을 멈추어서는 안 됩니다.</Dialogue>
+        <Dialogue ID="4">교정하고 싶었던 마음을 너무 빨리 놓는 일이 없도록 해주십시오.</Dialogue>
+        <Dialogue ID="5">당신의 행동을 바로 잡아 드리겠습니다.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Hod">
+    <AbnormalityCard ID="SpiderBud_Cocoon">
+      <Abnormality>거미봉오리</Abnormality>
+      <CardName>고치</CardName>
+      <AbilityDesc>공격 적중시 주사위 값이 최대였으면, 상대에게 흐트러짐 피해를 2-4 주고 취약 1을 부여한다.</AbilityDesc>
+      <FlaborText>차마 고치가 된 직원 시체를 구하러 가겠다는 사람은 없었다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">어떤 부주의한 이가 내 아이를 밟았니?</Dialogue>
+        <Dialogue ID="2">아무도 모르더구나. 고치 안 먹이들은, 죽은 상태가 아니란 걸.</Dialogue>
+        <Dialogue ID="3">거미의 독은 특별해서, 먹이가 바로 죽지 못하도록 하거든.</Dialogue>
+        <Dialogue ID="4">발 밑을 조심해. 실수를 했다면, 위를 조심하고.</Dialogue>
+        <Dialogue ID="5">차마 이들을 구하겠다는 사람은 없었지.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="SpiderBud_Dinner">
+      <Abnormality>거미봉오리</Abnormality>
+      <CardName>식사</CardName>
+      <AbilityDesc>공격 적중시 대상이 흐트러짐 상태면 체력을 2-7 회복한다.</AbilityDesc>
+      <FlaborText>고치가 된 피터 직원은 격리실 천장에 매달린 채 거미의 사랑스러운 자식들의 넉넉한 식량이 되겠지.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">기뻐해. 내 아이들을 행복하게 해 줄 수 있단다.</Dialogue>
+        <Dialogue ID="2">자라나는 아이들은 언제나 배고픈 법이지.</Dialogue>
+        <Dialogue ID="3">먹고 살려면 다 어쩔 수 없는 일이잖니.</Dialogue>
+        <Dialogue ID="4">먹이가 풍족해지니 마음이 놓이는구나.</Dialogue>
+        <Dialogue ID="5">자, 먹음직스러운 식량이 생겼으니… 아가들, 모이렴.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ShyLookToday_Face">
+      <Abnormality>수줍은 오늘의 표정</Abnormality>
+      <CardName>오늘의 표정</CardName>
+      <AbilityDesc>표정이 지속적으로 바뀐다
+현재 표정에 따라 주사위의 위력이 변경된다.(최소 -2, 최대 +3)</AbilityDesc>
+      <FlaborText>어느 날, 또다시 햇빛이 너무나 좋았던 그런 날, 오래 전 정성스럽게 빨래를 말렸던 그 날처럼 자신의 가죽을 말렸다</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">수줍어서 그래요. 수줍음을 많이 타거든요…</Dialogue>
+        <Dialogue ID="2">슬픈 표정은 도시에 어울리는 표정이 아니에요.</Dialogue>
+        <Dialogue ID="3">자신을 더 명확히 드러내는 것은… 굉장히 중요하겠죠.</Dialogue>
+        <Dialogue ID="4">이 뒤를 보지는 말아주세요. 최소한의 예의잖아요.</Dialogue>
+        <Dialogue ID="5">당신도 저처럼 활짝 웃으세요. 힘든 일이 아니죠?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="OldLady_Lonely">
+      <Abnormality>늙은 여인</Abnormality>
+      <CardName>고독</CardName>
+      <AbilityDesc>일방적인 공격으로 적중할 때 마다 15%의 확률로 다음 2막 동안 고독을 부여한다.
+일방 공격을 할 때 마다 확률이 5% 증가한다.
+고독을 가진 캐릭터는 속도가 2 감소하고 막 시작시 피해를 1-2 받는다.(중첩 불가)</AbilityDesc>
+      <FlaborText>생전 그렇게 이야기가 많은 사람이었지만, 끝내 죽을 때 만큼은 고독함 만이 유일한 청자였다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">아이야. 이 할미가 외롭지 않게, 곁에 와주지 않겠니?</Dialogue>
+        <Dialogue ID="2">나이가 들으니 아무도 나를 찾지 않는구나.</Dialogue>
+        <Dialogue ID="3">마지막까지 내 이야기를 들어주는 이는, 이 정적 뿐이구나.</Dialogue>
+        <Dialogue ID="4">왜 아무도 할미 곁에 와주지 않는게야…</Dialogue>
+        <Dialogue ID="5">이렇게 잊혀져 고독한 마지막을 맞이할까 두렵구나.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="OldLady_Story">
+      <Abnormality>늙은 여인</Abnormality>
+      <CardName>이야기</CardName>
+      <AbilityDesc>흐트러짐 저항의 최대값이 25% 감소한다.
+피해량이 1-2 증가한다.</AbilityDesc>
+      <FlaborText>그녀의 말을 계속해서 듣는 건 좋지 않아요. 이 세상에 존재하는 모든 이야기 뿐만 아니라 세상에 존재할 수도 없는 이야기까지 알고 있어요.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">아가, 아가… 옛날 이야기 들려줄까?</Dialogue>
+        <Dialogue ID="2">그래, 그래… 우리 아가는 어떤 이야기를 좋아하누?</Dialogue>
+        <Dialogue ID="3">자, 이 할미 옆에 앉으렴. 재밌는 이야기를 해줄 테니.</Dialogue>
+        <Dialogue ID="4">어디보자… 함께 동물 친구들 노래라도 불러보련?</Dialogue>
+        <Dialogue ID="5">할미는 아는 게 많아요. 전부 이야기 해줄 수 있단다.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MeatLantern_Predation">
+      <Abnormality>고기초롱</Abnormality>
+      <CardName>포식</CardName>
+      <AbilityDesc>자신보다 속도가 높은 대상과 합을 할 때 피해량 1-3증가</AbilityDesc>
+      <FlaborText>아, 망했군. 그냥 꽃 감상이나 마저 해..</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">계속 꽃 구경을 하도록 해… 그 편이 편할 거야...</Dialogue>
+        <Dialogue ID="2">이미 내 위에 올라와 있잖아… 늦었어...</Dialogue>
+        <Dialogue ID="3">걱정 마… 오래 걸리지는 않을 거야…</Dialogue>
+        <Dialogue ID="4">먹이들은 저절로 내게 다가오기 마련이지…</Dialogue>
+        <Dialogue ID="5">나는 때에 맞춰 입을 닫을 뿐이야…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MeatLantern_Bait">
+      <Abnormality>고기초롱</Abnormality>
+      <CardName>미끼</CardName>
+      <AbilityDesc>속도와 관계없이 이 캐릭터가 공격하는 대상은 이 캐릭터를 공격하게 된다.
+수비 주사위 위력이 0-1 증가한다.</AbilityDesc>
+      <FlaborText>꽃봉오리가 밝게 빛나고 있는데, 너무 신기해요. 저뿐만 아니라 많은 직원이 이 꽃을 쳐다보고 있어요..</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">이 불빛은 어둠 속을 환히 밝혀주지…</Dialogue>
+        <Dialogue ID="2">참 예쁘지… 더 가까이 와서 구경해도 좋아...</Dialogue>
+        <Dialogue ID="3">빛은 어둠을 밝혀줄 용도로만 존재하는 것은 아니지…</Dialogue>
+        <Dialogue ID="4">예쁜 것에는 자연스레 발이 먼저 움직이지...</Dialogue>
+        <Dialogue ID="5">조금만 더… 더 가까이 다가와… 아주 조금만 더…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MeatLantern_Ambush">
+      <Abnormality>고기초롱</Abnormality>
+      <CardName>매복</CardName>
+      <AbilityDesc>막 종료시 체력이 20%이하일 경우 다음 막 동안 흐릿함을 얻는다.</AbilityDesc>
+      <FlaborText>복도를 통해 이동하는 것이 아닌, 회사의 지반을 통해 이동하므로 탈출 시 경로를 예측하는 것은 불가능하다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">미끼보다 중요한 건, 어떻게 숨어있느냐야…</Dialogue>
+        <Dialogue ID="2">누구에게도 들키지 않도록… 꼭꼭 숨어있어야 해…</Dialogue>
+        <Dialogue ID="3">이렇게 있으면… 누구도 날 발견하지 못 할 거야…</Dialogue>
+        <Dialogue ID="4">어둠 속에서 조용히… 먹잇감을 기다려…</Dialogue>
+        <Dialogue ID="5">숨어있는 나를 찾지 못하고, 그저 당할 뿐이지…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Porccubus_Thorn">
+      <Abnormality>포큐버스</Abnormality>
+      <CardName>가시</CardName>
+      <AbilityDesc>공격적중시 50%의 확률로 대상의 다음 수비 주사위 하나를 약화시킨다.</AbilityDesc>
+      <FlaborText>처음에는 가시 하나를 살에 살짝 찌르는 정도라면, 지금은 온 몸을 미친듯이 문질러야 처음과 같은 자극이 들어와요.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">그래, 친절히 등을 숙여줄게~ 나를 쓰다듬을 수 있도록.</Dialogue>
+        <Dialogue ID="2">처음이 무섭지, 그 다음은 어렵지 않을 거야.</Dialogue>
+        <Dialogue ID="3">내 아래로 와. 고통에서 벗어나게 해줄게.</Dialogue>
+        <Dialogue ID="4">아주 작은 천국을 맛 보는 것 정도는 괜찮잖아?</Dialogue>
+        <Dialogue ID="5">행복을 모르는 녀석들이 불쌍한 거야~</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Porccubus_Happy">
+      <Abnormality>포큐버스</Abnormality>
+      <CardName>쾌락</CardName>
+      <AbilityDesc>최대 체력의 20%에 달하는 피해를 입을 때 마다 빛을 2 회복한다.
+피격시 체력이 25%이하가 되었다면 사망한다.</AbilityDesc>
+      <FlaborText>이제는 제 머리가 터져나갈 시간이에요, 그럼 안녕히.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">견딜 수 없는 쾌락만을 바란다면, 결국은 무너지기 마련이지.</Dialogue>
+        <Dialogue ID="2">나는 그저 너희에게 죽을 듯한 웃음을 선물해 줄 뿐이야~</Dialogue>
+        <Dialogue ID="3">하나로 시작해서, 점점 더 늘리게 될 거야.</Dialogue>
+        <Dialogue ID="4">곧 머리가 터질 듯이 행복할 거야.</Dialogue>
+        <Dialogue ID="5">한 번 맛 본 달콤함은 그만 둘 수 없지.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="RedShoes_Kirakira">
+      <Abnormality>빨간구두</Abnormality>
+      <CardName>반짝임</CardName>
+      <AbilityDesc>막 시작시 적들이 각각 50%의 확률로 매혹에 걸린다.
+매혹에 걸린 적들은 피해량이 2-4 증가하고 이 캐릭터를 공격한다.
+매혹에 걸린 적들을 공격할 때 피해량이 3-5 증가한다.</AbilityDesc>
+      <FlaborText>구두의 색깔은 무채색이었다. 
+곧 붉어질 것이다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">붉은 색이 너무나도 선명해 눈이 부시지 않니?</Dialogue>
+        <Dialogue ID="2">이 사람만 없애면… 구두는 너의 것이야.</Dialogue>
+        <Dialogue ID="3">괜찮아. 발목을 자르면 쉽게 구두를 빼낼 수 있으니.</Dialogue>
+        <Dialogue ID="4">네가 이곳에서 가장 반짝이는 사람이고 싶지 않아?</Dialogue>
+        <Dialogue ID="5">이 화려함은 너만의 것이어야 해.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="RedShoes_Desire">
+      <Abnormality>빨간구두</Abnormality>
+      <CardName>핏빛 욕망</CardName>
+      <AbilityDesc>속도가 1 증가한다. 공격적중시 50%의 확률로 출혈 1을 부여한다.
+긍정코인이 생성될 때, 50%의 확률로 부정코인이 대신 생성된다.</AbilityDesc>
+      <FlaborText>다리를 짓이겨줄게. 영원히 춤추지 못하도록.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">가장 주목 받아야 하는 건 나여야만 해!</Dialogue>
+        <Dialogue ID="2">나만이 아름다운 춤을 출 수 있도록…</Dialogue>
+        <Dialogue ID="3">영원히 춤을 추지 못하도록 해줄게.</Dialogue>
+        <Dialogue ID="4">그 다리를 쓸 수 없게 만들면, 주인공은 내가 될 수 있을까?</Dialogue>
+        <Dialogue ID="5">네 마지막 춤을 나에게 보여줘.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Netzach">
+    <AbnormalityCard ID="UniverseZogak_Echo">
+      <Abnormality>우주속의 조각</Abnormality>
+      <CardName>메아리</CardName>
+      <AbilityDesc>자신의 hp가 20%이하일 경우, 피격시 50%의 확률로 자신과 공격자의 모든 주사위를 파괴한다.</AbilityDesc>
+      <FlaborText>눈 앞에 노랫소리가 보인다. 그것은 점점 화려하고 순간으로 당신에게 다가온다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">노래. 한다. 사람. 노래. 귀. 듣다.</Dialogue>
+        <Dialogue ID="2">노래. 신경. 집중. 순간. 본다. 있다.</Dialogue>
+        <Dialogue ID="3">눈. 감다. 느낌. 화려. 오다. 행복. 이상.</Dialogue>
+        <Dialogue ID="4">이해. 완벽. 순간. 알다. 우리 지식. 뜻. 전달하다.</Dialogue>
+        <Dialogue ID="5">하다. 같이. 부르다. 노래. 깨달음.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="UniverseZogak_Tentacle">
+      <Abnormality>우주속의 조각</Abnormality>
+      <CardName>촉수</CardName>
+      <AbilityDesc>관통 주사위가 강화된다.</AbilityDesc>
+      <FlaborText>그것의 촉수가 당신을 꿰뚫는 순간 그들은 더 이상 지금의 삶에 아무런 흥미를 가지지 못하게 될 거에요.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">부정. 공격. 오다. 도움. 주다.</Dialogue>
+        <Dialogue ID="2">우리 지식. 그저. 주다. 전달. 없다.</Dialogue>
+        <Dialogue ID="3">사람. 공격. 나. 지키다. 따라. 공격.</Dialogue>
+        <Dialogue ID="4">공격. 빠르다. 찌르다.</Dialogue>
+        <Dialogue ID="5">사람. 공격. 영혼. 사라지다. 없다. 원하다.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChildofGalaxy_Friend">
+      <Abnormality>은하수의 아이</Abnormality>
+      <CardName>친구</CardName>
+      <AbilityDesc>이전 막에서 공격한 대상과 같은 대상을 공격을 적중시킬 때 마다 체력을 2-3 회복한다.
+이전 막에서 공격한 대상과 다른 대상을 공격을 적중시킬 때 마다 피해를 1-2 받는다.</AbilityDesc>
+      <FlaborText>걔가 나보다 더 좋은 거야? 나보다? 당연하잖아? 나는 다 알 수 있어. 네가 어디를 가던.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">왜 그 친구에게 간 거야… 나보다 걔가 더 좋아?</Dialogue>
+        <Dialogue ID="2">나는 너를 소중히 하는데, 너는 나를 소중히 여기지 않는구나…</Dialogue>
+        <Dialogue ID="3">네가 어디를 가던, 무엇을 하던… 항상 다 보고 있어.</Dialogue>
+        <Dialogue ID="4">내 곁에 계속 있어줄 것이 아니라면 필요 없어.</Dialogue>
+        <Dialogue ID="5">잘 가, 그리고 다시는 나를 찾아오지 마.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChildofGalaxy_Tear">
+      <Abnormality>은하수의 아이</Abnormality>
+      <CardName>눈물</CardName>
+      <AbilityDesc>사망시 모든 캐릭터는 체력을 '이 캐릭터의 전체 체력의 25%'만큼 잃는다.</AbilityDesc>
+      <FlaborText>아이의 말소리와 숨결이 들린다. 곧 이어 새카만 어둠이... 그 아이를 처음 본 날의 밤처럼..</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">나와 같이 은하수를 걷자.</Dialogue>
+        <Dialogue ID="2">너도 조약돌이 되어서, 함께 하는 거야.</Dialogue>
+        <Dialogue ID="3">그 날의 밤처럼, 다시 돌아가자.</Dialogue>
+        <Dialogue ID="4">너를 만날 수 있어서, 나는 너무 기뻐.</Dialogue>
+        <Dialogue ID="5">내가 다시 울고 있다면, 내 눈물을 닦아줘.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChildofGalaxy_Token">
+      <Abnormality>은하수의 아이</Abnormality>
+      <CardName>친구의 증표</CardName>
+      <AbilityDesc>3막 동안 막 시작시 모든 아군의 체력을 10% 회복한다.
+다른 아군이 사망할 때 마다 체력을 '최대 체력의 20%'만큼 잃는다.</AbilityDesc>
+      <FlaborText>당신의 손에 떨어진 조약돌은 반짝이다가, 일렁이다가, 간질거리다가, 우주가 된다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">절대로 잃어버리지 마, 다른 사람에게 주지도 마.</Dialogue>
+        <Dialogue ID="2">친구인 기념으로 주는 선물이야. 소중히 해줘.</Dialogue>
+        <Dialogue ID="3">네가 이걸 들고 다닌다면, 난 항상 네 곁에 있는 거야.</Dialogue>
+        <Dialogue ID="4">언제나 내 곁에 있어줘야 해? 약속, 잊어버리지 마.</Dialogue>
+        <Dialogue ID="5">친구가 다치면… 그건 슬픈 일이잖아.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="SingingMachine_Music">
+      <Abnormality>노래하는 기계</Abnormality>
+      <CardName>음악</CardName>
+      <AbilityDesc>공격 적중시 50%의 확률로 다음 공격 주사위가 강화된다.</AbilityDesc>
+      <FlaborText>하지만 어떤 것도 사람 만큼 훌륭한 음악이 되지는 못했다고요.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">사람만큼 훌륭한 음악이 될 수 있는 것은 없지.</Dialogue>
+        <Dialogue ID="2">아름다운 노래를 듣고 싶지 않니? 방법은 알고 있잖아.</Dialogue>
+        <Dialogue ID="3">괜찮아. 저 친구도 분명 좋은 악기가 되고 싶을 거야.</Dialogue>
+        <Dialogue ID="4">사람은 누구나 음악적인 재능을 품고 있지.</Dialogue>
+        <Dialogue ID="5">용기 있는 자는, 어서 내게 다가와. 나와 함께 하자.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="SingingMachine_Rhythm">
+      <Abnormality>노래하는 기계</Abnormality>
+      <CardName>리듬</CardName>
+      <AbilityDesc>이 캐릭터는 리듬을 얻는다.
+리듬은 공격 주사위를 50%의 확률로 강화시키고 피격시 받는 피해를 1-3 증가시킨다.
+리듬을 가진 캐릭터가 적을 죽일 때 마다 리듬이 없는 무작위 캐릭터 하나가 리듬을 얻는다.</AbilityDesc>
+      <FlaborText>그건, 리듬이었어요.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">모두가 나의 노래를 다시 듣고 싶어 하는 구나.</Dialogue>
+        <Dialogue ID="2">여러가지의 소리가 합쳐져 음악이 되는 것이지.</Dialogue>
+        <Dialogue ID="3">너도 나도 먼저 악기가 되고 싶어하니…</Dialogue>
+        <Dialogue ID="4">모두가 몸을 던진다면, 분명 더욱 더 감미로운 음색이 나오겠지.</Dialogue>
+        <Dialogue ID="5">다른 음악은 이제 듣지 못 할 거야.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheLittlePrince_Bigbusut">
+      <Abnormality>어린왕자</Abnormality>
+      <CardName>거대한 버섯</CardName>
+      <AbilityDesc>모든 캐릭터는 피격시 추가로 흐트러짐 피해를 2-4 받는다.</AbilityDesc>
+      <FlaborText>커다란 버섯으로만 환상체를 인지한다면 그건 너의 흐릿한 눈으로 본 결과야.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">우리는 다른 이들과 달리 본질을 볼 수 있단다.</Dialogue>
+        <Dialogue ID="2">마음을 얻는 일이라는 것은 매우 어려운 일이지.</Dialogue>
+        <Dialogue ID="3">내게 한 걸음씩, 천천히 걸어오렴.</Dialogue>
+        <Dialogue ID="4">너는 다른 이들과 달리 내 목소리를 들을 수 있구나.</Dialogue>
+        <Dialogue ID="5">우리를 친구라고 부를 수 있니?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Alriune_Bush">
+      <Abnormality>알리우네</Abnormality>
+      <CardName>덤불</CardName>
+      <AbilityDesc>대상을 흐트러짐 상태로 만들었을 때 피해 5-7를 준다.</AbilityDesc>
+      <FlaborText>봄이 오고 있다. 
+그렇게 서서히 내 절망은 황홀하게 시작되었다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">흙에서 태어났으니, 다시 흙으로 돌아가고자 한단다.</Dialogue>
+        <Dialogue ID="2">시들지도 않는 꽃과 함께 내 절망은 황홀히 시작했음을.</Dialogue>
+        <Dialogue ID="3">사람의 예쁨을 받고 사람이 되고 싶었지.</Dialogue>
+        <Dialogue ID="4">금이 갔음에도 그 틈에는 어여쁜 꽃이 피는 구나.</Dialogue>
+        <Dialogue ID="5">네가 내 소망을 이루어주겠니?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Alriune_flower">
+      <Abnormality>알리우네</Abnormality>
+      <CardName>꽃잎</CardName>
+      <AbilityDesc>막 종료시, 그 막에서 주사위가 3개인 카드를 사용했다면 다른 모든 캐릭터에게 피해를 1-5만큼 주고 다음 막동안 흐릿함을 얻는다.</AbilityDesc>
+      <FlaborText>눈물 대신 꽃잎을 떨구며 너는 내게 말했다. 
+우리는 한 때 모두 흙이었으니, 여기서 종말을 말하지 말아달라고.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">눈알이 없어도 모든 것을 볼 수 있단다.</Dialogue>
+        <Dialogue ID="2">살아 숨쉬는 모든 것들과 함께 흙으로 돌아가자.</Dialogue>
+        <Dialogue ID="3">내 속죄는 싸늘함과 함게 숨가쁘게 마무리했음을.</Dialogue>
+        <Dialogue ID="4">이 꽃들은 시들지도 않고, 마구잡이로 피어나는구나.</Dialogue>
+        <Dialogue ID="5">어두운 숲에 버려져, 그저 몸과 마음이 닳아갈 뿐이었지.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Rudolta_Gift">
+      <Abnormality>썰매의 루돌타</Abnormality>
+      <CardName>선물</CardName>
+      <AbilityDesc>합 승리시 50%의 확률로 속박 2를 부여하고 흐트러짐 피해를 1-2 준다</AbilityDesc>
+      <FlaborText>저의 무한한 증오를 담아 당신에게 이 선물을 드립니다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">행복한 아이들은 모두 선물을 받을 자격이 있습니다!</Dialogue>
+        <Dialogue ID="2">제 무한한 증오를 담아, 이 선물을 드립니다.</Dialogue>
+        <Dialogue ID="3">눈물이 나와도 행복하기만 하다면, 선물을 받을 수 있습니다.</Dialogue>
+        <Dialogue ID="4">산타는 모든 행복한 아이들에게 찾아 간답니다.</Dialogue>
+        <Dialogue ID="5">행복하지 않다면, 제 선물을 받고 행복해지세요.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Theresia_Orgel">
+      <Abnormality>테레지아</Abnormality>
+      <CardName>오르골 음악</CardName>
+      <AbilityDesc>흐트러짐 저항 회복량이 50% 증가한다.</AbilityDesc>
+      <FlaborText>"이 음악 기억 나? 학생들이 졸고 있으면 교수님이 불러 주시 곤 했었잖아. 생일 축하해."</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">이 음악 기억나?</Dialogue>
+        <Dialogue ID="2">생일 축하해. 사랑을 담아, 테레지아.</Dialogue>
+        <Dialogue ID="3">태엽을 감아, 아픈 마음을 치유하세요.</Dialogue>
+        <Dialogue ID="4">긴 머리의 아이… 꽃들이 만발한 정원… 그리고 남매.</Dialogue>
+        <Dialogue ID="5">이 멜로디 속에서 섬뜩함이 느껴지는 건, 어째서일까?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Keter">
+    <AbnormalityCard ID="Bloodbath_Blood">
+      <Abnormality>피의 욕조</Abnormality>
+      <CardName>피</CardName>
+      <AbilityDesc>속도가 3 감소한다.
+수비 주사위가 강화된다.</AbilityDesc>
+      <FlaborText>욕조 안을 바라본다면 당신이 감당 못 할 우울함이 급습해올 것이다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">그 사람은 슬픈 현실에 담담할 수 없을 뿐이었어.</Dialogue>
+        <Dialogue ID="2">너는 이 깊은 절망을 견딜 수 있니?</Dialogue>
+        <Dialogue ID="3">어서 안으로 들어와. 이 지독한 피웅덩이 속으로.</Dialogue>
+        <Dialogue ID="4">모든 것을 내려둔 채, 눈을 감고 끝없이 가라앉는 거야.</Dialogue>
+        <Dialogue ID="5">아무리 많이 늘어나도, 이 욕조 물은 넘치지 않으니.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Bloodbath_Scar">
+      <Abnormality>피의 욕조</Abnormality>
+      <CardName>흉터</CardName>
+      <AbilityDesc>참격에 의해 받는 피해가 1-5 감소한다.</AbilityDesc>
+      <FlaborText>그녀의 잘려버린 손목에서 조각난 상처들을 보았을 때 나는 우리의 와인 수납장을 떠올렸다. 그 날 나는 마지막 남은 술을 땄다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">손목에 상처를 내는 것은, 강한 의지와 용기가 필요해.</Dialogue>
+        <Dialogue ID="2">이 사람들을 미련하다고 하지 마. 가장 겁쟁이인 건 너야.</Dialogue>
+        <Dialogue ID="3">흉터는 실패한 자국들이지만, 가치가 없는 것은 아니야.</Dialogue>
+        <Dialogue ID="4">가득 머금은 이 아픔을 부드럽게 어루만져줘.</Dialogue>
+        <Dialogue ID="5">그 순간의 정신과 의지에 따라 상처의 깊이는 달라져.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Bloodbath_Hands">
+      <Abnormality>피의 욕조</Abnormality>
+      <CardName>창백한 손</CardName>
+      <AbilityDesc>합에서 3번 패배할 때 마다 다음 합에서 주사위를 굴릴 때 대상에게 흐트러짐 피해를 2-10 준다.</AbilityDesc>
+      <FlaborText>차갑고 딱딱하게 굳은 손이 느껴진다. 
+우리가 사랑했던 사람들의 손이다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">네가, 어쩌면 우리가 사랑했던 그 손들이 이 안에 있어.</Dialogue>
+        <Dialogue ID="2">누군가가 잡아 주기 바라는 손들을, 네가 잡아주겠니?</Dialogue>
+        <Dialogue ID="3">손가락 사이사이로 빠져나가는 것들을 잡고 싶어도…</Dialogue>
+        <Dialogue ID="4">간절히 도움을 바라는 이 손들을, 아무도 봐 주지 않아.</Dialogue>
+        <Dialogue ID="5">분명 칼을 떨어트릴 듯이 덜덜 떨었을 거야.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheSnowQueen_Sord">
+      <Abnormality>눈의 여왕</Abnormality>
+      <CardName>서리검</CardName>
+      <AbilityDesc>일방 공격 적중시 대상에게 속박 1-2을 부여한다.</AbilityDesc>
+      <FlaborText>시린 겨울 숲에는 단 한 명의 여왕이 산다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">이 검의 끝은 날카롭고 차가울 뿐이지.</Dialogue>
+        <Dialogue ID="2">따뜻한 봄만이 이 검을 녹여 없애버릴 수 있을 거란다.</Dialogue>
+        <Dialogue ID="3">올곧게 뻗어있는 검은 어디로 향해야 할 지 알고 있지.</Dialogue>
+        <Dialogue ID="4">언젠가 눈이 녹을 정도로 따뜻해진다면, 이 칼도 녹아버리겠지.</Dialogue>
+        <Dialogue ID="5">이 무기가 심장을 꿰뚫 때, 잠시 스스로를 잊어버릴 것이야.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheSnowQueen_Chu">
+      <Abnormality>눈의 여왕</Abnormality>
+      <CardName>입맞춤</CardName>
+      <AbilityDesc>한 책장 내에서 합 승리를 2번 이상 하면 대상에게 얼음 조각을 부여한다.
+막 종료시 얼음 조각을 3번 이상 받은 캐릭터는 다음 2 막 동안 행동불가 상태가 된다.</AbilityDesc>
+      <FlaborText>눈의 여왕의 입맞춤으로 인해 그의 심장은 추위를 느낄 수 없을 정도로 차가워졌다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">장미꽃의 향기를 아는 자들만이 모든 것을 끝낼 수 있지.</Dialogue>
+        <Dialogue ID="2">그대도 따뜻한 마음을 가지고 있는 사람이었을 테지.</Dialogue>
+        <Dialogue ID="3">추위를 잊어가고 기억을 잃어가다, 그 마지막에는…</Dialogue>
+        <Dialogue ID="4">추위도 느낄 수 없을 정도로 차가워진 심장이 녹을 수 있을까.</Dialogue>
+        <Dialogue ID="5">강인한 자만이 얼어버린 것들을 구할 수 있을 것이다.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheSnowQueen_Snow">
+      <Abnormality>눈의 여왕</Abnormality>
+      <CardName>눈보라</CardName>
+      <AbilityDesc>체력이 50% 이하일 때 공격 적중 시 흐트러짐 피해가 1-5 증가한다.</AbilityDesc>
+      <FlaborText>장미는 만발하고 눈의 궁전은 부서졌다. 아무도 그 곳에 잠들어있는 그녀를 기억하지 않았다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">아무도 내가 이곳에 잠들어 있다는 것을 모르겠지.</Dialogue>
+        <Dialogue ID="2">이 눈이 녹아내린다면, 나도 서서히 잊혀지지.</Dialogue>
+        <Dialogue ID="3">나의 성이 녹아내리고 있는 건지, 따뜻한 봄이 오고 있는 건지…</Dialogue>
+        <Dialogue ID="4">장미들이 활짝 피며 봄의 왔음을 알리는 구나.</Dialogue>
+        <Dialogue ID="5">그 사람도 더 이상의 추위를 바라지 않았을 테지.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Pinocchio_Learn">
+      <Abnormality>피노키오</Abnormality>
+      <CardName>학습</CardName>
+      <AbilityDesc>손에 비용 1/'합 시작시: 모든 주사위가 대상 책장의 주사위로 교체된다' 효과를 가진 피노키오 책장을 추가한다.</AbilityDesc>
+      <FlaborText>아이는 남을 따라하는 '학습'을 잘 할 뿐이었다. 그 점이 문제였지만.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">나는 오늘도 열심히 배워요. 한 번 보여드릴까요?</Dialogue>
+        <Dialogue ID="2">사람들은 나에게 말하는 법을 가르쳤어요.</Dialogue>
+        <Dialogue ID="3">배우는 것이 빠른 게 아니에요. 따라서 행동할 뿐이죠.</Dialogue>
+        <Dialogue ID="4">남을 따라하는 것은 어렵지 않아요. 생각이 필요 없거든요.</Dialogue>
+        <Dialogue ID="5">나는 많은 것을 배웠지만, 늘 제자리 걸음이죠.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Pinocchio_Lie">
+      <Abnormality>피노키오</Abnormality>
+      <CardName>거짓말</CardName>
+      <AbilityDesc>막 시작시 모든 책장을 뽑을 책장 더미에 섞고 책장을 6장 뽑는다.</AbilityDesc>
+      <FlaborText>사람들은 모두 거짓말을 하잖아요. 왜 그게 나쁜 것이죠?</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">사람들은 반대로 이야기 하는 것을 좋아해요.</Dialogue>
+        <Dialogue ID="2">나를 위한 것이 아니랬어요. 모두를 위한 거짓말이라고…</Dialogue>
+        <Dialogue ID="3">랄랄라… 난 모두가 부르는 거짓의 노래를 따라 불러요.</Dialogue>
+        <Dialogue ID="4">가르쳐준 대로, 나는 세상을 거꾸로 봐요.</Dialogue>
+        <Dialogue ID="5">모두가 거짓말을 하는데, 왜 그것을 나쁘다고 하는 것이죠?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="QuietKid_Hammer">
+      <Abnormality>아무 말 없는 아이</Abnormality>
+      <CardName>못과 망치</CardName>
+      <AbilityDesc>합 승리 시 흐트러짐 피해 1-5를 추가로 준다.</AbilityDesc>
+      <FlaborText>하지만 평소에 '죄책감'을 지니고 있거나 '두려움'이 많아 보이는 사람을 만나면, 아이는 등 뒤로 숨기고 있던 못과 망치를 꺼냈다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">네 마음에는 못을 박을 만한 틈이 있을까?</Dialogue>
+        <Dialogue ID="2">금이 간 곳에 못이 박히면, 그 균열은 배로 커지지.</Dialogue>
+        <Dialogue ID="3">마음 속 응어리는 그 때 그 때 처리 했어야지.</Dialogue>
+        <Dialogue ID="4">가슴에 못이 박히는 것 만큼 아픈 것도 없지.</Dialogue>
+        <Dialogue ID="5">얘, 넌 굉장히… 두려워 보이는 구나?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="QuietKid_Eyeshine">
+      <Abnormality>아무 말 없는 아이</Abnormality>
+      <CardName>눈빛</CardName>
+      <AbilityDesc>흐트러짐 저항 최대값이 감소(최소 0%, 최대 50%)하고 속도(최소: 1, 최대: 5)와 피해량(최소:1-1, 최대: 1-5)이 증가한다.
+부정코인 개수에 따라 값이 증가한다.</AbilityDesc>
+      <FlaborText>다시 한 번 적지만, 아이는 아무 말도 하지 않는다. 그저 그 깊은 눈동자로 사람의 내면을 께뚫어 볼 뿐이었다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">어릴 때, 무언가를 훔친 적이 있구나.</Dialogue>
+        <Dialogue ID="2">아직도 아픈 기억을 안고 산다니... 불쌍한 친구야.</Dialogue>
+        <Dialogue ID="3">그거 알아? 네가 그 잘못을 저지름으로써, 그 사람은…</Dialogue>
+        <Dialogue ID="4">남에게 책임전가 하지 마. 아픔은 혼자 떠안아야지.</Dialogue>
+        <Dialogue ID="5">네가 할 수 있는 일이었잖아. 도망치기 바빴을 뿐이지.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MirrorofAdjustment_Mirror">
+      <Abnormality>조정의 거울</Abnormality>
+      <CardName>거울</CardName>
+      <AbilityDesc>막 시작시 모든 책장의 비용이 무작위로 변경된다.</AbilityDesc>
+      <FlaborText>거울을 응시한 사람은 겉모습만 같을 뿐, 알맹이는 완벽히 다른 타인이 된다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">만족은 순간이지.</Dialogue>
+        <Dialogue ID="2">지금의 네 모습에 만족할 수 없니?</Dialogue>
+        <Dialogue ID="3">거울을 본 자는 같으면서도 다른 완벽한 타인이 되는 것이지.</Dialogue>
+        <Dialogue ID="4">바뀐 모습에 만족 못 하고 거울을 두 번 보는 짓은 추천하지 않아.</Dialogue>
+        <Dialogue ID="5">두 번 이상 거울을 본다면, 인간성이 좀 먹히는 것이지.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="HeartofAspiration_Doki">
+      <Abnormality>열망하는 심장</Abnormality>
+      <CardName>열망</CardName>
+      <AbilityDesc>최대 hp가 40% 증가한다.
+속도가 3 증가한다.
+막 종료시 공격 주사위로 피해를 주지 못했으면 체력을 현재 체력의 10%만큼 잃는다.</AbilityDesc>
+      <FlaborText>과한 열망은 그릇된 흥분을 초래했다.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">과한 열망은 그릇된 흥분을 초래하지.</Dialogue>
+        <Dialogue ID="2">어째서 그 힘을 얻어도 무엇 하나 바라지 않는가?</Dialogue>
+        <Dialogue ID="3">힘을 얻은 자는, 그에 맞는 일을 해야 하지.</Dialogue>
+        <Dialogue ID="4">그래, 심장이 빠르게 뛰는 것을 느끼는 거야.</Dialogue>
+        <Dialogue ID="5">서로가 간절히 바라는 것이 아무래도 같은 것 같으니, 도와야지.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+</AbnormalityCardsRoot>

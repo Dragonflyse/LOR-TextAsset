@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BattleCardAbility ID="final_heart_addbreakdmg">
+    <Desc>[マッチ勝利] 相手にダイスの値だけ混乱ダメージを与える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="final_heart_hp20">
+    <Desc>[的中] 体力を20回復</Desc>
+    <Desc>[マッチ敗北] 自分に20ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="final_heart_hp30bleed10">
+    <Desc>[的中] 体力を30回復。次の幕に出血10を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="final_heart_areabuf">
+    <Desc>[的中] 自分を除いた全ての味方にパワー、クイック1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="final_heart_eager1atk">
+    <Desc>[的中] 今回の幕にて熱望に念願1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="final_heart_eager1pw">
+    <Desc>[マッチ勝利] 次の幕にて熱望に念願1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="final_exhaust_target_card">
+    <Desc>[マッチ勝利] 相手が司書の場合、マッチをしたページを今回のフェーズの間消滅させる</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="malkuthboss_whitesnow_far2">
+    <Desc>[的中] 次の幕にて、虚弱3 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="malkuthboss_whitesnow_far3">
+    <Desc>[的中] 次の幕にて、武装解除3 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="final_queenbee_paralyze">
+    <Desc>[的中] 次の幕にて、麻痺4 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yesod_final_butterfly_ego_dmg">
+    <Desc>[的中] 相手に3ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bremen_chorus_atk">
+    <Desc>[的中] 次の幕に麻痺1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bremen_ally2recover5atk">
+    <Desc>[的中] ランダムな味方2名の体力を5回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bremen_binding2weak1atk">
+    <Desc>[的中] 次の幕に束縛2、虚弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bremen_ally2strength1pw">
+    <Desc>[マッチ勝利] ランダムな味方2名に、次の幕にてパワー1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bremen2_ally2protectionpw">
+    <Desc>[マッチ勝利] 次の幕、体力が最も低い味方に保護2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="greta_dmgUpbybleedingbufatk">
+    <Desc>[的中] 相手の出血値だけダメージ量が増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="greta_destroyDice">
+    <Desc>[マッチ勝利] 相手の全ダイスを破壊
+[マッチ敗北] 自分の全ダイスを破壊</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="philip_weak1binding1disarm1atk">
+    <Desc>[的中] 次の幕に虚弱・武装解除・束縛1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="philip_areaburn10atk">
+    <Desc>[的中] 火傷10を付与 </Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="philip_arrest1atk">
+    <Desc>[的中] 拘束1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="philip_vigor_atk2">
+    <Desc>[的中] 互いに火傷2を付与 </Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="butterfly_brkdmg">
+    <Desc>[的中] 相手に5混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Seven_Fleche">
+    <Desc>[マッチ勝利] 混乱ダメージ4。脆弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Sword_getbonecuttingcardpl">
+    <Desc>[マッチ敗北] 自分の手札に骨断を加える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="upgradeNext2atk">
+    <Desc>[的中] 自分の次のダイス最大値を+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis5bleeding3atk">
+    <Desc>[的中] 次の幕に麻痺5, 出血3を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3pw">
+    <Desc>[マッチ勝利] 次の幕に出血3を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="myoDice2">
+    <Desc>[的中] 直接選んだ相手に的中した場合、相手に15ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="rudolphDice">
+    <Desc>[的中] 相手に6混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="maximDice">
+    <Desc>[的中] このダイスでダメージを20以上与えた場合、相手に追加で15ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nicolaiDice1">
+    <Desc>[マッチ勝利] 相手の全ダイスを破壊
+[マッチ敗北] 自分の次のダイスを破壊</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nicolaiDice2">
+    <Desc>相手に「標的」が付いていれば本来のダイスの値だけダメージ・混乱ダメージ量が増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="deerDice">
+    <Desc>[的中] 充電3を消耗し、相手に8混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge1atk">
+    <Desc>[的中] 充電1を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge8atk">
+    <Desc>[的中] 充電8を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cryingChildPenalty">
+    <Desc>[マッチ敗北] 全ての味方の耐性が「脆弱」になる</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="gainEmotion1pw">
+    <Desc>[マッチ勝利] 感情1 蓄積</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lowelDice">
+    <Desc>[的中] 火傷3 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="liuBurnDice">
+    <Desc>[的中] 火傷1 付与。感情レベル1ごとに付与する火傷の数値が1増加する</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="repeat3">
+    <Desc>このダイスは3回使用する</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="repeat4">
+    <Desc>このダイスは4回使用する</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="chargeDestroy">
+    <Desc>[マッチ勝利] 充電2を消耗し、相手の次の攻撃ダイスを破壊</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge2pw">
+    <Desc>[マッチ勝利] 充電2を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge2pl">
+    <Desc>[マッチ敗北] 充電1を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="breakCharge">
+    <Desc>[的中] 充電2を消耗して相手に5混乱ダメージ与える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="breakChargeRemake">
+    <Desc>[的中] 「充電2を消耗し、相手に6混乱ダメージ」を3回発動</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaBuf">
+    <Desc>[的中] 全ての味方に次の幕にてパワー1と忍耐1付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="gloriaDice">
+    <Desc>[的中] 今回の幕、虚弱を1付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="estherDice">
+    <Desc>[的中] 本来のダイスの値×7だけ、相手に追加でダメージと混乱ダメージを与える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="hubertDice">
+    <Desc>[的中] 次の幕に虚弱1と出血8を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp1targetHp50">
+    <Desc>相手の体力が50%以下なら威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDownNext2pwTargetHighlander">
+    <Desc>[マッチ勝利] 「唯一」状態なら相手の次のダイス威力を-2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="shyaoDice1">
+    <Desc>[的中] 火傷を2付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="shyaoDice2">
+    <Desc>[的中] 火傷を2付与。この能力を感情レベルの数だけ追加発動</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1atk2times">
+    <Desc>[的中] 「火傷を1付与」を2回発動</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1atk3times">
+    <Desc>[的中] 「火傷を1付与」を3回発動</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burnSpread">
+    <Desc>[的中] 相手に火傷が4以上ある場合、全ての敵に火傷を1付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="kaliAreaDice">
+    <Desc>[的中] 次の幕に出血を5付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="kaliAttackBuf">
+    <Desc>[的中] 次の幕にパワー3を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy1atk">
+    <Desc>[的中] 妖精1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy2atk">
+    <Desc>[的中] 妖精2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy3atk">
+    <Desc>[的中] 妖精3を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="forbidReuseDice">
+    <Desc>相手の現在のダイスは再び使用できない。</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sealTargetAtk">
+    <Desc>[的中] 次の幕の間、速度ダイスを1つ封印</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="forbidCardAtk">
+    <Desc>[的中] 次の幕の間、本来のコストが4以上のページのコストが全て2増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binahShockwaveDice2">
+    <Desc>[的中] 今回の幕に虚弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDouble">
+    <Desc>このダイスは威力の効果を2倍に受ける</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3atkTwoRound">
+    <Desc>[的中] 次の幕と2幕後に出血3を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable1atkTwoRound">
+    <Desc>[的中] 次の幕と2幕後に脆弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="purpleAreaDice1">
+    <Desc>[的中] 相手に5ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="purpleAreaDice2">
+    <Desc>[的中] 相手に5混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="purpleAreaDice3">
+    <Desc>[的中] 今回の幕と次の幕に出血3, 脆弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="shyaoDebufDice">
+    <Desc>[的中] 次の幕に虚弱1, 武装解除1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burnBoth">
+    <Desc>[的中] 互いに火傷3を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burnAll">
+    <Desc>[的中] 全ての敵に火傷2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dragonAngerDice">
+    <Desc>[逆鱗]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="shyaoBurnAreaDice">
+    <Desc>[的中] 火傷8を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1AreaEachDice">
+    <Desc>[的中] 火傷1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn2AreaEachDice">
+    <Desc>[的中] 火傷2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanAreaDice">
+    <Desc>[的中] 腐食2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanOnly1Dice">
+    <Desc>[的中] 腐食2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanOnly2Dice">
+    <Desc>[マッチ勝利] 相手の次のダイスを破壊</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding5pw">
+    <Desc>[マッチ勝利] 出血5を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lifeInsuranceAreaAtk">
+    <Desc>[的中] 武装解除・束縛・虚弱2を付与し、自分の体力を2回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="light1smoke3atk">
+    <Desc>[的中] 光を1回復、煙3を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke2selfsmoke1atk">
+    <Desc>[的中] 煙2を付与、煙1を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke3atkparalysis3atkbytagetsmoke5">
+    <Desc>[的中] 煙3を付与。相手に煙が5以上ある場合、麻痺3を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="breakdmgbyselfbreak">
+    <Desc>[的中] 自分の混乱抵抗値を全て消耗し、同じ数値だけ相手に混乱ダメージを与える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="blackSilenceSpecialDice">
+    <Desc>[マッチ勝利] 相手の全ダイスを破壊</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tanyaOnlyCardDice">
+    <Desc>[マッチ勝利] 相手の全ダイス威力-5</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="rolandcontinuousDice">
+    <Desc>[的中] 本来のダイス値が5ならこのダイスを再使用する(最大4回)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="heavysmoke1atk">
+    <Desc>[的中] 次の幕にどきつい煙1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding5atkarea">
+    <Desc>[的中] 次の幕に出血5を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="heavysmoke3atkarea">
+    <Desc>[的中] 次の幕にどきつい煙3を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="roland2phaseenemys1">
+    <Desc>[マッチ勝利] 相手の全ダイスを破壊
+[マッチ敗北] 自分の全ダイスを破壊</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="roland2phaseFar">
+    <Desc>[マッチ勝利] 相手の全ダイスを破壊
+[マッチ敗北] 自分の全ダイスを破壊</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="roland2phaseenemys2">
+    <Desc>[的中] 本来のダイス値が3ならこのダイスを再使用する(最大4回まで)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaDownWithCond">
+    <Desc>[的中] 相手の振動が6以上なら1減少</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaChangeVibrate">
+    <Desc>[的中] 相手の振動を4に変更</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaDistortedDice2">
+    <Desc>前のダイスを的中させた場合、ダメージ量50%増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="elenaNewAreaDice">
+    <Desc>[的中] 体力を3回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheonAreaDice">
+    <Desc>[的中] 次の幕に束縛を1付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="resistance1atk">
+    <Desc>[的中] 抵抗が2以下なら抵抗1を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="immuneDestory">
+    <Desc>このダイスは破壊されない</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaVibrateUp2">
+    <Desc>[的中] 相手の振動を2増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaVibrateUp3">
+    <Desc>[的中] 相手の振動を3増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaVibrateUp4">
+    <Desc>[的中] 相手の振動を4増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaVibrateDown1">
+    <Desc>[的中] 相手の振動を1減少</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaVibrateDown2">
+    <Desc>[的中] 相手の振動を2減少</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaLoseDice">
+    <Desc>[マッチ敗北] 相手の振動を2減少</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaStrengthPl">
+    <Desc>[マッチ敗北] 次の幕にパワー3を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nullifyPowerAtk">
+    <Desc>[的中] 相手は次の幕の間、威力の効果を得ない。</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vibrateDmg">
+    <Desc>[的中] 相手の振動だけダメージを与える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dmg3pw">
+    <Desc>[マッチ勝利] 相手に3ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="quickness1pw">
+    <Desc>[マッチ勝利] 次の幕にクイック1を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="loselink1plwe">
+    <Desc>[マッチ敗北] 相手に白い気があれば「魂の繋がり」の値が1減少</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bind1paralysis1atk">
+    <Desc>[的中] 次の幕に束縛、麻痺を1ずつ付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vul1bleed1atk">
+    <Desc>[的中] 次の幕に脆弱、出血を1ずつ付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="allstr1endu1atk">
+    <Desc>[的中] 次の幕、全ての味方にパワー、忍耐を1ずつ付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="loselink1plbe">
+    <Desc>[マッチ敗北] 相手に黒い気があれば「魂の繋がり」の値が1減少</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dmg4break4atk">
+    <Desc>[的中] 相手に4ダメージ、4混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dmg10break10atk">
+    <Desc>[的中] 相手に10ダメージ、10混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bs3combodestroy">
+    <Desc>[的中] [マッチ勝利] 相手の全ダイスを破壊
+[マッチ敗北] 自分の全ダイスを破壊
+    </Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_hammer_atk">
+    <Desc>[的中] 混乱抵抗値を5回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_dagger_atk">
+    <Desc>[的中] 次の幕に出血、武装解除を2ずつ付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_gaunlet_atk1">
+    <Desc>[的中] 次の幕に出血を4付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_gaunlet_atk2">
+    <Desc>[的中] 次の幕に出血2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_lance_pw">
+    <Desc>[マッチ勝利] 相手に混乱ダメージ6</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_attitude_atk1">
+    <Desc>[的中] 次の幕に出血、虚弱を3付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_attitude_atk2">
+    <Desc>[的中] 次の幕に出血を2付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_attitude_atk3">
+    <Desc>[的中] 次の幕に出血1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_dualblade_atk1">
+    <Desc>[的中] 次の幕に束縛1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_dualblade_atk2">
+    <Desc>[的中] 相手に6混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_bfsword_pw">
+    <Desc>[マッチ勝利] 相手の全ダイスを破壊</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_bfsword_atk">
+    <Desc>[的中] 次の幕に束縛1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_shotgun_atk">
+    <Desc>[的中] 次の幕に束縛1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_durandalstrong_atk">
+    <Desc>[的中] 相手に混乱ダメージ8</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_area_atk">
+    <Desc>[的中] 次の幕に出血2、束縛1、脆弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_areastrong_atk">
+    <Desc>[的中] 次の幕に脆弱2、麻痺1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeatkbyburnbuf">
+    <Desc>[的中] 相手に火傷があれば、付与された煙だけ煙を更に付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dmgupbysmokebuf">
+    <Desc>[的中] 相手にある(煙 x 0.5)だけダメージ量増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke5atkandStun">
+    <Desc>[的中] 次の幕に行動不能を付与、煙を5付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="elenaAtkBuf">
+    <Desc>[的中] 他の全ての味方にパワー3, 忍耐3を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="elenaAreaDice">
+    <Desc>[的中] 与えたダメージだけ体力を回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="forbidrecovery2atk">
+    <Desc>[的中] 次の幕に回復不能2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheon_area_atk">
+    <Desc>[的中] 次の幕に操り糸1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheon_string_pw">
+    <Desc>[マッチ勝利] 次の幕に虚弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheon_link_pw">
+    <Desc>[マッチ勝利] 次の幕に虚弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheon_guard_pw1">
+    <Desc>[マッチ勝利] 次の幕に虚弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheon_guard_pw2">
+    <Desc>[マッチ勝利] 次の幕に武装解除1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheon_attackStrong_pw">
+    <Desc>[マッチ勝利] 次の幕に虚弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheon_bind_atk">
+    <Desc>[的中] 次の幕に束縛1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheon_control1_pl">
+    <Desc>[マッチ敗北] 次の幕に全ての司書の操り糸-1。自分に20混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheon_control2_pl">
+    <Desc>[マッチ敗北] 次の幕に全ての司書の操り糸-1。自分に20混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_string_pl">
+    <Desc>[マッチ敗北] このページが消滅する。ゼホンに10混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_attack_atk">
+    <Desc>[的中] 相手に4混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_counter_atk">
+    <Desc>[的中] 次の幕に出血を1付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_combo_atk1">
+    <Desc>[的中] 次の幕に火傷を2付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_combo_atk2">
+    <Desc>[的中] 次の幕に火傷1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_distract_atk">
+    <Desc>[的中] 相手に混乱ダメージ6</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_vulnerable_atk">
+    <Desc>[的中] 次の幕に出血1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_climax_atk">
+    <Desc>[的中] 相手に8混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_boom_atk">
+    <Desc>[的中] 相手に自分の残り体力の50%分ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_break8areaatk">
+    <Desc>[的中] 相手に8混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1atk">
+    <Desc>[的中] 火傷1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn2atk">
+    <Desc>[的中] 火傷2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn3atk">
+    <Desc>[的中] 火傷3 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn4atk">
+    <Desc>[的中] 火傷4 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn6atk">
+    <Desc>[的中] 火傷6 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn10atk">
+    <Desc>[的中] 火傷10 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn2pw">
+    <Desc>[マッチ勝利] 火傷2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding1atk">
+    <Desc>[的中] 次の幕にて、出血1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding2atk">
+    <Desc>[的中] 次の幕にて、出血2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3atk">
+    <Desc>[的中] 次の幕にて、出血3 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding4atk">
+    <Desc>[的中] 次の幕にて、出血4 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding6atk">
+    <Desc>[的中] 次の幕にて、出血6 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding1atk_pierre">
+    <Desc>[的中] 次の幕にて、出血1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding2atk_pierre">
+    <Desc>[的中] 次の幕にて、出血2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="pierre">
+    <Desc>[的中] 相手の出血の数だけ体力回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding2pw">
+    <Desc>[マッチ勝利] 次の幕にて、出血2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis1atk">
+    <Desc>[的中] 次の幕にて、麻痺1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis2atk">
+    <Desc>[的中] 次の幕にて、麻痺2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis3atk">
+    <Desc>[的中] 次の幕にて、麻痺3 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis4atk">
+    <Desc>[的中] 次の幕にて、麻痺4 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis1pw">
+    <Desc>[マッチ勝利] 次の幕にて、麻痺1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable2pw">
+    <Desc>[マッチ勝利] 次の幕に脆弱2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis2pw">
+    <Desc>[マッチ勝利] 次の幕にて、麻痺2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable1atk">
+    <Desc>[的中] 次の幕にて、脆弱1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable2atk">
+    <Desc>[的中] 次の幕にて、脆弱2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable3atk">
+    <Desc>[的中] 次の幕にて、脆弱3 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable4atk">
+    <Desc>[的中] 次の幕にて、脆弱4 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable5atk">
+    <Desc>[的中] 次の幕にて、脆弱5 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak1atk">
+    <Desc>[的中] 次の幕にて、虚弱1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak2atk">
+    <Desc>[的中] 次の幕にて、虚弱2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding1pw">
+    <Desc>[マッチ勝利] 次の幕に束縛1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding2pw">
+    <Desc>[マッチ勝利] 次の幕に束縛2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding1atk">
+    <Desc>[的中] 次の幕にて、束縛1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding2atk">
+    <Desc>[的中] 次の幕にて、束縛2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding3atk">
+    <Desc>[的中] 次の幕にて、束縛3 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="quickness1atk">
+    <Desc>[的中] 次の幕にてクイック1 を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm1atk">
+    <Desc>[的中] 次の幕にて、武装解除1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm2atk">
+    <Desc>[的中] 次の幕にて、武装解除2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm3atk">
+    <Desc>[的中] 次の幕にて、武装解除3 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance1pw">
+    <Desc>[マッチ勝利] 次の幕にて忍耐1 を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp1atk">
+    <Desc>[的中] 体力 1 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp2atk">
+    <Desc>[的中] 体力 2 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp3atk">
+    <Desc>[的中] 体力 3 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp6atk">
+    <Desc>[的中] 体力 6 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp2dfn">
+    <Desc>[守備時] 体力 2 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage2pw">
+    <Desc>[マッチ勝利] 相手に 2 ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage3pw">
+    <Desc>[マッチ勝利] 相手に 3 ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage2atk">
+    <Desc>[的中] 相手に 2 ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage3atk">
+    <Desc>[的中] 相手に 3 ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage5atk">
+    <Desc>[的中] 相手に 5 ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break2atk">
+    <Desc>[的中] 相手に混乱ダメージ2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break3atk">
+    <Desc>[的中] 相手に混乱ダメージ3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break5atk">
+    <Desc>[的中] 相手に混乱ダメージ5</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp4atk">
+    <Desc>[的中] 体力 4 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUpNext1pw">
+    <Desc>[マッチ勝利] 自分の次のダイス威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUpNext2pw">
+    <Desc>[マッチ勝利] 自分の次のダイスの威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUpNext1pl">
+    <Desc>[マッチ敗北] 自分の次のダイスの威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUpNext2pl">
+    <Desc>[マッチ敗北] 自分の次のダイスの威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown1target">
+    <Desc>相手の現在のダイスの威力 -1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDownNext2pwTarget">
+    <Desc>[マッチ勝利] 相手の次のダイスの威力 -2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="upgradeNext1pw">
+    <Desc>[マッチ勝利] 自分の次のダイスの最大値+3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="downgradeNext1pw">
+    <Desc>[マッチ勝利] 相手の次のダイスの最大値-3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1pw">
+    <Desc>[マッチ勝利] 光1 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1atk">
+    <Desc>[的中] 光 1 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard1atk">
+    <Desc>[的中] ページを1枚引く</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard1pw">
+    <Desc>[マッチ勝利] ページを1枚引く</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard2pw">
+    <Desc>[マッチ勝利] ページを2枚引く</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ruru1">
+    <Desc>[的中]火傷2 付与, 自分に 3 ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ruru2">
+    <Desc>[的中]火傷3 付与, 自分に 3 ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak5atk">
+    <Desc>[的中] 虚弱5付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm5atk">
+    <Desc>[的中] 武装解除5付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding5atk">
+    <Desc>[的中] 束縛5付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak1pw">
+    <Desc>[マッチ勝利] 次の幕にて、虚弱1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1atk">
+    <Desc>[的中] 次の幕にパワー1を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1pw">
+    <Desc>[マッチ勝利] 次の幕にパワー1を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength2atk">
+    <Desc>[的中] 次の幕にパワー2を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break3pw">
+    <Desc>[マッチ勝利] 相手に3混乱ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="increaseMaxLast2pw">
+    <Desc>[マッチ勝利] 最後のダイスの最大値を+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="carnival">
+    <Desc>お互いの手元に「素敵な生地」ページを追加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerPerHand">
+    <Desc>手元にあるページの数だけ威力増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp1targetParalysis">
+    <Desc>相手が麻痺状態なら威力 +1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lovetownPower">
+    <Desc>一方攻撃の場合、威力 +10</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lovetownNextPower">
+    <Desc>[マッチ敗北] 次のダイスの威力 +6</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tomerryBuf">
+    <Desc>[的中] すべての味方にパワー3を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2strength1atk">
+    <Desc>[的中] 次の幕、味方2名にパワー1をランダムに付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2recover3atk">
+    <Desc>[的中]  味方2名の体力をランダムで3回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yujin">
+    <Desc>バフを差し引いたダイスの値が4以上かつ最大値なら +45</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1atkAndHp">
+    <Desc>[的中] 体力が25%以下なら光1 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown2targetDfn">
+    <Desc>相手の現在の守備ダイスの威力 -2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown3targetDfn">
+    <Desc>相手の現在の守備ダイスの威力 -3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weakDisarmBinding1atk">
+    <Desc>[的中] 次の幕に虚弱1、武装解除1、束縛1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weakDisarmBinding2atk">
+    <Desc>[的中] 次の幕に虚弱2、武装解除2、束縛2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="match">
+    <Desc>[的中] 火傷1付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="freischutz">
+    <Desc>このページは他の全てのキャラクターを相手に攻撃する</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection2atkMostHp">
+    <Desc>[的中] 体力が1番高い味方に次の幕にて保護2付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1atkMostHp">
+    <Desc>[的中] 体力が1番高い味方に次の幕にてパワー1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverBreak3atk">
+    <Desc>[的中] 混乱抵抗値を3回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverBreak5atk">
+    <Desc>[的中] 混乱抵抗値を5回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1atkAllFriend">
+    <Desc>[的中] 全ての味方に次の幕にてパワー1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sweeperOnlyDice">
+    <Desc>[的中] バフを差し引いたダイスの値が3ならのこのダイスを再び使用する(最大6回)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUpDice4highlander">
+    <Desc>「唯一」状態なら威力 +4</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpSkillDice">
+    <Desc>このページで充電を10消耗すれば威力 +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke1atk">
+    <Desc>[的中] 煙1付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke2atk">
+    <Desc>[的中] 煙2付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke3atk">
+    <Desc>[的中] 煙3付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke4atk">
+    <Desc>[的中] 煙4付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke5atk">
+    <Desc>[的中] 煙5付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke7atk">
+    <Desc>[的中] 煙7付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf4atk">
+    <Desc>[的中] 煙4を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleedingXsmoke">
+    <Desc>[的中] 相手に付与された(煙x 0.5)だけ次の幕に出血を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3smoke">
+    <Desc>[的中] 煙2を消耗し、次の幕に出血3付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="debufsSmoke">
+    <Desc>[的中] 相手に煙が7以上あれば麻痺2と虚弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="debufsSmokeRemake">
+    <Desc>[的中] 相手に煙が4以上あれば麻痺2と虚弱1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawSmoke">
+    <Desc>[的中] 相手に煙が3以上あればページを2枚引く</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protect1atk">
+    <Desc>[的中] 保護1を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protect1pw">
+    <Desc>[マッチ勝利] 保護1を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance2pw">
+    <Desc>[マッチ勝利] 次の幕にて忍耐2 を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="usett_eye">
+    <Desc>[的中] 次の幕にて味方全体に保護2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="schorchedAreaDice">
+    <Desc>[的中] 火傷5 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="teddyEgo">
+    <Desc>[マッチ勝利] 相手の全ダイスを破壊</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy_ego">
+    <Desc>[的中] 体力3 回復、最小値でなければこのダイスを再利用(最大5回)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="murderDice1">
+    <Desc>[的中] 相手に現在の混乱抵抗値の10%だけ混乱ダメージを与える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="murderDice2">
+    <Desc>[的中] 相手に現在の混乱抵抗値の50%だけ混乱ダメージを与える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="helperDice">
+    <Desc>[的中] 次の幕に出血2付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="singingMachineDice">
+    <Desc>[的中] 最小値でなければこのダイスを再利用する(最大2回)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="buterflyDice">
+    <Desc>[的中] 相手に混乱ダメージかダメージのどちらかを4与える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="shyLookEgoDice">
+    <Desc>混乱状態の相手を攻撃したとき、ダメージ量 +10</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="redshoesEgoDice2">
+    <Desc>相手の出血値x2だけ威力を増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="spiderBudEgoDice">
+    <Desc>[的中] 次の幕に束縛3, 虚弱3, 武装解除3を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="latitiaEgoDice">
+    <Desc>[的中] 相手の手元に「プレゼント」のページを1枚追加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="blackSwanEgoDice2">
+    <Desc>[的中] 次の幕、相手の光を3減少。</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="universeDice">
+    <Desc>[的中] 相手に混乱10ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="galaxyEgoDice">
+    <Desc>[的中] 本来のダイスの値だけ、自分の体力を回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="porccubusEgoDice">
+    <Desc>相手の感情レベルだけ威力が増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="porccubusEgoDice2">
+    <Desc>このダイスは3回使用する。
+[的中] 次の幕にて出血を3付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="aliuneEgoDice">
+    <Desc>[的中] 相手が混乱状態なら相手に8ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="orchestraEgoDice1">
+    <Desc>[的中] 次の幕にて相手の光を2減少</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="orchestraEgoDice2">
+    <Desc>[的中] 相手は次の幕の間、速度が1に固定される</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="orchestraEgoDice3">
+    <Desc>[的中] 今回の幕にて虚弱1と武装解除1付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="greedEgoDice">
+    <Desc>[的中] 光を1回復し、次の幕にパワーを1得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="despairEgoDice">
+    <Desc>[的中] 次の幕の間、相手の速度ダイスを1つ封印</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="matanEgoDice1">
+    <Desc>[的中] 次の幕の間、相手の速度ダイスを1つ封印</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="mountainEgoDice">
+    <Desc>[的中] 今回の幕にて虚弱2、武装解除2を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nosferatuEgoDice">
+    <Desc>[的中] 体力5回復。次の幕にパワー1を得る。次の幕にパワー1、出血5を付与。</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nothingEgoDice">
+    <Desc>[的中] 次の幕にて、出血10 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="scarecrowEgoDice">
+    <Desc>生きている味方1名につき、威力が2増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lumberjackEgoDice1">
+    <Desc>[マッチ勝利] 最後のダイス威力 +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="homeEgo">
+    <Desc>一度でも攻撃が的中した場合、幕の終了時に自分以外の味方の光を2回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ozmaEgoDice">
+    <Desc>一度でも攻撃が的中した場合、全ての味方がページを1枚引く</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="longBirdEgo">
+    <Desc>[的中] 相手に体力最大値の10%分ダメージを与える(最大50)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bossBirdFirstEgoDice">
+    <Desc>[的中] 次の幕に麻痺を1付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bossBirdSecondEgoDice">
+    <Desc>体力が50%以下の相手に与えるダメージ量を50%増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bloodyTreeEgoDice">
+    <Desc>[的中] 次の幕の間、相手の速度ダイスを1つ封印</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="clockEgoDice">
+    <Desc>[マッチ勝利] 相手の次のダイスを破壊</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="blueStarEgoDice">
+    <Desc>[的中] 自分の現在の混乱抵抗値の半分だけ、相手にダメージと混乱ダメージを与える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="blueStarEgoDiceRemake">
+    <Desc>[的中] 自分の混乱抵抗値が50%以上残っている場合、相手にダメージ・混乱ダメージを10与える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="wolfEgoDice1">
+    <Desc>このダイスは4回使用する。</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="wolfEgoDice2">
+    <Desc>[的中] このページで有効なダイス(マッチ勝利、的中)の値の合計だけダメージを与える</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="snowqueenEgoDice">
+    <Desc>[的中] 次の幕に束縛・虚弱1を付与</Desc>
+  </BattleCardAbility>
+</BattleCardAbilityDescRoot>

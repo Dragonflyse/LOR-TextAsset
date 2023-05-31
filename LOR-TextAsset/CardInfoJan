@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Card ID="11">
+    <Name>불빠따 맛 좀 봐!</Name>
+    <Artwork>1_불빠따 맛 좀 봐</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="0"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="4"
+                 AnimStart="Hori1" AnimEnd="Hori2" EffectRes="1_1" Script="agf10"  Desc ="합 승리: 대상의 가장 높은 면체 주사위 1개 파괴"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+                 AnimStart="Vert1" AnimEnd="Vert2" EffectRes="1_2" Script="" Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="12">
+    <Name>숨 고르기</Name>
+    <Artwork>2_숨 고르기</Artwork>
+    <Spec Rwbp="B" Range="Near" Count="2" Cost="0"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+                AnimStart="Vert1" AnimEnd="Vert2" EffectRes="2_3" Script="agf11"  Desc ="합 승리: HP 5 회복"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="B" Direction="Back" Scope="1" KnockbackPower="2"
+                 AnimStart="Vert2" AnimEnd="Vert1" EffectRes="3_1" Script=""  Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="13">
+    <Name>느낌 좋은데?</Name>
+    <Artwork>3_느낌 좋은데</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="0"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+                AnimStart="Stab1" AnimEnd="Stab2" EffectRes="2_3" Script="recoverEnergy"  Desc ="에너지 1 회복"/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="14">
+    <Name>테스트 좀 해볼까?</Name>
+    <Artwork>4_테스트 좀 해볼까</Artwork>
+    <Spec Rwbp="W" Range="Near" Count="2" Cost="1"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+                AnimStart="Vert1" AnimEnd="Vert2" EffectRes="" Script="agf8"  Desc ="합 승리: 대상의 다음 주사위 약화"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="6"
+                 AnimStart="Hori1" AnimEnd="Hori2" EffectRes="4_1" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="6"
+                 AnimStart="Hori1" AnimEnd="Hori2" EffectRes="4_1" Script=""  Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="15">
+    <Name>분투</Name>
+    <Artwork>5_분투</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="1"/>
+    <BehaviourList>
+
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="0"
+                AnimStart="Vert1" AnimEnd="Vert2" EffectRes="5_def" Script="agf8"  Desc ="합 승리: 대상의 다음 주사위 약화"/>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="2"
+            AnimStart="Vert1" AnimEnd="Vert2" EffectRes="5_1" Script="agf8"  Desc ="합 승리: 대상의 다음 주사위 약화"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="0"
+          AnimStart="Vert1" AnimEnd="Vert2" EffectRes="5_def" Script=""  Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="16">
+    <Name>이인생 한 방!</Name>
+    <Artwork>6_이인생 한 방</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="1"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="8" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="6"
+                 AnimStart="Vert1" AnimEnd="Vert2" EffectRes="6_1" Script="givedmg"  Desc ="타격: 대상에게 6 데미지"/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="17">
+    <Name>무엇이든 요리할 수 있지</Name>
+    <Artwork>7_무엇이든 요리할 수 있지</Artwork>
+    <Spec Rwbp="W" Range="Near" Count="2" Cost="1"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="W" Direction="Back" Scope="1" KnockbackPower="0"
+        AnimStart="Vert1" AnimEnd="Vert2" EffectRes="7_1" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="W" Direction="Front" Scope="2" KnockbackPower="2"
+             AnimStart="Hori1" AnimEnd="Hori2" EffectRes="7_2" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="W" Direction="Front" Scope="2" KnockbackPower="2"
+             AnimStart="Hori1" AnimEnd="Hori2" EffectRes="7_2" Script=""  Desc =""/>
+
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="18">
+    <Name>끝내주겠어!</Name>
+    <Artwork>8_끝내주겠어</Artwork>
+    <Spec Rwbp="P" Range="Near" Count="2" Cost="2"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="B" Direction="Front" Scope="1" KnockbackPower="5"
+              AnimStart="Vert1" AnimEnd="Vert2" EffectRes="8_1" Script="agf8"  Desc ="합 승리: 대상의 다음 주사위 약화"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="B" Direction="Front" Scope="1" KnockbackPower="3"
+          AnimStart="Vert1" AnimEnd="Vert2" EffectRes="8_2" Script="agf5"  Desc ="합 승리: 대상의 남은 주사위 파괴"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="1"
+          AnimStart="Vert1" AnimEnd="Vert2" EffectRes="8_3" Script=""  Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="19">
+    <Name>버티기</Name>
+    <Artwork>9_버티기</Artwork>
+    <Spec Rwbp="W" Range="Near" Count="2" Cost="2"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="12" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+                AnimStart="Vert1" AnimEnd="Vert2" EffectRes="9_1" Script="agf14"  Desc ="합 승리: 대상에게 2 데미지"/>
+      <Behaviour Level="1" Dice="8" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+                AnimStart="Vert1" AnimEnd="Vert2" EffectRes="9_1" Script="agf14"  Desc ="합 승리: 대상에게 2 데미지"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="3"
+                AnimStart="Stab1" AnimEnd="Stab2" EffectRes="9_2" Script=""  Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="20">
+    <Name>내장 담기</Name>
+    <Artwork>10_내장 담기</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="3"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="R" Direction="Front" Scope="2" KnockbackPower="1"
+                 AnimStart="Hori1" AnimEnd="Hori2" EffectRes="10_1" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="1"
+                AnimStart="Stab1" AnimEnd="Stab2" EffectRes="10_2" Script="destroyAllDfn"  Desc ="대상의 모든 방어 주사위 파괴"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Rwbp="B" Direction="Front" Scope="1" KnockbackPower="4"
+                 AnimStart="Stab2" AnimEnd="Stab1" EffectRes="10_3" Script="break4"  Desc ="타격: 브레이크 피해 4"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="1"
+                AnimStart="Stab1" AnimEnd="Stab2" EffectRes="10_2" Script=""  Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+  
+  <Card ID="21">
+    <Name>기습</Name>
+    <Artwork>1_불빠따 맛 좀 봐</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="1"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="4"
+                 AnimStart="Hori1" AnimEnd="Hori2" EffectRes="1_1" Script="enemy1"  Desc ="합이 아니면 대상에게 6 데미지"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="0"
+                 AnimStart="Vert1" AnimEnd="Vert2" EffectRes="1_2" Script="" Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="22">
+    <Name>철벽</Name>
+    <Artwork>2_숨 고르기</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="1"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="12" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="4"
+                 AnimStart="Hori1" AnimEnd="Hori2" EffectRes="1_1" Script="agf12"  Desc ="합 승리: 마지막 주사위 강화"/>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="0"
+                 AnimStart="Vert1" AnimEnd="Vert2" EffectRes="1_2" Script="" Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="23">
+    <Name>붕괴</Name>
+    <Artwork>3_느낌 좋은데</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="2"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="12" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="B" Direction="Front" Scope="1" KnockbackPower="4"
+                 AnimStart="Hori1" AnimEnd="Hori2" EffectRes="1_1" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="4"
+                 AnimStart="Vert1" AnimEnd="Vert2" EffectRes="1_2" Script=""  Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="24">
+    <Name>측방 참격</Name>
+    <Artwork>1_불빠따 맛 좀 봐</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="1"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="4"
+                 AnimStart="Hori1" AnimEnd="Hori2" EffectRes="1_1" Script="enemy1"  Desc ="합이 아니면 대상에게 6 데미지"/>
+      <Behaviour Level="1" Dice="8" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+                 AnimStart="Vert1" AnimEnd="Vert2" EffectRes="1_2" Script="" Desc =""/>
+      <Behaviour Level="1" Dice="8" LeastSpeedDiceCondition="1" Type="Def" Detail="Evasion" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+                 AnimStart="Hori1" AnimEnd="Hori2" EffectRes="1_1" Script="" Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+  
+  <Card ID="101">
+    <Name>치안 수호</Name>
+    <Artwork>101_치안 수호</Artwork>
+    <Spec Rwbp="W" Range="Near" Count="2" Cost="0"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Def" Detail="Evasion" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="2"
+                 AnimStart="Vert1" AnimEnd="Vert2" EffectRes="101_1" Script="nextUp1"  Desc ="합 승리: 다음 주사위 값 +1"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="B" Direction="Front" Scope="1" KnockbackPower="2"
+                 AnimStart="Vert1" AnimEnd="Vert2" EffectRes="101_2" Script=""  Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="102">
+    <Name>역습</Name>
+    <Artwork>102_역습</Artwork>
+    <Spec Rwbp="B" Range="Near" Count="2" Cost="2"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="20" LeastSpeedDiceCondition="1" Type="Def" Detail="Evasion" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+        AnimStart="Vert1" AnimEnd="Vert2" EffectRes="103_def" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="R" Direction="Front" Scope="1" KnockbackPower="2"
+                 AnimStart="Hori1" AnimEnd="Hori2" EffectRes="102_1" Script="enemy1"  Desc ="합이 아니면 대상에게 6 데미지"/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="103">
+    <Name>당신의 방패</Name>
+    <Artwork>103_당신의 방패</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="1"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+           AnimStart="Vert1" AnimEnd="Vert2" EffectRes="103_def" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+           AnimStart="Vert1" AnimEnd="Vert2" EffectRes="103_def" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="B" Direction="Front" Scope="1" KnockbackPower="3"
+                AnimStart="Hori1" AnimEnd="Hori2" EffectRes="102_1" Script=""  Desc ="다음 막 속도+2"/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+
+  </Card>
+
+  <Card ID="104">
+    <Name>방어 태세</Name>
+    <Artwork>104_방어 태세</Artwork>
+    <Spec Rwbp="B" Range="Near" Count="2" Cost="2"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="8" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="W" Direction="Front" Scope="2" KnockbackPower="4"
+               AnimStart="Stab1" AnimEnd="Stab2" EffectRes="104_1" Script="agf7"  Desc ="합 승리: 다음 주사위 강화"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+         AnimStart="Vert1" AnimEnd="Vert2" EffectRes="103_def" Script="agf7"  Desc ="합 승리: 다음 주사위 강화"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="2"
+              AnimStart="Vert1" AnimEnd="Vert2" EffectRes="102_1" Script=""  Desc ="" />
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+     AnimStart="Vert1" AnimEnd="Vert2" EffectRes="103_def" Script=""  Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="105">
+    <Name>울타리</Name>
+    <Artwork>105_울타리</Artwork>
+    <Spec Rwbp="W" Range="Near" Count="2" Cost="1"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="W" Direction="Front" Scope="2" KnockbackPower="3"
+                  AnimStart="Stab1" AnimEnd="Stab2" EffectRes="104_1" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+                 AnimStart="Vert1" AnimEnd="Vert2" EffectRes="105_2" Script=""  Desc =""/>
+
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="106">
+    <Name>흘려치기</Name>
+    <Artwork>106_흘려치기</Artwork>
+    <Spec Rwbp="P" Range="Near" Count="2" Cost="1"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="8" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="0"
+                 AnimStart="Vert1" AnimEnd="Vert2" EffectRes="103_def" Script="agf4"  Desc ="합 승리: 공격 주사위 1개 파괴"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="W" Direction="Front" Scope="1" KnockbackPower="4"
+                 AnimStart="Vert2" AnimEnd="Vert1" EffectRes="106_2" Script=""  Desc =""/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="107">
+    <Name>무력화</Name>
+    <Artwork>107_무력화</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost ="1"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="12" LeastSpeedDiceCondition="1" Type="Def" Detail="Evasion" Rwbp="B" Direction="Back" Scope="1" KnockbackPower="2"
+                AnimStart="Vert1" AnimEnd="Vert2" EffectRes="107_2" Script=" DiceCardAbility_agf9"  Desc ="합 승리: 대상의 모든 주사위 약화"/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Rwbp="B" Direction="Front" Scope="1" KnockbackPower="0"
+              AnimStart="Vert1" AnimEnd="Vert2" EffectRes="107_2" Script=" DiceCardAbility_agf9"  Desc ="합 승리: 대상의 모든 주사위 약화"/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="108">
+    <Name>고요한 밤</Name>
+    <Artwork>108_고요한 밤</Artwork>
+    <Spec Rwbp="P" Range="Near" Count="1" Cost ="2"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="12" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="B" Direction="Back" Scope="1" KnockbackPower="6"
+     AnimStart="Hori2" AnimEnd="Hori1" EffectRes="108_1" Script="agf5 "  Desc ="합 승리: 대상의 모든 주사위 파괴"/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="109">
+    <Name>자료 수집</Name>
+    <Artwork>109_자료 수집</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="1"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="W" Direction="Back" Scope="1" KnockbackPower="4"
+    AnimStart="Hori1" AnimEnd="Hori2" EffectRes="109_2" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Rwbp="W" Direction="Back" Scope="1" KnockbackPower="2"
+      AnimStart="Stab2" AnimEnd="Stab1" EffectRes="107_1" Script="agf21"  Desc ="대상의 다음 카드 모든 방어 주사위 약화"/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="110">
+    <Name>추적</Name>
+    <Artwork>110_추적</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="0"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Direction="Front" Scope="1" KnockbackPower="2"
+    AnimStart="Stab1" AnimEnd="Stab2" EffectRes="107_1" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Direction="Front" Scope="1" KnockbackPower="2"
+    AnimStart="Stab1" AnimEnd="Stab2" EffectRes="107_1" Script="speedDown2"  Desc ="대상의 다음 막 속도 -2"/>
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="10000">
+    <Name>소울카드 - 몰아치기1</Name>
+    <CardType>SOUL</CardType>
+    <Artwork>211_견제</Artwork>
+    <Spec Rwbp="R" Range="Near" Count="2" Cost="3"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="R" Direction="Front" Scope="2" KnockbackPower="2"
+              AnimStart="Vert1" AnimEnd="Vert2" EffectRes="201_1" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Rwbp="R" Direction="Back" Scope="1" KnockbackPower="2"
+                AnimStart="Stab1" AnimEnd="Stab2" EffectRes="201_2" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Slash" Rwbp="R" Direction="Back" Scope="1" KnockbackPower="4"
+             AnimStart="Vert1" AnimEnd="Vert2" EffectRes="201_1" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Hit" Rwbp="R" Direction="Back" Scope="1" KnockbackPower="4"
+             AnimStart="Hori1" AnimEnd="Hori2" EffectRes="201_2" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="4" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Rwbp="R" Direction="Back" Scope="1" KnockbackPower="4"
+             AnimStart="Stab1" AnimEnd="Stab2" EffectRes="201_1" Script="agf25"  Desc ="타격: 대상의 다음 막 속도 주사위 -4"/>
+
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+  
+  <Card ID="10001">
+    <Name>소울 - 버티기</Name>
+    <CardType>SOUL</CardType>
+    <Artwork>211_견제</Artwork>
+    <Spec Rwbp="W" Range="Near" Count="2" Cost="2"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="12" LeastSpeedDiceCondition="1" Type="Def" Detail="Evasion" Rwbp="W" Direction="Front" Scope="2" KnockbackPower="2"
+              AnimStart="Vert1" AnimEnd="Vert2" EffectRes="201_1" Script="agf28"  Desc ="합 승리: 남은 주사위 강화"/>
+      <Behaviour Level="1" Dice="8" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Back" Scope="1" KnockbackPower="2"
+                AnimStart="Stab1" AnimEnd="Stab2" EffectRes="201_2" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="8" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="W" Direction="Back" Scope="1" KnockbackPower="4"
+             AnimStart="Vert1" AnimEnd="Vert2" EffectRes="201_1" Script=""  Desc =""/>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Rwbp="B" Direction="Back" Scope="1" KnockbackPower="4"
+             AnimStart="Stab1" AnimEnd="Stab2" EffectRes="201_1" Script="hpHeal"  Desc ="타격: HP 8 회복"/>
+
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+
+  <Card ID="10002">
+    <Name>소울 - 반격</Name>
+    <CardType>SOUL</CardType>
+    <Artwork>211_견제</Artwork>
+    <Spec Rwbp="W" Range="Near" Count="2" Cost="2"/>
+    <BehaviourList>
+      <Behaviour Level="1" Dice="12" LeastSpeedDiceCondition="1" Type="Def" Detail="Evasion" Rwbp="R" Direction="Front" Scope="2" KnockbackPower="2"
+              AnimStart="Vert1" AnimEnd="Vert2" EffectRes="201_1" Script="agf14"  Desc ="합 승리: 대상에게 2 데미지"/>
+      <Behaviour Level="1" Dice="8" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="R" Direction="Back" Scope="1" KnockbackPower="2"
+                AnimStart="Stab1" AnimEnd="Stab2" EffectRes="201_2" Script="agf14"  Desc ="합 승리: 대상에게 2 데미지"/>
+      <Behaviour Level="1" Dice="8" LeastSpeedDiceCondition="1" Type="Def" Detail="Guard" Rwbp="R" Direction="Back" Scope="1" KnockbackPower="4"
+             AnimStart="Vert1" AnimEnd="Vert2" EffectRes="201_1" Script="agf14"  Desc ="합 승리: 대상에게 2 데미지"/>
+      <Behaviour Level="1" Dice="6" LeastSpeedDiceCondition="1" Type="Atk" Detail="Penetrate" Rwbp="R" Direction="Back" Scope="1" KnockbackPower="4"
+             AnimStart="Stab1" AnimEnd="Stab2" EffectRes="201_1" Script="givedmg"  Desc ="타격: 대상에게 6 데미지"/>
+
+    </BehaviourList>
+    <FlavorText>
+    </FlavorText>
+  </Card>
+  
+</DiceCardXmlRoot>

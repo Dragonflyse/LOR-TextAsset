@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BattleCardAbility ID="recoverHp1atk">
+    <Desc>[On Hit] Recover 1 HP</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp2atk">
+    <Desc>[On Hit] Recover 2 HP</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp3atk">
+    <Desc>[On Hit] Recover 3 HP</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp4atk">
+    <Desc>[On Hit] Recover 4 HP</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp6atk">
+    <Desc>[On Hit] Recover 6 HP</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="galaxyEgoDice">
+    <Desc>[On Hit] Recover user's HP by the natural roll value</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverBreak3atk">
+    <Desc>[On Hit] Recover 3 Stagger Resist</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverBreak5atk">
+    <Desc>[On Hit] Recover 5 Stagger Resist</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable1atk">
+    <Desc>[On Hit] Inflict 1 Fragile next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable2atk">
+    <Desc>[On Hit] Inflict 2 Fragile next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable3atk">
+    <Desc>[On Hit] Inflict 3 Fragile next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable4atk">
+    <Desc>[On Hit] Inflict 4 Fragile next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable5atk">
+    <Desc>[On Hit] Inflict 5 Fragile next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable2pw">
+    <Desc>[On Clash Win] Inflict 2 Fragile next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding1atk">
+    <Desc>[On Hit] Inflict 1 Bleed next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding2atk">
+    <Desc>[On Hit] Inflict 2 Bleed next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3atk">
+    <Desc>[On Hit] Inflict 3 Bleed next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding4atk">
+    <Desc>[On Hit] Inflict 4 Bleed next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding6atk">
+    <Desc>[On Hit] Inflict 6 Bleed next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3pw">
+    <Desc>[On Clash Win] Inflict 3 Bleed next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding2pw">
+    <Desc>[On Clash Win] Inflict 2 Bleed next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="pierre">
+    <Desc>[On Hit] Recover HP equal to stacks of Bleed on target</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1atk">
+    <Desc>[On Hit] Inflict 1 Burn</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn2atk">
+    <Desc>[On Hit] Inflict 2 Burn</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn3atk">
+    <Desc>[On Hit] Inflict 3 Burn</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn4atk">
+    <Desc>[On Hit] Inflict 4 Burn</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn6atk">
+    <Desc>[On Hit] Inflict 6 Burn</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn10atk">
+    <Desc>[On Hit] Inflict 10 Burn</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn2pw">
+    <Desc>[On Clash Win] Inflict 2 Burn</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1atk2times">
+    <Desc>[On Hit] Inflict 1 Burn 2 times</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1atk3times">
+    <Desc>[On Hit] Inflict 1 Burn 3 times</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak1atk">
+    <Desc>[On Hit] Inflict 1 Feeble next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak2atk">
+    <Desc>[On Hit] Inflict 2 Feeble next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak1pw">
+    <Desc>[On Clash Win] Inflict 1 Feeble next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm1atk">
+    <Desc>[On Hit] Inflict 1 Disarm next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm2atk">
+    <Desc>[On Hit] Inflict 2 Disarm next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm3atk">
+    <Desc>[On Hit] Inflict 3 Disarm next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding1atk">
+    <Desc>[On Hit] Inflict 1 Bind next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding2atk">
+    <Desc>[On Hit] Inflict 2 Bind next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding3atk">
+    <Desc>[On Hit] Inflict 3 Bind next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis1atk">
+    <Desc>[On Hit] Inflict 1 Paralysis next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis2atk">
+    <Desc>[On Hit] Inflict 2 Paralysis next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis3atk">
+    <Desc>[On Hit] Inflict 3 Paralysis next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis4atk">
+    <Desc>[On Hit] Inflict 4 Paralysis next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis1pw">
+    <Desc>[On Clash Win] Inflict 1 Paralysis next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis2pw">
+    <Desc>[On Clash Win] Inflict 2 Paralysis next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="orchestraEgoDice3">
+    <Desc>[On Hit] Inflict 1 Feeble and Disarm this Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weakDisarmBinding1atk">
+    <Desc>[On Hit] Inflict 1 Feeble, Disarm, and Bind next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weakDisarmBinding2atk">
+    <Desc>[On Hit] Inflict 2 Feeble, Disarm, and Bind next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1atk">
+    <Desc>[On Hit] Gain 1 Strength next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength2atk">
+    <Desc>[On Hit] Gain 2 Strength next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="kaliAttackBuf">
+    <Desc>[On Hit] Gain 3 Strength next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2strength1atk">
+    <Desc>[On Hit] Give 1 Strength to two random allies next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2recover3atk">
+    <Desc>[On Hit] Recover 3 HP of two random allies</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2recover3atkfordef">
+    <Desc>[On Clash Win] Recover 3 HP of two random allies</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="argaliaBuf">
+    <Desc>[On Hit] Give 1 Strength and Endurance to all allies next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tomerryBuf">
+    <Desc>[On Hit] Give 3 Strength to all allies next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1atk">
+    <Desc>[On Hit] Restore 1 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1pw">
+    <Desc>[On Clash Win] Restore 1 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage2atk">
+    <Desc>[On Hit] Deal 2 damage to target</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage3atk">
+    <Desc>[On Hit] Deal 3 damage to target</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage5atk">
+    <Desc>[On Hit] Deal 5 damage to target</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break2atk">
+    <Desc>[On Hit] Deal 2 Stagger damage to target</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break3atk">
+    <Desc>[On Hit] Deal 3 Stagger damage to target</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break5atk">
+    <Desc>[On Hit] Deal 5 Stagger damage to target</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerPerHand">
+    <Desc>Gain +1 Power for each page in hand</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDownNext2pwTarget">
+    <Desc>[On Clash Win] Reduce Power of opponent's next die by 2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown2targetDfn">
+    <Desc>Reduce Power of target's current Defensive die by 2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown3targetDfn">
+    <Desc>Reduce Power of target's current Defensive die by 3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lovetownPower">
+    <Desc>Add +10 Power if the attack is one-sided</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lovetownNextPower">
+    <Desc>[On Clash Lose] Add +6 Power to next die</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yujin">
+    <Desc>If the natural roll is Max, and is 4 or higher, add +45 power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1atkAndHp">
+    <Desc>[On Hit] If HP is at 25% or lower, restore 1 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1atkMostHp">
+    <Desc>[On Hit] Give 1 Strength to the ally with the highest HP next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection2atkMostHp">
+    <Desc>[On Hit] Give 2 Protection to the ally with the highest HP next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1atkAllFriend">
+    <Desc>[On Hit] Give 1 Strength to all allies next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUpDice4highlander">
+    <Desc>If Singleton, add +4 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleedingXsmoke">
+    <Desc>[On Hit] Inflict 1 Bleed next Scene per 2 stacks of Smoke on target</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3smoke">
+    <Desc>[On Hit] Use 2 Smoke to inflict 3 Bleed</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="debufsSmoke">
+    <Desc>[On Hit] If target has 7 or more Smoke, inflict 2 Paralysis and 1 Feeble</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="debufsSmokeRemake">
+    <Desc>[On Hit] If target has 4 or more Smoke, inflict 2 Paralysis and 1 Feeble</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawSmoke">
+    <Desc>[On Hit] If target has 3 or more Smoke, draw 2 pages</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="light1smoke3atk">
+    <Desc>[On Hit] Restore 1 Light; Inflict 3 Smoke</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke2selfsmoke1atk">
+    <Desc>[On Hit] Inflict 2 Smoke; Gain 1 Smoke</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke3atkparalysis3atkbytagetsmoke5">
+    <Desc>[On Hit] Inflict 3 Smoke; If target has 5+ Smoke, inflict 3 Paralysis next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="repeat3">
+    <Desc>This die is rolled 3 times</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="repeat4">
+    <Desc>This die is rolled 4 times</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge2pw">
+    <Desc>[On Clash Win] Gain 2 Charge</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge2pl">
+    <Desc>[On Clash Lose] Gain 1 Charge</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge1atk">
+    <Desc>[On Hit] Gain 1 Charge</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge8atk">
+    <Desc>[On Hit] Gain 8 Charge</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="badaCardRemake">
+    <Desc>[On Use] Spend 4 Charge to boost Power of all dice on this page by +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="deerDice">
+    <Desc>[On Hit] Spend 3 Charge to deal 8 Stagger damage</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy1atk">
+    <Desc>[On Hit] Inflict 1 Fairy</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy2atk">
+    <Desc>[On Hit] Inflict 2 Fairy</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy3atk">
+    <Desc>[On Hit] Inflict 3 Fairy</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="forbidReuseDice">
+    <Desc>Target's current die cannot be recycled</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="forbidCardAtk">
+    <Desc>[On Hit] Increase Cost of target's pages whose original Cost is 4 or higher by 2 for the next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sealTargetAtk">
+    <Desc>[On Hit] Seal a Speed die of target for the next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="orchestraEgoDice1">
+    <Desc>[On Hit] Target loses 2 Light next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="orchestraEgoDice2">
+    <Desc>[On Hit] Target's Speed is fixed at 1 next Scene</Desc>
+  </BattleCardAbility>
+</BattleCardAbilityDescRoot>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScriptPresetXmlRoot>
+  <ListRoot ID ="StageStart" >
+    <Script ID ="0" LocalizeID ="Script_Preset_StageStart_0"></Script>
+    <Script ID ="1" LocalizeID ="Script_Preset_StageStart_1"></Script>
+    <Script ID ="2" LocalizeID ="Script_Preset_StageStart_2"></Script>
+    <Script ID ="3" LocalizeID ="Script_Preset_StageStart_3"></Script>
+    <Script ID ="4" LocalizeID ="Script_Preset_StageStart_4"></Script>
+    <Script ID ="5" LocalizeID ="Script_Preset_StageStart_5"></Script>
+    <Script ID ="6" LocalizeID ="Script_Preset_StageStart_6"></Script>
+    <Script ID ="7" LocalizeID ="Script_Preset_StageStart_7"></Script>
+    <Script ID ="8" LocalizeID ="Script_Preset_StageStart_8"></Script>
+    <Script ID ="9" LocalizeID ="Script_Preset_StageStart_9"></Script>
+    <Script ID ="10" LocalizeID ="Script_Preset_StageStart_10"></Script>
+    <Script ID ="11" LocalizeID ="Script_Preset_StageStart_11"></Script>
+    <Script ID ="12" LocalizeID ="Script_Preset_StageStart_12"></Script>
+    <Script ID ="13" LocalizeID ="Script_Preset_StageStart_13"></Script>
+    <Script ID ="14" LocalizeID ="Script_Preset_StageStart_14"></Script>
+    <Script ID ="15" LocalizeID ="Script_Preset_StageStart_15"></Script>
+  </ListRoot>
+
+  <ListRoot ID ="StageEnd">
+    <Script ID ="0" LocalizeID ="Script_Preset_StageWin_0"></Script>
+    <Script ID ="1" LocalizeID ="Script_Preset_StageWin_1"></Script>
+    <Script ID ="2" LocalizeID ="Script_Preset_StageWin_2"></Script>
+    <Script ID ="3" LocalizeID ="Script_Preset_StageWin_3"></Script>
+    <Script ID ="4" LocalizeID ="Script_Preset_StageWin_4"></Script>
+    <Script ID ="5" LocalizeID ="Script_Preset_StageWin_5"></Script>
+    <Script ID ="6" LocalizeID ="Script_Preset_StageWin_6"></Script>
+    <Script ID ="7" LocalizeID ="Script_Preset_StageWin_7"></Script>
+    <Script ID ="8" LocalizeID ="Script_Preset_StageWin_8"></Script>
+    <Script ID ="9" LocalizeID ="Script_Preset_StageWin_9"></Script>
+    <Script ID ="10" LocalizeID ="Script_Preset_StageWin_10"></Script>
+    <Script ID ="11" LocalizeID ="Script_Preset_StageWin_11"></Script>
+    <Script ID ="12" LocalizeID ="Script_Preset_StageWin_12"></Script>
+    <Script ID ="13" LocalizeID ="Script_Preset_StageWin_13"></Script>
+    <Script ID ="14" LocalizeID ="Script_Preset_StageWin_14"></Script>
+    <Script ID ="15" LocalizeID ="Script_Preset_StageWin_15"></Script>
+  </ListRoot>    
+
+  <ListRoot ID ="Die">
+    <Script ID ="0" LocalizeID ="Script_Preset_Die_0"></Script>
+    <Script ID ="1" LocalizeID ="Script_Preset_Die_1"></Script>
+    <Script ID ="2" LocalizeID ="Script_Preset_Die_2"></Script>
+    <Script ID ="3" LocalizeID ="Script_Preset_Die_3"></Script>
+    <Script ID ="4" LocalizeID ="Script_Preset_Die_4"></Script>
+    <Script ID ="5" LocalizeID ="Script_Preset_Die_5"></Script>
+    <Script ID ="6" LocalizeID ="Script_Preset_Die_6"></Script>
+    <Script ID ="7" LocalizeID ="Script_Preset_Die_7"></Script>
+    <Script ID ="8" LocalizeID ="Script_Preset_Die_8"></Script>
+    <Script ID ="9" LocalizeID ="Script_Preset_Die_9"></Script>
+    <Script ID ="10" LocalizeID ="Script_Preset_Die_10"></Script>
+    <Script ID ="11" LocalizeID ="Script_Preset_Die_11"></Script>
+    <Script ID ="12" LocalizeID ="Script_Preset_Die_12"></Script>
+    <Script ID ="13" LocalizeID ="Script_Preset_Die_13"></Script>
+    <Script ID ="14" LocalizeID ="Script_Preset_Die_14"></Script>
+    <Script ID ="15" LocalizeID ="Script_Preset_Die_15"></Script>
+  </ListRoot>         
+
+  <ListRoot ID ="TeamDie">
+    <Script ID ="0" LocalizeID ="Script_Preset_TeamDie_0"></Script>
+    <Script ID ="1" LocalizeID ="Script_Preset_TeamDie_1"></Script>
+    <Script ID ="2" LocalizeID ="Script_Preset_TeamDie_2"></Script>
+    <Script ID ="3" LocalizeID ="Script_Preset_TeamDie_3"></Script>
+    <Script ID ="4" LocalizeID ="Script_Preset_TeamDie_4"></Script>
+    <Script ID ="5" LocalizeID ="Script_Preset_TeamDie_5"></Script>
+    <Script ID ="6" LocalizeID ="Script_Preset_TeamDie_6"></Script>
+    <Script ID ="7" LocalizeID ="Script_Preset_TeamDie_7"></Script>
+    <Script ID ="8" LocalizeID ="Script_Preset_TeamDie_8"></Script>
+    <Script ID ="9" LocalizeID ="Script_Preset_TeamDie_9"></Script>
+    <Script ID ="10" LocalizeID ="Script_Preset_TeamDie_10"></Script>
+    <Script ID ="11" LocalizeID ="Script_Preset_TeamDie_11"></Script>
+    <Script ID ="12" LocalizeID ="Script_Preset_TeamDie_12"></Script>
+    <Script ID ="13" LocalizeID ="Script_Preset_TeamDie_13"></Script>
+    <Script ID ="14" LocalizeID ="Script_Preset_TeamDie_14"></Script>
+    <Script ID ="15" LocalizeID ="Script_Preset_TeamDie_15"></Script>
+  </ListRoot>
+
+  <ListRoot Id ="Kill">
+    <Script ID ="0" LocalizeID ="Script_Preset_Kill_0"></Script>
+    <Script ID ="1" LocalizeID ="Script_Preset_Kill_1"></Script>
+    <Script ID ="2" LocalizeID ="Script_Preset_Kill_2"></Script>
+    <Script ID ="3" LocalizeID ="Script_Preset_Kill_3"></Script>
+    <Script ID ="4" LocalizeID ="Script_Preset_Kill_4"></Script>
+    <Script ID ="5" LocalizeID ="Script_Preset_Kill_5"></Script>
+    <Script ID ="6" LocalizeID ="Script_Preset_Kill_6"></Script>
+    <Script ID ="7" LocalizeID ="Script_Preset_Kill_7"></Script>
+    <Script ID ="8" LocalizeID ="Script_Preset_Kill_8"></Script>
+    <Script ID ="9" LocalizeID ="Script_Preset_Kill_9"></Script>
+    <Script ID ="10" LocalizeID ="Script_Preset_Kill_10"></Script>
+    <Script ID ="11" LocalizeID ="Script_Preset_Kill_11"></Script>
+    <Script ID ="12" LocalizeID ="Script_Preset_Kill_12"></Script>
+    <Script ID ="13" LocalizeID ="Script_Preset_Kill_13"></Script>
+    <Script ID ="14" LocalizeID ="Script_Preset_Kill_14"></Script>
+    <Script ID ="15" LocalizeID ="Script_Preset_Kill_15"></Script>
+  </ListRoot>
+
+  <ListRoot ID ="Body_Arousal">
+    <Script ID ="0" LocalizeID ="Script_Preset_Body_Arousal_0"></Script>
+    <Script ID ="1" LocalizeID ="Script_Preset_Body_Arousal_1"></Script>
+    <Script ID ="2" LocalizeID ="Script_Preset_Body_Arousal_2"></Script>
+    <Script ID ="3" LocalizeID ="Script_Preset_Body_Arousal_3"></Script>
+    <Script ID ="4" LocalizeID ="Script_Preset_Body_Arousal_4"></Script>
+    <Script ID ="5" LocalizeID ="Script_Preset_Body_Arousal_5"></Script>
+    <Script ID ="6" LocalizeID ="Script_Preset_Body_Arousal_6"></Script>
+    <Script ID ="7" LocalizeID ="Script_Preset_Body_Arousal_7"></Script>
+    <Script ID ="8" LocalizeID ="Script_Preset_Body_Arousal_8"></Script>
+    <Script ID ="9" LocalizeID ="Script_Preset_Body_Arousal_9"></Script>
+    <Script ID ="10" LocalizeID ="Script_Preset_Body_Arousal_10"></Script>
+    <Script ID ="11" LocalizeID ="Script_Preset_Body_Arousal_11"></Script>
+    <Script ID ="12" LocalizeID ="Script_Preset_Body_Arousal_12"></Script>
+    <Script ID ="13" LocalizeID ="Script_Preset_Body_Arousal_13"></Script>
+    <Script ID ="14" LocalizeID ="Script_Preset_Body_Arousal_14"></Script>
+    <Script ID ="15" LocalizeID ="Script_Preset_Body_Arousal_15"></Script>
+  </ListRoot>
+
+  <ListRoot ID ="Body_Collapse">
+    <Script ID ="0" LocalizeID ="Script_Preset_Body_Collapse_0"></Script>
+    <Script ID ="1" LocalizeID ="Script_Preset_Body_Collapse_1"></Script>
+    <Script ID ="2" LocalizeID ="Script_Preset_Body_Collapse_2"></Script>
+    <Script ID ="3" LocalizeID ="Script_Preset_Body_Collapse_3"></Script>
+    <Script ID ="4" LocalizeID ="Script_Preset_Body_Collapse_4"></Script>
+    <Script ID ="5" LocalizeID ="Script_Preset_Body_Collapse_5"></Script>
+    <Script ID ="6" LocalizeID ="Script_Preset_Body_Collapse_6"></Script>
+    <Script ID ="7" LocalizeID ="Script_Preset_Body_Collapse_7"></Script>
+    <Script ID ="8" LocalizeID ="Script_Preset_Body_Collapse_8"></Script>
+    <Script ID ="9" LocalizeID ="Script_Preset_Body_Collapse_9"></Script>
+    <Script ID ="10" LocalizeID ="Script_Preset_Body_Collapse_10"></Script>
+    <Script ID ="11" LocalizeID ="Script_Preset_Body_Collapse_11"></Script>
+    <Script ID ="12" LocalizeID ="Script_Preset_Body_Collapse_12"></Script>
+    <Script ID ="13" LocalizeID ="Script_Preset_Body_Collapse_13"></Script>
+    <Script ID ="14" LocalizeID ="Script_Preset_Body_Collapse_14"></Script>
+    <Script ID ="15" LocalizeID ="Script_Preset_Body_Collapse_15"></Script>
+  </ListRoot>
+
+  <ListRoot ID ="Head_Arousal">
+    <Script ID ="0" LocalizeID ="Script_Preset_Head_Arousal_0"></Script>
+    <Script ID ="1" LocalizeID ="Script_Preset_Head_Arousal_1"></Script>
+    <Script ID ="2" LocalizeID ="Script_Preset_Head_Arousal_2"></Script>
+    <Script ID ="3" LocalizeID ="Script_Preset_Head_Arousal_3"></Script>
+    <Script ID ="4" LocalizeID ="Script_Preset_Head_Arousal_4"></Script>
+    <Script ID ="5" LocalizeID ="Script_Preset_Head_Arousal_5"></Script>
+    <Script ID ="6" LocalizeID ="Script_Preset_Head_Arousal_6"></Script>
+    <Script ID ="7" LocalizeID ="Script_Preset_Head_Arousal_7"></Script>
+    <Script ID ="8" LocalizeID ="Script_Preset_Head_Arousal_8"></Script>
+    <Script ID ="9" LocalizeID ="Script_Preset_Head_Arousal_9"></Script>
+    <Script ID ="10" LocalizeID ="Script_Preset_Head_Arousal_10"></Script>
+    <Script ID ="11" LocalizeID ="Script_Preset_Head_Arousal_11"></Script>
+    <Script ID ="12" LocalizeID ="Script_Preset_Head_Arousal_12"></Script>
+    <Script ID ="13" LocalizeID ="Script_Preset_Head_Arousal_13"></Script>
+    <Script ID ="14" LocalizeID ="Script_Preset_Head_Arousal_14"></Script>
+    <Script ID ="15" LocalizeID ="Script_Preset_Head_Arousal_15"></Script>
+  </ListRoot>
+
+  <ListRoot ID ="Head_Collapse">
+    <Script ID ="0" LocalizeID ="Script_Preset_Head_Collapse_0"></Script>
+    <Script ID ="1" LocalizeID ="Script_Preset_Head_Collapse_1"></Script>
+    <Script ID ="2" LocalizeID ="Script_Preset_Head_Collapse_2"></Script>
+    <Script ID ="3" LocalizeID ="Script_Preset_Head_Collapse_3"></Script>
+    <Script ID ="4" LocalizeID ="Script_Preset_Head_Collapse_4"></Script>
+    <Script ID ="5" LocalizeID ="Script_Preset_Head_Collapse_5"></Script>
+    <Script ID ="6" LocalizeID ="Script_Preset_Head_Collapse_6"></Script>
+    <Script ID ="7" LocalizeID ="Script_Preset_Head_Collapse_7"></Script>
+    <Script ID ="8" LocalizeID ="Script_Preset_Head_Collapse_8"></Script>
+    <Script ID ="9" LocalizeID ="Script_Preset_Head_Collapse_9"></Script>
+    <Script ID ="10" LocalizeID ="Script_Preset_Head_Collapse_10"></Script>
+    <Script ID ="11" LocalizeID ="Script_Preset_Head_Collapse_11"></Script>
+    <Script ID ="12" LocalizeID ="Script_Preset_Head_Collapse_12"></Script>
+    <Script ID ="13" LocalizeID ="Script_Preset_Head_Collapse_13"></Script>
+    <Script ID ="14" LocalizeID ="Script_Preset_Head_Collapse_14"></Script>
+    <Script ID ="15" LocalizeID ="Script_Preset_Head_Collapse_15"></Script>
+  </ListRoot>
+
+  <ListRoot ID ="Heart_Arousal">
+    <Script ID ="0" LocalizeID ="Script_Preset_Heart_Arousal_0"></Script>
+    <Script ID ="1" LocalizeID ="Script_Preset_Heart_Arousal_1"></Script>
+    <Script ID ="2" LocalizeID ="Script_Preset_Heart_Arousal_2"></Script>
+    <Script ID ="3" LocalizeID ="Script_Preset_Heart_Arousal_3"></Script>
+    <Script ID ="4" LocalizeID ="Script_Preset_Heart_Arousal_4"></Script>
+    <Script ID ="5" LocalizeID ="Script_Preset_Heart_Arousal_5"></Script>
+    <Script ID ="6" LocalizeID ="Script_Preset_Heart_Arousal_6"></Script>
+    <Script ID ="7" LocalizeID ="Script_Preset_Heart_Arousal_7"></Script>
+    <Script ID ="8" LocalizeID ="Script_Preset_Heart_Arousal_8"></Script>
+    <Script ID ="9" LocalizeID ="Script_Preset_Heart_Arousal_9"></Script>
+    <Script ID ="10" LocalizeID ="Script_Preset_Heart_Arousal_10"></Script>
+    <Script ID ="11" LocalizeID ="Script_Preset_Heart_Arousal_11"></Script>
+    <Script ID ="12" LocalizeID ="Script_Preset_Heart_Arousal_12"></Script>
+    <Script ID ="13" LocalizeID ="Script_Preset_Heart_Arousal_13"></Script>
+    <Script ID ="14" LocalizeID ="Script_Preset_Heart_Arousal_14"></Script>
+    <Script ID ="15" LocalizeID ="Script_Preset_Heart_Arousal_15"></Script>
+  </ListRoot>
+
+  <ListRoot ID ="Heart_Collapse">
+    <Script ID ="0" LocalizeID ="Script_Preset_Heart_Collapse_0"></Script>
+    <Script ID ="1" LocalizeID ="Script_Preset_Heart_Collapse_1"></Script>
+    <Script ID ="2" LocalizeID ="Script_Preset_Heart_Collapse_2"></Script>
+    <Script ID ="3" LocalizeID ="Script_Preset_Heart_Collapse_3"></Script>
+    <Script ID ="4" LocalizeID ="Script_Preset_Heart_Collapse_4"></Script>
+    <Script ID ="5" LocalizeID ="Script_Preset_Heart_Collapse_5"></Script>
+    <Script ID ="6" LocalizeID ="Script_Preset_Heart_Collapse_6"></Script>
+    <Script ID ="7" LocalizeID ="Script_Preset_Heart_Collapse_7"></Script>
+    <Script ID ="8" LocalizeID ="Script_Preset_Heart_Collapse_8"></Script>
+    <Script ID ="9" LocalizeID ="Script_Preset_Heart_Collapse_9"></Script>
+    <Script ID ="10" LocalizeID ="Script_Preset_Heart_Collapse_10"></Script>
+    <Script ID ="11" LocalizeID ="Script_Preset_Heart_Collapse_11"></Script>
+    <Script ID ="12" LocalizeID ="Script_Preset_Heart_Collapse_12"></Script>
+    <Script ID ="13" LocalizeID ="Script_Preset_Heart_Collapse_13"></Script>
+    <Script ID ="14" LocalizeID ="Script_Preset_Heart_Collapse_14"></Script>
+    <Script ID ="15" LocalizeID ="Script_Preset_Heart_Collapse_15"></Script>
+  </ListRoot>
+</ScriptPresetXmlRoot>

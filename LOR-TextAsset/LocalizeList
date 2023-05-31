@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<localize_list>
+  <!--Language List-->
+  <language>kr</language>
+  <language>en</language>
+  <language>cn</language>
+  <language>jp</language>
+  <language>trcn</language>
+
+  <!--Files-->
+  <localize>UITexts</localize>
+  <localize>QuestTexts</localize>
+  <localize>BattleUI</localize>
+
+  <localize>Dropbook</localize>
+  <localize>CombatDialog_Abnormalities</localize>
+  <localize>CombatDialog_Abnormalities_Librarian</localize>
+  <localize>CombatDialog_BlackSilence</localize>
+  <localize>CombatDialog_BlackSilence_Librarian</localize>
+  <localize>CombatDialog_BlueReverberation2</localize>
+  <localize>CombatDialog_BlueReverberation2_Librarian</localize>
+
+  <localize>CombatDialog_TheCryingChildren</localize>
+  <localize>CombatDialog_enlxmfflsdis</localize>
+
+  <localize>ManualTexts</localize>
+  <localize>TooltipTexts</localize>
+
+</localize_list>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimpleXmlList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Item>1-Dark Fantasy Studio- Autopsy</Item>
+  <Item>11-Dark Fantasy Studio- On the other side</Item>
+  <Item>3-Dark Fantasy Studio- Dead files</Item>
+  <Item>45일 진입</Item>
+  <Item>6- Dark Fantasy Studio- Once upon a time</Item>
+  <Item>Bgm3</Item>
+  <Item>Bgm3_End</Item>
+  <Item>CH100_B_Woong</Item>
+  <Item>CH100_C_Woong</Item>
+  <Item>CH100_G_Woong</Item>
+  <Item>CH100_H_Woong</Item>
+  <Item>CH100_M_Woong</Item>
+  <Item>Ch100_N_Woong</Item>
+  <Item>CH100_Y_AngelaAngry</Item>
+  <Item>ch1_AngelaIntro</Item>
+  <Item>ch1_BackStreet</Item>
+  <Item>ch1_Calm</Item>
+  <Item>ch1_Calm1</Item>
+  <Item>ch1_Nervous</Item>
+  <Item>ch1_Serious</Item>
+  <Item>ch1_Thema2-1</Item>
+  <Item>ch2_Rain</Item>
+  <Item>ch3_InWarp</Item>
+  <Item>ch3_Prologue</Item>
+  <Item>ch3_WarpStation</Item>
+  <Item>CH6_yan_bgm</Item>
+  <Item>CH7_End_OutSide</Item>
+  <Item>CH7_NewBlue_Bar</Item>
+  <Item>CH7_NewBlue_Bar2</Item>
+  <Item>CH7_NewBlue_LibraryLightOff</Item>
+  <Item>CH7_NewBlue_LibraryLightOn</Item>
+  <Item>CH7_NewBlue_Water</Item>
+  <Item>ch8_Binah</Item>
+  <Item>CH8_Chesed</Item>
+  <Item>Ch8_Geburah</Item>
+  <Item>ch8_Hod</Item>
+  <Item>ch8_Hokma</Item>
+  <Item>ch8_Malkuth</Item>
+  <Item>Ch8_Netzach</Item>
+  <Item>ch8_Siren</Item>
+  <Item>ch8_Tipherete</Item>
+  <Item>ch8_Yesod</Item>
+  <Item>ch_Thema2-2</Item>
+  <Item>emergency01_mast</Item>
+  <Item>emergency02_mast_fix</Item>
+  <Item>emergency03_mast</Item>
+  <Item>EndingCreditBgm</Item>
+  <Item>keter_bgm_0</Item>
+  <Item>keter_bgm_00</Item>
+  <Item>keter_bgm_1</Item>
+  <Item>keter_bgm_2</Item>
+  <Item>keter_bgm_3</Item>
+  <Item>Lobby</Item>
+  <Item>neutral01-1_mast</Item>
+  <Item>Sanctuary</Item>
+  <Item>WindBgm</Item>
+</SimpleXmlList>

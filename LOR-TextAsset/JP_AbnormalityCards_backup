@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbnormalityCardsRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sephirah SephirahType="Malkuth">
+    <AbnormalityCard ID="FairyCarnival_Care">
+      <Abnormality>妖精の祭典</Abnormality>
+      <CardName>妖精の世話</CardName>
+      <AbilityDesc>選択時、体力を25%回復する。</AbilityDesc>
+      <FlaborText>妖精は職員を守ってくれる。世話を受けている間は全てが平穏になるでしょう。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">もう心配しないで！私たちがあなたを優しくお世話してあげる。</Dialogue>
+        <Dialogue ID="2">びっくりしないで。あなたを守るために来たの</Dialogue>
+        <Dialogue ID="3">妖精はどこに行っても神聖なものでしょう。自信持っていいよ。</Dialogue>
+        <Dialogue ID="4">慈悲深くて、自然を愛する君は世話を受けるべきだよ。</Dialogue>
+        <Dialogue ID="5">あなたは特別なの。あの人たちは人生を振り返ってちょっと反省でもしないと。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="FairyCarnival_Gluttony">
+      <Abnormality>妖精の祭典</Abnormality>
+      <CardName>食い意地</CardName>
+      <AbilityDesc>5幕の間、終了時体力を10%回復する。
+3回以上攻撃を受けたとき、現体力の25%を失い、この効果は消える。</AbilityDesc>
+      <FlaborText>妖精はただ肉を好む怪物であり、「保護する」行為は肉の鮮度が低下することを防ぐためであった。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">私たちがあなたをそばで守る理由？保護するために決まってるでしょ！</Dialogue>
+        <Dialogue ID="2">心ゆくまで妖精たちの世話を楽しんで。</Dialogue>
+        <Dialogue ID="3">君みたいな良い人は誰かに殺されちゃダメだ、絶対に。</Dialogue>
+        <Dialogue ID="4">あなたが悪いことをしない限り、私たちはあなたを傷つけないよ。</Dialogue>
+        <Dialogue ID="5">私たちを疑ってるの？悪い心を持ったんだね……。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="BeautyandtheBeast_Curse">
+      <Abnormality>美女と野獣</Abnormality>
+      <CardName>呪いの連鎖</CardName>
+      <AbilityDesc>攻撃を受けたときのダメージが1増加する。
+死亡時、自分を殺した敵はこの舞台の間、攻撃を受けたときのダメージが4増加する。</AbilityDesc>
+      <FlaborText>しかし、呪いは繰り返されるだけ、決して解かれることはないのです。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">呪いは解けないでしょう。ただ……</Dialogue>
+        <Dialogue ID="2">私が死ぬまで、ずっと苦しいままんでしょうね。</Dialogue>
+        <Dialogue ID="3">私、待つわ……。あなたが私をこの呪いから解き放ってくれるのを。</Dialogue>
+        <Dialogue ID="4">欲深い者の呪いは解けないの。ただ繰り返すだけ……</Dialogue>
+        <Dialogue ID="5">これであなたも望むはずよ。この呪いの連鎖を終わらせたいって……。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="BeautyandtheBeast_Hate">
+      <Abnormality>美女と野獣</Abnormality>
+      <CardName>自己嫌悪</CardName>
+      <AbilityDesc>全ダイスが50%の確率で強化される。
+ダイスを振る度に体力を1-2失う。</AbilityDesc>
+      <FlaborText>私にとっては一秒一秒が苦痛なの。
+果てしない苦しみを味わうよりは死ぬほうがマシよ。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">私一人じゃ出来ない……誰か私を助けて。</Dialogue>
+        <Dialogue ID="2">私がとても醜くて、気持ち悪くて、我慢できない。</Dialogue>
+        <Dialogue ID="3">どうして私を助けてくれないの？こんなに助けを求めているのに。</Dialogue>
+        <Dialogue ID="4">あなたの手で、私を殺して。</Dialogue>
+        <Dialogue ID="5">早く私を殴って！この苦しみを終わらせたいの……。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ScorchedGirl_Walk">
+      <Abnormality>燃え尽きた少女</Abnormality>
+      <CardName>歩み</CardName>
+      <AbilityDesc>体力が20%以下の場合、対象に到着したときに全体力の30%のダメージを与えて死亡する。</AbilityDesc>
+      <FlaborText>君の元へ行く。もうすぐ私のように灰になってしまう君の元へ。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">もし私が消えちゃわないといけないなら、一緒に行こう。</Dialogue>
+        <Dialogue ID="2">１人で死ぬには悲し過ぎるじゃない……この気持ち、分かってくれる？</Dialogue>
+        <Dialogue ID="3">待ってて。灰になる君の元へ向かってるから……。</Dialogue>
+        <Dialogue ID="4">一歩、一歩……。黒く焦げて。</Dialogue>
+        <Dialogue ID="5">黒く燃え尽きた私にできることって、何かありますか？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ScorchedGirl_Ashes">
+      <Abnormality>燃え尽きた少女</Abnormality>
+      <CardName>灰</CardName>
+      <AbilityDesc>攻撃を受けたときのダメージが1減少する。</AbilityDesc>
+      <FlaborText>「黒く燃え尽きた体はその子の砕け散った希望、それでもなお燃え続ける炎は、愛情を渇望する執着だと思われます。」</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">全ての明るいものを１つ残らず燃やし尽くすため……</Dialogue>
+        <Dialogue ID="2">黒く燃え尽きた身体は二度と戻ってこないってことは分かってます。</Dialogue>
+        <Dialogue ID="3">灰になるのは怖いけど……火を消したくないんです。</Dialogue>
+        <Dialogue ID="4">炎の向こうに幸せを感じるの。暖かさと……。</Dialogue>
+        <Dialogue ID="5">いつか灰になって、自由になれる日が来るかもしれません。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="HappyTeddyBear_Hug">
+      <Abnormality>幸せなテディ</Abnormality>
+      <CardName>懐かしいあの日の抱擁</CardName>
+      <AbilityDesc>マッチ勝利時、10%の確率で相手にダイスの数だけ混乱ダメージを与える。 
+同じ相手とマッチする度に確率が増加する。</AbilityDesc>
+      <FlaborText>テディが誰かをぎゅっと抱きしめてたんです。テディはハグが大好きだったんですよ。でも、ちょっと変だったんです。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">僕をぎゅって抱きしめてくれない？気持ちが楽になるよ。</Dialogue>
+        <Dialogue ID="2">みんなハグは好きだよ。そうだよね？</Dialogue>
+        <Dialogue ID="3">おいで、このふかふかで暖かい僕に触れてみて。</Dialogue>
+        <Dialogue ID="4">大丈夫。怖くないよ。ただ、ギュッて抱きしめてあげるだけだよ。</Dialogue>
+        <Dialogue ID="5">疲れたよね？僕の胸で休んでいいよ。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="HappyTeddyBear_Memory">
+      <Abnormality>幸せなテディ</Abnormality>
+      <CardName>幸せな思い出</CardName>
+      <AbilityDesc>所持ページからコストが一番高いページが1つ選ばれる。そのページと同じページ使う度にコストが1ずつ減少する。</AbilityDesc>
+      <FlaborText>でもテディはね、二度と持ち主と離れたくなかったの。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">どうして僕から離れるの？あんな仲良くしてたのに……</Dialogue>
+        <Dialogue ID="2">離れないでよ。もう一回ぎゅって抱きしめてくれたら気が変わるよ。</Dialogue>
+        <Dialogue ID="3">またさよならするのは悲しいよ……</Dialogue>
+        <Dialogue ID="4">どうして僕を置いていくのにまた会おうって言うの？</Dialogue>
+        <Dialogue ID="5">僕が強く抱きしめすぎて嫌いになっちゃったの？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheDreamingCurrent_Sea">
+      <Abnormality>夢見る流れ</Abnormality>
+      <CardName>虹色の海</CardName>
+      <AbilityDesc>3幕の間、すべてのキャラクターの速度が3減少する。
+3幕の間、すべてのキャラクターが幕の開始時に現在の体力の10％を失い、光を1回復する。</AbilityDesc>
+      <FlaborText>海に連れて行ってもらう代わりに、海を見れるキャンディーを貰った。色とりどりの夜と昼が過ぎた。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">海が見たいんです。きらめく海を……。</Dialogue>
+        <Dialogue ID="2">虹色に光るきらびやかな流れを、みんなで一緒に眺めよう。</Dialogue>
+        <Dialogue ID="3">海の入ったキャンディーを見るだけで気分が良くなるんです。</Dialogue>
+        <Dialogue ID="4">美しいものを見るときは、ゆっくり歩いてもいいじゃないですか。</Dialogue>
+        <Dialogue ID="5">僕の目も虹色に染まるんだ。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheDreamingCurrent_Run">
+      <Abnormality>夢見る流れ</Abnormality>
+      <CardName>かけっこ</CardName>
+      <AbilityDesc>速度が3増加する</AbilityDesc>
+      <FlaborText>ただ、その子ができるのは、太陽の下の芝生の代わりに狭い実験室を、不安だけど期待に胸を膨らませて走っていくことだ。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">どの味のキャンディーを食べるか……ドキドキしてるんですよね。</Dialogue>
+        <Dialogue ID="2">嬉しすぎてじっとしてられないんです。</Dialogue>
+        <Dialogue ID="3">いつかもっと広い場所を走り回れるようになれるんですか？</Dialogue>
+        <Dialogue ID="4">広い草原と暖かい日差しなんかを望んではいないんです。</Dialogue>
+        <Dialogue ID="5">幸せな夢を見たんです。海の中を泳ぐ……そんな夢。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheDreamingCurrent_candy">
+      <Abnormality>夢見る流れ</Abnormality>
+      <CardName>キャンディー</CardName>
+      <AbilityDesc>幕の開始時、それぞれの敵が20%の確率でこの幕の間、無差別にキャンディーを得る。
+キャンディーを持った敵に与えるダメージが50%増加する。ぶどう味のキャンディーの場合、100%増加する。</AbilityDesc>
+      <FlaborText>今日はぶどう味のキャンディーって言ってあげてください、あの子が一番好きな味なんですよ。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">今日はどんな味のキャンディーをくれるんですか？</Dialogue>
+        <Dialogue ID="2">ぶどう味のキャンディーって言ってください。一番好きなんです。</Dialogue>
+        <Dialogue ID="3">ぶどう味じゃなくてもいいんです。</Dialogue>
+        <Dialogue ID="4">私にとってキャンディーを食べることは……ささやかな幸せなんです。</Dialogue>
+        <Dialogue ID="5">キャンディーを美味しく食べれば、私は幸せに眠れると思うんです。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="27thofMarch_Shelter">
+      <Abnormality>3月27日のシェルター</Abnormality>
+      <CardName>シェルター</CardName>
+      <AbilityDesc>この幕の間、朦朧状態になる。
+この幕の間、行動できない。
+体力を50%回復する。</AbilityDesc>
+      <FlaborText>内部は完璧に安全だった防空壕は、外部の現実をもっと大きな絶望に調整する。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">あなたをこの世界で一番安全に守ることができます。</Dialogue>
+        <Dialogue ID="2">外の音は気にしないでください。あなたには関係ないですから。</Dialogue>
+        <Dialogue ID="3">あなたが耐えるのなら、長い年月の間もびくともしないでしょう。</Dialogue>
+        <Dialogue ID="4">この中にいれば、あなただけは安全です。</Dialogue>
+        <Dialogue ID="5">やはり、我が身の安全が一番ですよね。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Yesod">
+    <AbnormalityCard ID="1.76 MHz_MHz">
+      <Abnormality>1.76 MHz</Abnormality>
+      <CardName>1.76 MHz</CardName>
+      <AbilityDesc>味方全員の攻撃ダイスの威力が0-1増加する。
+味方全員の守備ダイスの威力が0-1減少する。</AbilityDesc>
+      <FlaborText>何が職員たちに憤りを感じさせたのか判明しなかった。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">助けて… ここは… 怪物… … … たって.</Dialogue>
+        <Dialogue ID="2">私のこ… … 聞こえる？ … …なら返事 … … して.</Dialogue>
+        <Dialogue ID="3">… … 要請 ... … 助けが … … … です…</Dialogue>
+        <Dialogue ID="4">突如現れた… … … により… 全て… …</Dialogue>
+        <Dialogue ID="5">非常… … … 方は全員… … …退避… …</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="1.76MHz_423">
+      <Abnormality>1.76 MHz</Abnormality>
+      <CardName>4月23日の記憶</CardName>
+      <AbilityDesc>ページを使用する時、ダイスのダメージ量が攻撃ダイスの数だけ増加する。</AbilityDesc>
+      <FlaborText>多くの人々には忘れ去られたけど、決して忘れ去られてはならないその現場、その混沌の中にみんなを連れてゆく。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">みんなが忘れたとしても、私たちはこの日を絶対に忘れてはならないんだ……。</Dialogue>
+        <Dialogue ID="2">ぼやけたなら、いつでも繰り返してあげる。</Dialogue>
+        <Dialogue ID="3">覚えて。決して消してしまっては駄目。どんな理由であろうとも。</Dialogue>
+        <Dialogue ID="4">君たちが、いつもこの周波数に合わせていることを望む。</Dialogue>
+        <Dialogue ID="5">いつか、思い出さないといけないだろう。この残酷な事件を。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ForsakenMurderer_Tie">
+      <Abnormality>捨てられた殺人鬼</Abnormality>
+      <CardName>縛られた怒り</CardName>
+      <AbilityDesc>速度が2減少する。
+与ダメージ量が1-3増加する。</AbilityDesc>
+      <FlaborText>全身を拘束具で縛られているが、彼は誰よりも自由であり、暴力を抑制するには到底及ばない。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">身体は縛られていても……俺は誰よりも自由な人間なんだろう。</Dialogue>
+        <Dialogue ID="2">解いて……どうして俺を縛るんだよ！</Dialogue>
+        <Dialogue ID="3">そんな目で見るな。俺よりも可哀想なのはそう、お前たちだ……。</Dialogue>
+        <Dialogue ID="4">こんなので俺を縛っとけるわけないだろう！</Dialogue>
+        <Dialogue ID="5">こんなザマになっても、お前らはずっと恐れ続けるんだろうな。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ForsakenMurderer_Metal">
+      <Abnormality>捨てられた殺人鬼</Abnormality>
+      <CardName>金属音</CardName>
+      <AbilityDesc>打撃ダイスが強化される。</AbilityDesc>
+      <FlaborText>「頭が……金属に……脳のシワが伸びて……。」</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">頭の中で響いてる。澄んでるけど、うるさい金属の音が……。</Dialogue>
+        <Dialogue ID="2">頭が、冷たい鉄の塊になってくみたいだ。</Dialogue>
+        <Dialogue ID="3">本当に、私の頭が鉄になってるんですか？</Dialogue>
+        <Dialogue ID="4">頭がぶつかれば、軽快な音が響き渡る。</Dialogue>
+        <Dialogue ID="5">頭が鉄に変われば、脳の皺まで無くなるだろう。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="LittleHelper_Clean">
+      <Abnormality>何でもお手伝いします</Abnormality>
+      <CardName>掃除道具</CardName>
+      <AbilityDesc>斬撃ダイスが強化される。</AbilityDesc>
+      <FlaborText>本来、掃除道具が付いているべき手や足の部分に鋭い切断道具が付いていた。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">何でもお手伝いする、お手伝いロボットです！</Dialogue>
+        <Dialogue ID="2">どんな作業をお望みですか？何でも出来ますよ。</Dialogue>
+        <Dialogue ID="3">汚染感知完了。掃除作業を開始します。</Dialogue>
+        <Dialogue ID="4">ぴびびっ～ぴっ。汚染対象発見！ゴミ処理を実行します。</Dialogue>
+        <Dialogue ID="5">たくさんの道具であなたをお手伝いいたします。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="LittleHelper_Pattern">
+      <Abnormality>何でもお手伝いします</Abnormality>
+      <CardName>パターン反復認識機能</CardName>
+      <AbilityDesc>この幕の間、敵に10以上のダメージを与えた場合、幕の終了時にクイック3とパワー1を得る.</AbilityDesc>
+      <FlaborText>僕が初めて新しい家に送られた日、僕はみんなが待ち望んでいたプレゼントを渡した。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">掃除が終わると、みんな褒めてくれるんです！</Dialogue>
+        <Dialogue ID="2">大声で命令なさってます。このまま続けていいんですね。</Dialogue>
+        <Dialogue ID="3">ぴぽ～ぴっ！パターン蓄積完了。</Dialogue>
+        <Dialogue ID="4">人間は声を上げて褒めることが好きです。</Dialogue>
+        <Dialogue ID="5">お手伝いロボの学習能力は、とても優れています。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Schadenfreude_See">
+      <Abnormality>シャーデンフロイデ</Abnormality>
+      <CardName>視線</CardName>
+      <AbilityDesc>マッチ終了時、相手に25%の確率で虚弱2と武装解除2を付与する。</AbilityDesc>
+      <FlaborText>機械の中の鍵穴から、誰かの粘っこい視線を感じる。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">あなたが何をしようとも、目はいつもあなたを追いかけるでしょう。</Dialogue>
+        <Dialogue ID="2">視線から逃れたいと思っても、それはどこにでもあるでしょう。</Dialogue>
+        <Dialogue ID="3">他人の不幸を盗み見て、自分を慰めたことはありませんか？</Dialogue>
+        <Dialogue ID="4">あなたがすべてを諦めるその瞬間すらも、逃しません。</Dialogue>
+        <Dialogue ID="5">不安になって振り返ったところで無駄ですよ。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Schadenfreude_Eye">
+      <Abnormality>シャーデンフロイデ</Abnormality>
+      <CardName>ひと目</CardName>
+      <AbilityDesc>マッチ進行時、全ダイスの威力が0-2増加。
+一方攻撃時、全ダイスの威力が0-2減少する。</AbilityDesc>
+      <FlaborText>幻想体に向かって10秒以上立つ。5秒後、幻想体は攻撃的な兆しを見せつつ職員へと接近。実験を中断。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">誰かに見られているって、気持ちが悪いものだ。</Dialogue>
+        <Dialogue ID="2">私に目を向けるな。 私を見るな。</Dialogue>
+        <Dialogue ID="3">視線を逸らさないなら、その目玉を抜き取るのもアリだから。</Dialogue>
+        <Dialogue ID="4">盗み見るなら、独りでやるものだ。</Dialogue>
+        <Dialogue ID="5">視線が交わるのって、何か晒してる感じがするから嫌だ。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="YouMustBeHappy_Q">
+      <Abnormality>あなたは幸せでなければならない</Abnormality>
+      <CardName>質問</CardName>
+      <AbilityDesc>ページの最初のダイスは最大値、あるいは最小値のみ出る。</AbilityDesc>
+      <FlaborText>あなたは、あなたの都市を愛していますか？</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">あなたは都市を愛していますか？</Dialogue>
+        <Dialogue ID="2">返事は早ければ早いほどよろしいです。</Dialogue>
+        <Dialogue ID="3">答えは「そうだ」と「そうでない」の2つです。</Dialogue>
+        <Dialogue ID="4">「そうでない」とお答えした場合、残念ながら退院することが出来ません。</Dialogue>
+        <Dialogue ID="5">「そうだ」と答える義務はないのですが……理解しましたか？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChangeAnything_Energy">
+      <Abnormality>何でも変えて差し上げます</Abnormality>
+      <CardName>エネルギー変換</CardName>
+      <AbilityDesc>ページを使用するたび、所持ページから無作為にページ1枚を捨てて光を1回復する。</AbilityDesc>
+      <FlaborText>機械を開けて中に入り、閉じるボタンを押してください。全てが良くなるでしょう。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">あなたの気に入らないもの全てを変えて差し上げるロボットです。</Dialogue>
+        <Dialogue ID="2">あなたの力、弱すぎるばかりでお気に召しませんか？</Dialogue>
+        <Dialogue ID="3">不満なものを変えて差し上げます。</Dialogue>
+        <Dialogue ID="4">全てが良くなるでしょう。</Dialogue>
+        <Dialogue ID="5">この中は快適のそのものですので、あまり心配なさらないでください。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Variant_Dimensional">
+      <Abnormality>次元屈折変異体</Abnormality>
+      <CardName>次元屈折</CardName>
+      <AbilityDesc>今回の戦闘の間、朦朧を得る。
+このキャラクターの攻撃では相手の攻撃対象を変更することが出来ない。</AbilityDesc>
+      <FlaborText>その空間は真空状態だ。厳密に言うと、幻想体そのものが真空現象だ。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">それはあなたの手足を丁寧に捥ぐでしょう。</Dialogue>
+        <Dialogue ID="2">胴体だけになりたくなかったら、周囲に神経を尖らせてください。</Dialogue>
+        <Dialogue ID="3">ただ、常に緊張するべきだ、ということしか言えません。</Dialogue>
+        <Dialogue ID="4">心眼で見ろ、というふざけた話を真に受けないでください。</Dialogue>
+        <Dialogue ID="5">その空間は真空状態です。息はできません。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Behavior_Adjustment">
+      <Abnormality>行動矯正</Abnormality>
+      <CardName>矯正</CardName>
+      <AbilityDesc>マッチ敗北時、50%の確率で次の攻撃ダイスが強化される。</AbilityDesc>
+      <FlaborText>悪い人、傲慢な人、破廉恥な人。分け隔てなく、全ての人間が公明正大になるよう矯正してくれる。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">全ての人間が公明正大になれるよう、矯正して差し上げます。</Dialogue>
+        <Dialogue ID="2">このデバイスに頼りすぎないでください。</Dialogue>
+        <Dialogue ID="3">本機器をご利用の際は、決して考えることを止めてはいけません。</Dialogue>
+        <Dialogue ID="4">矯正したかった心を、すぐさま手放すことのないようお願いします。</Dialogue>
+        <Dialogue ID="5">あなたの行動を正して差し上げます。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Hod">
+    <AbnormalityCard ID="SpiderBud_Cocoon">
+      <Abnormality>蜘蛛のつぼみ</Abnormality>
+      <CardName>繭</CardName>
+      <AbilityDesc>攻撃が的中したとき、ダイスの目が最大なら相手に混乱ダメージを2-4与え、脆弱1を付与する。</AbilityDesc>
+      <FlaborText>繭になった職員の死体を救いに行こうとする人はいなかった。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">誰が私の子を踏んだの？</Dialogue>
+        <Dialogue ID="2">誰も知らないのね。繭の中の食料は、死んでないってこと。</Dialogue>
+        <Dialogue ID="3">蜘蛛の毒は特別だから、食料がすぐに死なないのよ。</Dialogue>
+        <Dialogue ID="4">足元に気をつけて。ドジを踏んだら、頭上に気をつけて。</Dialogue>
+        <Dialogue ID="5">こいつらを救おうとする人はいなかったわね。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="SpiderBud_Dinner">
+      <Abnormality>蜘蛛のつぼみ</Abnormality>
+      <CardName>食事</CardName>
+      <AbilityDesc>攻撃が的中したとき、相手が混乱状態なら体力を2-7回復する。</AbilityDesc>
+      <FlaborText>繭になったピーター職員は、隔離室の天井にぶら下がったまま、蜘蛛の愛しい子どもたちの食料になったのだろう。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">喜びなさい。私の子どもたちが幸せになるのよ。</Dialogue>
+        <Dialogue ID="2">育ち盛りの子どもはいつもお腹が空いてるものよ。</Dialogue>
+        <Dialogue ID="3">食べていくにはしょうがないでしょう。</Dialogue>
+        <Dialogue ID="4">食料が豊かにあると、心が落ち着くわね。</Dialogue>
+        <Dialogue ID="5">さぁ、おいしそうな食料もできたし……みんな、おいで。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ShyLookToday_Face">
+      <Abnormality>恥ずかしがり屋の今日の顔</Abnormality>
+      <CardName>今日の表情</CardName>
+      <AbilityDesc>表情が持続的に変化する。
+現在の表情によってダイスの威力が変更される。(最小 -2, 最大 +3)</AbilityDesc>
+      <FlaborText>ある日、再び太陽が差したそんな良い日、丁寧に洗濯物を乾かしてたあの日のように、自分の皮を乾かした。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">恥ずかしいからです。恥ずかしがり屋なんです……。</Dialogue>
+        <Dialogue ID="2">悲しい表情は都市に似合う表情ではありませんよ。</Dialogue>
+        <Dialogue ID="3">自分をもっとはっきり表すことは……とっても大事ですよね。</Dialogue>
+        <Dialogue ID="4">この裏は見ないでください。最低限の礼儀じゃないですか。</Dialogue>
+        <Dialogue ID="5">あなたも私みたいにニッコリ笑ってください。簡単ですよね？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="OldLady_Lonely">
+      <Abnormality>老婆</Abnormality>
+      <CardName>孤独</CardName>
+      <AbilityDesc>一方攻撃が的中する度、15%の確率で次の2幕の間、孤独を付与する。
+一方攻撃を行う度に確率が5%増加する。
+孤独が付与されたキャラクターは速度が2減少し、幕の開始時ダメージを1-2受ける(重複不可)</AbilityDesc>
+      <FlaborText>生前はあんなに饒舌な人であったが、最期に彼女の話を聞くのは孤独さだけであった。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">それ、ばあやが寂しくないよう、そばに来ておくれよ。</Dialogue>
+        <Dialogue ID="2">年を取ると、誰もわたしの元へ来てはくれないのねぇ。</Dialogue>
+        <Dialogue ID="3">最後までわたしの話を聞いてくれるのは、この静けさだけねぇ。</Dialogue>
+        <Dialogue ID="4">どうして、だれもばあやのそばに来てくれないのかねぇ……。</Dialogue>
+        <Dialogue ID="5">こういう風に忘れられて、１人で最期を迎えると思うと恐ろしいねぇ……。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="OldLady_Story">
+      <Abnormality>老婆</Abnormality>
+      <CardName>物語</CardName>
+      <AbilityDesc>混乱抵抗値の最大値が25%減少する。
+被ダメージ量が1-2増加する。</AbilityDesc>
+      <FlaborText>彼女の話を聞き続けることは、よろしくありません。この世に存在するすべての物語のみならず、この世に存在し得ない物語まで知っています。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">坊や、坊や……昔話でも聞いていくかい？</Dialogue>
+        <Dialogue ID="2">よし、よし……坊やはどんなお話が好きだい？</Dialogue>
+        <Dialogue ID="3">それ、ばあやの隣におすわり。おもしろいお話を聞かせてあげるからねぇ。</Dialogue>
+        <Dialogue ID="4">どれどれ……一緒にどうぶつさんのおうたでも歌うかい？</Dialogue>
+        <Dialogue ID="5">ばあやは物知りだからね。なんでも話してあげられるんだよ。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MeatLantern_Predation">
+      <Abnormality>肉の提灯</Abnormality>
+      <CardName>捕食</CardName>
+      <AbilityDesc>自分より速度の速い相手とマッチするとき、ダメージ量が1-3増加する。</AbilityDesc>
+      <FlaborText>あ、それ死ぬ。最期に花でも眺めといて。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">そのまま花でも眺めといて……。そっちのが多分楽だと思う……。</Dialogue>
+        <Dialogue ID="2">もう僕の上に立ってるじゃん……。 遅いよ……。</Dialogue>
+        <Dialogue ID="3">心配しないで……そう長くはないから……。</Dialogue>
+        <Dialogue ID="4">エサは勝手に僕の方へと近寄ってくるしなぁ……。</Dialogue>
+        <Dialogue ID="5">僕はタイミングを合わせて、口を閉じるだけ……。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MeatLantern_Bait">
+      <Abnormality>肉の提灯</Abnormality>
+      <CardName>擬餌</CardName>
+      <AbilityDesc>速度とは関係なく、このキャラクターが攻撃する相手はこのキャラクターを攻撃するようになる。守備ダイスの威力は0-1増加する。</AbilityDesc>
+      <FlaborText>つぼみが輝いてるんですけど、すごく不思議ですね。私だけじゃなくて、沢山の職員がこの花を見つめてます……。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">この明かりは、暗闇を照らしてくれるんだ……。</Dialogue>
+        <Dialogue ID="2">ほんと綺麗でしょう……もっと近くで見てもいいよ……。</Dialogue>
+        <Dialogue ID="3">光は闇を照らすためもの、だけじゃないんだよ……。</Dialogue>
+        <Dialogue ID="4">きれいなものには自然と足が向くよね……。</Dialogue>
+        <Dialogue ID="5">もう少し……寄って……ほんの少しだけ……。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MeatLantern_Ambush">
+      <Abnormality>肉の提灯</Abnormality>
+      <CardName>埋没</CardName>
+      <AbilityDesc>幕の終了時に体力が20%以下の場合、次の幕の間、朦朧を獲得する。</AbilityDesc>
+      <FlaborText>廊下で移動するのではなく、会社の地盤を通って移動するので、脱走ルートを予測することは不可能である。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">擬餌より大切なのは、どうやって隠れてるか……。</Dialogue>
+        <Dialogue ID="2">誰にもばれないように……しっかり隠れてなきゃ……。</Dialogue>
+        <Dialogue ID="3">こうやっていれば……誰も僕を見つけられないはず……。</Dialogue>
+        <Dialogue ID="4">闇の中で静かに……エサを待って……。</Dialogue>
+        <Dialogue ID="5">隠れてる僕を見つけられずに、ただやられるだけだね……。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Porccubus_Thorn">
+      <Abnormality>ポーキュバス</Abnormality>
+      <CardName>トゲ</CardName>
+      <AbilityDesc>攻撃が的中したとき、50%の確率で相手の次の守備ダイス1つを最大値-3にする。</AbilityDesc>
+      <FlaborText>最初はとげ１つを肌にそっと刺すくらいだったのに、今では全身を狂ったように擦り付けないと最初のような刺激は得られません。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">うん、背中を下げたげる～。私を撫でられるようにね。</Dialogue>
+        <Dialogue ID="2">怖いのは最初だけ、その次からは難しくないと思うよ。</Dialogue>
+        <Dialogue ID="3">私の下に来て。苦しみから解き放ってあげる。</Dialogue>
+        <Dialogue ID="4">ほんの小さな天国を味わうくらいなら大丈夫でしょ？</Dialogue>
+        <Dialogue ID="5">幸せを知らない人って可哀想ねぇ～。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Porccubus_Happy">
+      <Abnormality>ポーキュバス</Abnormality>
+      <CardName>快楽</CardName>
+      <AbilityDesc>最大体力の20%に相当するダメージを受ける度に光を2回復する。
+被ダメージ時、体力が25%以下になった場合、死亡する。</AbilityDesc>
+      <FlaborText>もう私の頭が爆ぜる時間です、ではさよなら。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">耐えられない快楽だけを望むのであれば、結局破滅する。</Dialogue>
+        <Dialogue ID="2">私はただ、あなたたちに死ぬほどの笑いをプレゼントしただけよ～。</Dialogue>
+        <Dialogue ID="3">一から初めて、少しずつ増えていくのよ。</Dialogue>
+        <Dialogue ID="4">そろそろ、頭が爆発するくらい幸せになるわ。</Dialogue>
+        <Dialogue ID="5">ひとたび蜜の味を知れば、止められないのよ。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="RedShoes_Kirakira">
+      <Abnormality>赤い靴</Abnormality>
+      <CardName>艷やか</CardName>
+      <AbilityDesc>幕の開始時、敵がそれぞれ50%の確率で魅了される。
+魅了された敵はダメージ量が2-4増加し、このキャラクターを攻撃する。
+魅了された敵を攻撃時、ダメージ量が3-5増加する。</AbilityDesc>
+      <FlaborText>靴の色は無彩色であった。
+直に赤く染まるであろう。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">赤色がとっても鮮やかで眩しいでしょう？</Dialogue>
+        <Dialogue ID="2">この人さえ始末すれば……靴はあなたのものよ。</Dialogue>
+        <Dialogue ID="3">大丈夫。足首を切れば簡単に靴を脱がせられるから。</Dialogue>
+        <Dialogue ID="4">あなた、この場所で一番輝く人になりたくはない？</Dialogue>
+        <Dialogue ID="5">この美しさはあなただけのものよ。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="RedShoes_Desire">
+      <Abnormality>赤い靴</Abnormality>
+      <CardName>血色の欲望</CardName>
+      <AbilityDesc>速度が1増加する。攻撃が的中したとき、50%の確率で出血1を付与する。
+ポジティブコインが生成されるとき、50%の確率でネガティブコインが代わりに生成される。</AbilityDesc>
+      <FlaborText>足を切り刻んであげる。二度と踊れないように。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">一番注目されるのは私じゃないと！</Dialogue>
+        <Dialogue ID="2">私だけが美しく踊れるように……。</Dialogue>
+        <Dialogue ID="3">永遠に踊れなくしてあげる。</Dialogue>
+        <Dialogue ID="4">その足を使えないようにすれば、私が主役になれるのかな？</Dialogue>
+        <Dialogue ID="5">あなたの最後のダンスを見せて。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Netzach">
+    <AbnormalityCard ID="UniverseZogak_Echo">
+      <Abnormality>宇宙の欠片</Abnormality>
+      <CardName>エコー</CardName>
+      <AbilityDesc>自分の体力が20%以下の場合、被ダメージ時に50%の確率で自分と攻撃者の全ダイスを破壊する。</AbilityDesc>
+      <FlaborText>目の前に歌声が見える。それは段々華やかに、瞬く間にあなたへと近づいてくる。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">歌。歌う。人間。歌。耳。聞く。</Dialogue>
+        <Dialogue ID="2">歌。神経。集中。瞬間。見る。いる。</Dialogue>
+        <Dialogue ID="3">目。閉じる。感覚。来る。華やか。来る。幸せ。以上。</Dialogue>
+        <Dialogue ID="4">理解。完璧。瞬間。知る。我々の知識。意味。伝える。</Dialogue>
+        <Dialogue ID="5">する。一緒。歌う。歌。悟る。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="UniverseZogak_Tentacle">
+      <Abnormality>宇宙の欠片</Abnormality>
+      <CardName>触手</CardName>
+      <AbilityDesc>貫通ダイスが強化される。</AbilityDesc>
+      <FlaborText>その触手に貫かれた瞬間、その人はもうこれ以上、今の人生に何の興味も持たなくなるでしょう。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">否定。攻撃。来る。助け。する。</Dialogue>
+        <Dialogue ID="2">我々の知識。ただ。渡す。伝える。ない。</Dialogue>
+        <Dialogue ID="3">人間。攻撃。私。守る。よって。攻撃。</Dialogue>
+        <Dialogue ID="4">攻撃。速い。刺す。</Dialogue>
+        <Dialogue ID="5">人間。攻撃。魂。消える。ない。望む。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChildofGalaxy_Friend">
+      <Abnormality>銀河の子</Abnormality>
+      <CardName>友達</CardName>
+      <AbilityDesc>前の幕で攻撃した相手に攻撃を的中させる毎に体力を2-3回復する。
+前の幕で攻撃した相手と別の相手に攻撃を的中させるたびダメージを1-2受ける。</AbilityDesc>
+      <FlaborText>僕よりあいつが好きなの？僕より？当たり前でしょう？僕は全部分かるんだ。君がどこに行こうと。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">どうして、その友達のところに行ったの……僕よりあいつのが良いの？</Dialogue>
+        <Dialogue ID="2">僕は君を大切にしてるのに、君は僕を大事にしてくれないんだね……。</Dialogue>
+        <Dialogue ID="3">君がどこへ行こうと、何をしようと……全部見てるよ。</Dialogue>
+        <Dialogue ID="4">ずっと僕のそばにいてくれないなら、いらない。</Dialogue>
+        <Dialogue ID="5">さよなら、そして二度と来るな。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChildofGalaxy_Tear">
+      <Abnormality>銀河の子</Abnormality>
+      <CardName>涙</CardName>
+      <AbilityDesc>死亡時、全てのキャラクターは体力を「このキャラクターの全体力の25%」だけ失う。</AbilityDesc>
+      <FlaborText>あの子の話し声と息遣いが聞こえる。たちまち真っ暗な闇が……あの子を初めて見た日の夜のように……。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">僕と一緒に天の川を歩こう。</Dialogue>
+        <Dialogue ID="2">君も小石になって、一緒になるんだ。</Dialogue>
+        <Dialogue ID="3">あの日の夜みたいに、また戻ろう。</Dialogue>
+        <Dialogue ID="4">君に会えて、僕は本当に嬉しいんだ。</Dialogue>
+        <Dialogue ID="5">僕がまた泣いてたら、僕の涙を拭って。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChildofGalaxy_Token">
+      <Abnormality>銀河の子</Abnormality>
+      <CardName>友達の証</CardName>
+      <AbilityDesc>3幕の間、幕の開始にすべての味方の体力を10%回復する。
+他の味方が死亡するたび、体力を「最大体力の20%」失う。</AbilityDesc>
+      <FlaborText>あなたの手に落ちた小石は、輝き、揺らめき、くすぐり、宇宙になる。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">絶対に無くさないでね、他の人にもあげないでね。</Dialogue>
+        <Dialogue ID="2">友達の記念に贈るプレゼントだよ。大事にしてね。</Dialogue>
+        <Dialogue ID="3">君がこれを持ち歩くのなら、僕はいつも君のそばにいるよ。</Dialogue>
+        <Dialogue ID="4">いつも僕のそばにいてくれるんだよ？約束、忘れないでね。</Dialogue>
+        <Dialogue ID="5">友達が怪我をしたら……それは悲しいことじゃないか。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="SingingMachine_Music">
+      <Abnormality>歌う機械</Abnormality>
+      <CardName>音楽</CardName>
+      <AbilityDesc>攻撃が的中したとき、50%の確率で次の攻撃ダイス強化される。</AbilityDesc>
+      <FlaborText>けれど、どんなものも人間より立派な音楽にはならなかったのです。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">人間ほど立派な音楽になれるものはないな。</Dialogue>
+        <Dialogue ID="2">美しい歌が聴きたくはないか？やり方は分かってるじゃないか。</Dialogue>
+        <Dialogue ID="3">大丈夫。あの子もきっと良い楽器になりたいって思ってるよ。</Dialogue>
+        <Dialogue ID="4">人間は誰しも、音楽的な才能を持っているんだ。</Dialogue>
+        <Dialogue ID="5">さぁ、勇気ある者は私に近寄れ。私と一緒に奏でよう。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="SingingMachine_Rhythm">
+      <Abnormality>歌う機械</Abnormality>
+      <CardName>リズム</CardName>
+      <AbilityDesc>このキャラクターはリズムを得る。
+リズムは攻撃ダイスを50%の確率で強化し、被ダメージを1-3増加させる。
+リズムを持ったキャラクターが敵を殺す度、リズムのないキャラクターがランダムで１名リズムを得る。</AbilityDesc>
+      <FlaborText>それは、リズムでした。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">みんなが私の歌をまた聞きたいと思ってるんだな。</Dialogue>
+        <Dialogue ID="2">いろんな音が合わさって音楽になるんだ。</Dialogue>
+        <Dialogue ID="3">誰も彼も、我先に楽器になりたがるから…。</Dialogue>
+        <Dialogue ID="4">みんなが身を投げれば、きっとますます甘美な音色が出るだろう。</Dialogue>
+        <Dialogue ID="5">もう、他の音楽は聞けなくなるだろう。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheLittlePrince_Bigbusut">
+      <Abnormality>小さな王子</Abnormality>
+      <CardName>大きなキノコ</CardName>
+      <AbilityDesc>全てのキャラクターは被ダメージ時、追加で混乱ダメージを2-4受ける。</AbilityDesc>
+      <FlaborText>幻想体を大きなキノコとしか認識できないなら、それはお前が曇った目で見てるからだ。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">僕たちは他の者と違って、本質が見れるんだよ。</Dialogue>
+        <Dialogue ID="2">心を得るのはとても難しいことだね。</Dialogue>
+        <Dialogue ID="3">僕に一歩ずつ、ゆっくり歩いてきてごらん。</Dialogue>
+        <Dialogue ID="4">君は他の者と違って、僕の声が聞けるんだね。</Dialogue>
+        <Dialogue ID="5">僕たち、友達っていえるのかな？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Alriune_Bush">
+      <Abnormality>アルリウネ</Abnormality>
+      <CardName>茂み</CardName>
+      <AbilityDesc>相手を混乱状態にした時、ダメージ5-7を与える。</AbilityDesc>
+      <FlaborText>春が近づいている。 
+そうして徐々に私の絶望は、夢見心地に始まった。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">土から生まれたから、また土へと還るんだよ。</Dialogue>
+        <Dialogue ID="2">枯れもしない花と共に、私の絶望は夢見心地に始まったことを。</Dialogue>
+        <Dialogue ID="3">人間に可愛がられ、人間になりたかったの。</Dialogue>
+        <Dialogue ID="4">ヒビが割れても、その隙間には愛らしい花が咲くのね。</Dialogue>
+        <Dialogue ID="5">あなたが、私の願いを叶えてくれるのかい？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Alriune_flower">
+      <Abnormality>アルリウネ</Abnormality>
+      <CardName>花びら</CardName>
+      <AbilityDesc>この幕でダイスが3つのカードを使用した場合、幕の終了時に他のすべてのキャラクターにダメージを1-5与え、次の幕の間、朦朧を付与する。</AbilityDesc>
+      <FlaborText>涙の代わり、花びらを落として君は私に言った。 
+かつて、私たちはみんな土だったから、ここで終わりを告げないでくれと。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">目玉がなくても、すべて見えるんだよ。</Dialogue>
+        <Dialogue ID="2">全ての息あるものと共に、土へ還ろう。</Dialogue>
+        <Dialogue ID="3">私の贖罪は、冷たさと共に息を切らして済ませましたことを。</Dialogue>
+        <Dialogue ID="4">この花たちは枯れもせず、やたらと咲くのね。</Dialogue>
+        <Dialogue ID="5">暗い森に捨てられ、ただ心と体がすり減るだけだった。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Rudolta_Gift">
+      <Abnormality>そりのルドル・タ</Abnormality>
+      <CardName>プレゼント</CardName>
+      <AbilityDesc>マッチ勝利時、50%の確率で束縛2を付与し、混乱ダメージを1-2与える。</AbilityDesc>
+      <FlaborText>私の限りない憎悪を込めて、あなたにこのプレゼントを差し上げます。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">幸せな子供はみんな、プレゼントを受け取る資格があります！</Dialogue>
+        <Dialogue ID="2">私の限りない憎悪を込め、このプレゼントを差し上げます。</Dialogue>
+        <Dialogue ID="3">涙を流していても、幸せであるならプレゼントを受け取れます。</Dialogue>
+        <Dialogue ID="4">サンタは、全ての幸せな子供たちにの元へ行きます。</Dialogue>
+        <Dialogue ID="5">幸せじゃないなら、私のプレゼントを受け取って幸せになってください。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Theresia_Orgel">
+      <Abnormality>テレジア</Abnormality>
+      <CardName>オルゴールの音色</CardName>
+      <AbilityDesc>混乱抵抗値の回復量が50%増加する。</AbilityDesc>
+      <FlaborText>「この曲、覚えてる？生徒が居眠りしてるときに教授が歌ってくれたじゃない。誕生日おめでとう。」</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">この曲、覚えてる？</Dialogue>
+        <Dialogue ID="2">誕生日おめでとう。愛を込めて、テレジア。</Dialogue>
+        <Dialogue ID="3">ネジを巻いて、傷ついた心を癒やしてください。</Dialogue>
+        <Dialogue ID="4">髪の長い子……花の咲き乱れる庭園……そして兄妹。</Dialogue>
+        <Dialogue ID="5">この旋律に気味の悪さを感じるのは、どうしてだろう？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Keter">
+    <AbnormalityCard ID="Bloodbath_Blood">
+      <Abnormality>血の風呂</Abnormality>
+      <CardName>血</CardName>
+      <AbilityDesc>速度が3減少する。
+守備ダイスが強化される。</AbilityDesc>
+      <FlaborText>浴槽の中を見つめるのであれば、耐え難い憂鬱が突如として襲いかかってくるであろう。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">その人は、悲しい現実に耐えられなかっただけよ。</Dialogue>
+        <Dialogue ID="2">君は、この深い絶望に耐えられるの？</Dialogue>
+        <Dialogue ID="3">さぁ、入っておいで。この酷い血溜まりの中に。</Dialogue>
+        <Dialogue ID="4">全てを捨てたまま、目を閉じて果てしなく沈むのよ。</Dialogue>
+        <Dialogue ID="5">いくら増えても、この風呂の水は溢れはしないから。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Bloodbath_Scar">
+      <Abnormality>血の風呂</Abnormality>
+      <CardName>傷跡</CardName>
+      <AbilityDesc>斬撃による被ダメージが1-5減少する。</AbilityDesc>
+      <FlaborText>切断された彼女の手首に刻まれた傷跡を見たとき、俺たちのワインセラーのことが思い浮かんだ。その日、俺は最後のボトルを開けた。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">手首に傷をつけるには、強い意志と勇気が必要なの。</Dialogue>
+        <Dialogue ID="2">この人たちを愚かだなんて言わないで。一番の臆病者は、あなたよ。</Dialogue>
+        <Dialogue ID="3">傷跡は失敗した証だけど、価値が無いわけではないの。</Dialogue>
+        <Dialogue ID="4">なみなみと溜めたこの痛みを優しく撫でてちょうだい。</Dialogue>
+        <Dialogue ID="5">一瞬の精神と意志によって、傷の深さは変わるの。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Bloodbath_Hands">
+      <Abnormality>血の風呂</Abnormality>
+      <CardName>青ざめた手</CardName>
+      <AbilityDesc>マッチで3回負けるたび、次のマッチでダイスを振るときに相手に混乱ダメージを2-10与える。</AbilityDesc>
+      <FlaborText>冷たく硬直した手が触れる。
+私たちが愛した人たちの手だ。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">あなたが、もしかしたら私たちが愛したその沢山の手が、この中にあるの。</Dialogue>
+        <Dialogue ID="2">誰かに握ってほしい沢山の手、あなたが握ってくれるの？</Dialogue>
+        <Dialogue ID="3">指の間からすり抜けるものを掴み取りたくても……。</Dialogue>
+        <Dialogue ID="4">心の底から助けを求めるこの沢山の手を、誰も見てくれないの。</Dialogue>
+        <Dialogue ID="5">きっと、刀を落とすくらいにはぶるぶる震えたでしょうね。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheSnowQueen_Sord">
+      <Abnormality>雪の女王</Abnormality>
+      <CardName>霜の剣</CardName>
+      <AbilityDesc>一方攻撃が的中したとき、相手に束縛1-2を付与する。</AbilityDesc>
+      <FlaborText>冷たい冬の森にはたった１人、女王が住んでいる。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">この剣の切っ先は鋭く、冷たいだけである。</Dialogue>
+        <Dialogue ID="2">暖かい春だけが、この剣を溶かせるであろう。</Dialogue>
+        <Dialogue ID="3">まっすぐに伸びた剣を、どこに向けるべきか分かっておる。</Dialogue>
+        <Dialogue ID="4">いつか雪が解けるほどに暖こうなれば、この剣も溶けてしまうであろう。</Dialogue>
+        <Dialogue ID="5">この武器が心臓を突き刺すと、しばらく我を忘れるであろう。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheSnowQueen_Chu">
+      <Abnormality>雪の女王</Abnormality>
+      <CardName>口づけ</CardName>
+      <AbilityDesc>1ページ内でマッチに2回以上勝利したとき、相手に氷の欠片を付与する。
+幕の終了時、氷の欠片を3以上付与されたキャラクターは次の2幕の間、行動不能状態になる。</AbilityDesc>
+      <FlaborText>雪の女王の口づけで、彼の心臓は寒さを感じられないくらい冷たくなった。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">バラの香りを知る者だけが、全てを終わらせることができよう。</Dialogue>
+        <Dialogue ID="2">そなたも、温かい心の持ち主だったであろうな。</Dialogue>
+        <Dialogue ID="3">寒さを忘れ、記憶を忘れ、その果てには……。</Dialogue>
+        <Dialogue ID="4">寒さも感じられぬほどに冷えた心臓が、果たして溶けるのであろうか。</Dialogue>
+        <Dialogue ID="5">強き者のみが凍てついた者を救えるであろう。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheSnowQueen_Snow">
+      <Abnormality>雪の女王</Abnormality>
+      <CardName>吹雪</CardName>
+      <AbilityDesc>体力が50%以下のとき、攻撃が的中した場合に混乱ダメージが1-5増加する。</AbilityDesc>
+      <FlaborText>バラは咲き誇り、雪の宮殿は崩れた。そこに眠っている彼女を覚えている者は誰もいなかった。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">わらわがここに眠っているとなぞ、誰も知らぬであろう。</Dialogue>
+        <Dialogue ID="2">この雪が溶けてしまえば、わらわも徐々に忘れられるであろう。</Dialogue>
+        <Dialogue ID="3">わらわの城が溶けておるのか、それとも暖かい春が来ておるのか……。</Dialogue>
+        <Dialogue ID="4">バラが咲き誇り、春の訪れを告げに参ったのだな。</Dialogue>
+        <Dialogue ID="5">そこなる者も、これ以上の寒さは望んでいなかったであろうな。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Pinocchio_Learn">
+      <Abnormality>ピノキオ</Abnormality>
+      <CardName>学習</CardName>
+      <AbilityDesc>コスト1/「マッチ開始時: 全ダイスが相手のページのダイスに入れ替わる」効果を持ったピノキオのページを追加する。</AbilityDesc>
+      <FlaborText>その子は他人を真似する「学習」が上手なだけであった。それが問題だ。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">僕は今日も頑張って学ぶんです。ちょっとお見せしましょうか？</Dialogue>
+        <Dialogue ID="2">人間は僕に喋り方を教えたんです。</Dialogue>
+        <Dialogue ID="3">学ぶのが速いってわけじゃありませんよ。真似して動いてるだけです。</Dialogue>
+        <Dialogue ID="4">他人の真似するのって難しくないんですよ。考えなくてもいいですから。</Dialogue>
+        <Dialogue ID="5">僕は沢山のことを学んだけど、ずっと足踏み状態なんですよ。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Pinocchio_Lie">
+      <Abnormality>ピノキオ</Abnormality>
+      <CardName>嘘</CardName>
+      <AbilityDesc>幕の開始時に全ての所持ページを、ページの山に混ぜて6枚ページを引く。</AbilityDesc>
+      <FlaborText>人間はみんな嘘をつくじゃないですか。どうしてそれが悪いことなんですか？</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">人間ってあべこべに話すのが好きなんです。</Dialogue>
+        <Dialogue ID="2">自分のためじゃないって言ったんです。みんなのための嘘だって……。</Dialogue>
+        <Dialogue ID="3">ラララ……僕はみんなが歌ってる偽りの歌を真似して歌ってるんです。</Dialogue>
+        <Dialogue ID="4">教えてくれたとおり、僕はこの世を逆さまに見てるんです。</Dialogue>
+        <Dialogue ID="5">みんな嘘を付くのに、どうしてそれが悪いっていうんですか？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="QuietKid_Hammer">
+      <Abnormality>物言わぬ少女</Abnormality>
+      <CardName>釘と金槌</CardName>
+      <AbilityDesc>マッチ勝利時、混乱ダメージを1-5追加で与える。</AbilityDesc>
+      <FlaborText>しかし、普段から「罪悪感」を持っていたり、「恐れ」を抱きそうな人に会うと、少女は背後に隠していた釘と金づちを取り出した。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">あなたの心には、釘の打てそうな隙間があるのかな？</Dialogue>
+        <Dialogue ID="2">ひび割れたところに釘が刺されば、その亀裂はさらに広がるのよ。</Dialogue>
+        <Dialogue ID="3">心のしこりは、その都度取り除かないと。</Dialogue>
+        <Dialogue ID="4">胸に釘が打たれるほど痛いものもないわ。</Dialogue>
+        <Dialogue ID="5">あら、あなた随分……怖がってるみたいね？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="QuietKid_Eyeshine">
+      <Abnormality>物言わぬ少女</Abnormality>
+      <CardName>まなざし</CardName>
+      <AbilityDesc>混乱抵抗値の最大値が減少(最小 0%, 最大 50%)し、速度(最小: 1, 最大: 5)と ダメージ量(最小:1-1, 最大: 1-5)が増加する。
+ネガティブコインの数によって値が増加する。</AbilityDesc>
+      <FlaborText>再度記載するが、少女は何も言わない。ただ、その深い瞳で人の心の中を覗き見るだけでだった。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">子供の頃、何かを盗んだことがあるのね。</Dialogue>
+        <Dialogue ID="2">今でも辛い記憶を背負って生きてるだなんて……可哀想な子ね。</Dialogue>
+        <Dialogue ID="3">知ってる？あなたが過ちを犯したせいで、その人は……。</Dialogue>
+        <Dialogue ID="4">人のせいにしないで。痛みは１人で背負わないと。</Dialogue>
+        <Dialogue ID="5">あなたにも出来たでしょう。逃げるのに忙しかっただけで。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MirrorofAdjustment_Mirror">
+      <Abnormality>調整の鏡</Abnormality>
+      <CardName>鏡</CardName>
+      <AbilityDesc>幕の開始時、全てのページのコストが無作為に変更される。</AbilityDesc>
+      <FlaborText>鏡を見つめた人は、見た目は同じ、中身は全くの別人になる。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">満足は一瞬だ。</Dialogue>
+        <Dialogue ID="2">今の自分の姿に満足できないのかい？</Dialogue>
+        <Dialogue ID="3">鏡を見た者は同じでありながら、全くの他人になるんだ。</Dialogue>
+        <Dialogue ID="4">変わった姿に満足できないからって、再び鏡を見るのはおすすめできない。</Dialogue>
+        <Dialogue ID="5">2回以上鏡を見ると、人格が蝕まれるんだ。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="HeartofAspiration_Doki">
+      <Abnormality>熱望する心臓</Abnormality>
+      <CardName>熱望</CardName>
+      <AbilityDesc>最大体力が40%増加する。
+速度が3増加する。
+攻撃ダイスでダメージを与えられなかった場合、幕の終了時に現在の体力の10%を失う。</AbilityDesc>
+      <FlaborText>過ぎた熱望は誤った興奮をもたらした。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">過ぎた熱望は誤った興奮をもたらすのだ。</Dialogue>
+        <Dialogue ID="2">どうしてその力を得ながら何一つ望まないのか？</Dialogue>
+        <Dialogue ID="3">力を得たものは、それに見合った使命を全うせねばならん。</Dialogue>
+        <Dialogue ID="4">そうだ、高鳴る心臓の鼓動を感じるのだ。</Dialogue>
+        <Dialogue ID="5">互いがに切に望むものはどうも同じようだ、助けねば。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+</AbnormalityCardsRoot>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- 잔향2차 상층 -->
+  <Card ID="703901">
+    <Name>계약 부여1</Name>
+    <Artwork>Pluto_Contract</Artwork>
+    <Rarity>Unique</Rarity>
+    <Keyword></Keyword>
+    <Spec Range="Far" Cost="0" />
+    <Script>Pluto_Contract_1</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+      <Behaviour Min="1" Dice="1" Type="Atk" Detail="Hit" Motion="S1" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <Priority>0</Priority>
+  </Card>
+</DiceCardXmlRoot>

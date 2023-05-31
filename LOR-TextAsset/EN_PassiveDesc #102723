@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PassiveDesc ID="3007">
+    <Name>Slash Mastery</Name>
+    <Desc>Slash Dice Power +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="3008">
+    <Name>Pierce Mastery</Name>
+    <Desc>Pierce Dice Power +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="3009">
+    <Name>Blunt Mastery</Name>
+    <Desc>Blunt Dice Power +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10001">
+    <Name>Speed</Name>
+    <Desc>Speed Dice Slot +1 (Cannot Overlap)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10004">
+    <Name>Speed Ⅱ</Name>
+    <Desc>Speed Dice Slot +2 (Cannot Overlap)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10008">
+    <Name>Speed Ⅲ</Name>
+    <Desc>Speed Dice Slot +1. Gain an additional Speed die at Emotion Level 3. (Cannot Overlap)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200004">
+    <Name>Half-baked Courage</Name>
+    <Desc>When an ally dies, gain 1 Strength next Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200006">
+    <Name>Yun’s Hunch</Name>
+    <Desc>Boost the max value of Evade dice by +3 at a 50% chance</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200005">
+    <Name>The Art of Defense</Name>
+    <Desc>Boost the max value of Defensive dice by +3 at a 25% chance</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="201001">
+    <Name>Slash of a Grade 9 Fixer</Name>
+    <Desc>50% chance to boost Slash damage by +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="201002">
+    <Name>Knock of a Grade 9 Fixer</Name>
+    <Desc>50% chance to boost Blunt damage by +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="201003">
+    <Name>Thrust of a Grade 9 Fixer</Name>
+    <Desc>50% chance to boost Pierce damage by +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200007">
+    <Name>Electric Shock</Name>
+    <Desc>On a successful attack, inflict 1 Paralysis at a 25% chance next Scene (Once per target per Scene)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200010">
+    <Name>Hook</Name>
+    <Desc>Upon defeating an enemy, gain 1 Strength next Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210002">
+    <Name>Instant Cooking</Name>
+    <Desc>Recover 10% HP upon defeating an enemy (Max. 12)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210001">
+    <Name>Emergency Rations</Name>
+    <Desc>Recover 2 HP at the start of each Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210003">
+    <Name>Talent</Name>
+    <Desc>Deal +1 Stagger damage against enemies with slower Speed</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210006">
+    <Name>Flaming Bat</Name>
+    <Desc>50% chance to inflict 1 Burn on a successful attack</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="211005">
+    <Name>Penetration</Name>
+    <Desc>50% chance to boost Pierce damage by +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="211007">
+    <Name>Downward Slash</Name>
+    <Desc>50% chance to boost Slash damage by +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="211003">
+    <Name>Open Wound</Name>
+    <Desc>Deal +1 damage against enemies with Bleed</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221001">
+    <Name>Keeping in Stride</Name>
+    <Desc>Recover 1 HP upon winning a clash</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221002">
+    <Name>Keeping in Stride</Name>
+    <Desc>Recover 1 HP upon winning a clash</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220001">
+    <Name>Calmness</Name>
+    <Desc>On clash win, boost the max value of the next die by +3 at a 25% chance</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220002">
+    <Name>Zwei Swordsmanship Ⅰ</Name>
+    <Desc>Slash Damage +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221003">
+    <Name>Zwei Swordsmanship Ⅱ</Name>
+    <Desc>Slash Stagger Damage +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220004">
+    <Name>Your Shield</Name>
+    <Desc>Defensive Dice Power +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220003">
+    <Name>Minimum Offense</Name>
+    <Desc>Slash Stagger Damage +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221004">
+    <Name>Zwei Swordsmanship Ⅲ</Name>
+    <Desc>Pierce Damage +2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220006">
+    <Name>Margin</Name>
+    <Desc>At the end of each Scene, restore 1 Light and draw 1 page if the hand is empty</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220005">
+    <Name>Best Choice</Name>
+    <Desc>Recover 3 HP whenever the character discards a page</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220007">
+    <Name>In Times Like These!</Name>
+    <Desc>If 3 or fewer pages are in-hand at the end of the Scene, gain 1 Strength next Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220008">
+    <Name>Restfulness</Name>
+    <Desc>Restore 1 Light at the end of a Scene if the character did not use any pages that Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220010">
+    <Name>Deep Breaths</Name>
+    <Desc>At the start of each Scene, restore 1 Light at a 25% chance</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220009">
+    <Name>Double Kick</Name>
+    <Desc>Deal 1 damage to opponent upon winning a clash</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221005">
+    <Name>Punch to the Solar Plexus</Name>
+    <Desc>Blunt Damage +2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221007">
+    <Name>Slashing Prowess of a Grade 8 Fixer</Name>
+    <Desc>Slash Stagger Damage +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221009">
+    <Name>Piercing Prowess of a Grade 8 Fixer</Name>
+    <Desc>Pierce Stagger Damage +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221010">
+    <Name>Slashing Prowess of a Grade 7 Fixer</Name>
+    <Desc>Slash Stagger Damage +2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221012">
+    <Name>Piercing Prowess of a Grade 7 Fixer</Name>
+    <Desc>Pierce Stagger Damage +2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221013">
+    <Name>Axe Gang Spirit</Name>
+    <Desc>Blunt Stagger Damage +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221014">
+    <Name>Double Axe</Name>
+    <Desc>Slash Damage +2, Pierce Damage -1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221006">
+    <Name>Smack the Weakness</Name>
+    <Desc>Blunt Damage +3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230001">
+    <Name>Remembrance</Name>
+    <Desc>If an ally has died, gain 2 Strength at the end of each Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230004">
+    <Name>Concentration</Name>
+    <Desc>Gain +1 Power for the first Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230005">
+    <Name>Blind Fire</Name>
+    <Desc>Gain +2 Power for the first Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230006">
+    <Name>Snipe</Name>
+    <Desc>Offensive dice gain +3 Power for the first Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230007">
+    <Name>Guardian</Name>
+    <Desc>At the start of the Act, three random allies gain 2 Protection.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230107">
+    <Name>Light of Daybreak</Name>
+    <Desc>On a successful hit, deal +1-2 Stagger damage if the target has Burn.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230207">
+    <Name>Stigma Workshop Weaponry</Name>
+    <Desc>When inflicting Burn using Combat Pages, apply +1 additional stack.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230008">
+    <Name>Lone Fixer</Name>
+    <Desc>At the end of each Scene, gain 3 Strength if no other allies are present.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230009">
+    <Name>Passion</Name>
+    <Desc>Gain Power by double the current Emotion Level (Up to Level 1).</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230010">
+    <Name>Bzzz Bzzz</Name>
+    <Desc>At the start of the Act, inflict 1 Paralysis to three random enemies.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230011">
+    <Name>Pzzt Pzzt</Name>
+    <Desc>On a successful hit, deal 1-2 bonus damage if the target has Paralysis.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230012">
+    <Name>Unstable Charge</Name>
+    <Desc>At the end of each Scene, gain 1 Strength at a 50% chance next Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230018">
+    <Name>Battle Ready</Name>
+    <Desc>Draw 2 more pages at the start of the Act</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230118">
+    <Name>Dark Cloud Blade</Name>
+    <Desc>Slash Dice Power +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230019">
+    <Name>Digging Shank</Name>
+    <Desc>When inflicting Bleed using Combat Pages, apply +1 additional stack.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230020">
+    <Name>Deep Wound</Name>
+    <Desc>Upon winning a clash with Offensive dice, inflict 1 Bleed next Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="231001">
+    <Name>Razor Strike</Name>
+    <Desc>Upon a successful Slash attack, inflict 1 Bleed next Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230021">
+    <Name>Meow Meow~</Name>
+    <Desc>At the start of the Act, give 1 Strength to two random allies</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230121">
+    <Name>Improv Drumming</Name>
+    <Desc>After a successful Blunt attack, inflict 1 Fragile to a random enemy next Scene (once per Scene)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230022">
+    <Name>Squeak… Squeak…?</Name>
+    <Desc>On a successful Blunt attack, deal 1-2 bonus damage to target</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230023">
+    <Name>Oinkie!! Oink!!!</Name>
+    <Desc>At the start of the Act, give 1 Feeble to two random enemies</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230024">
+    <Name>Unrelenting</Name>
+    <Desc>Upon taking a lethal blow, reduce all incoming damage including what activated this passive by 25 for the Scene (Activates once per Act)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230124">
+    <Name>Wedge</Name>
+    <Desc>Pierce Dice Power +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230025">
+    <Name>Piercer</Name>
+    <Desc>Pierce Damage +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230026">
+    <Name>Jolting Puncture</Name>
+    <Desc>Pierce Stagger Damage +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="232001">
+    <Name>Sublimate</Name>
+    <Desc>Dice gain +1 Power for every 5 stacks of Bleed on self.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="232002">
+    <Name>Twist Wound</Name>
+    <Desc>Deal +1 Stagger damage against enemies with Bleed.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="233001">
+    <Name>Solidarity</Name>
+    <Desc>At the end of the Scene, if all allies are alive, gain 1 Strength next Scene; if all other allies are dead, inflict 2 Feeble on self instead.
+This passive ability is only active if the Act started with one or more other allies.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240001">
+    <Name>Overbreathing/Exhaustion</Name>
+    <Desc>Restore 2 Light upon using a page whose original Cost is 4 or higher.
+A Speed die becomes unavailable.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240101">
+    <Name>Deflect Assault</Name>
+    <Desc>Once per Scene, respond to a one-sided attack with a Block die [Roll: 2-6]. (Not played in clashes where both characters use a Combat Page)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240201">
+    <Name>Exhaustion</Name>
+    <Desc>A Speed die becomes unavailable</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240301">
+    <Name>Eye of Death/Enervation</Name>
+    <Desc>All dice gain +4 Power
+All dice lose 3 Power</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240401">
+    <Name>Enervation</Name>
+    <Desc>Dice Power -3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240002">
+    <Name>Singular Strike</Name>
+    <Desc>When using a Combat Page with one non-Counter die, the die gains +2 Power, and it yields twice as many Emotion Points in a clash.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240003">
+    <Name>Respiration</Name>
+    <Desc>At the end of the Scene, restore 1 Light if current Light is 0</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241001">
+    <Name>Kizuna/Extreme Fatigue</Name>
+    <Desc>After an ally dies, gain 1 Strength and 1 Endurance each Scene for the rest of the Act. (Stacks up to two times)
+Starts the battle with 75% less HP</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241101">
+    <Name>Extreme Fatigue</Name>
+    <Desc>Starts the battle with 75% less HP</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241301">
+    <Name>Kizuna/Extreme Fatigue</Name>
+    <Desc>After an ally dies, gain 1 Strength and 1 Endurance each Scene for the rest of the Act. (Stacks up to two times)
+Starts the battle with 25% less HP</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240004">
+    <Name>Acceleration</Name>
+    <Desc>When Speed is 5 or higher, deal +1 Stagger damage with attacks</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240005">
+    <Name>Concussion</Name>
+    <Desc>On a successful Blunt attack, deal 2 bonus Stagger damage</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240006">
+    <Name>Puppet Skeleton</Name>
+    <Desc>Blunt Dice Power +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240308">
+    <Name>High-level Acrobatics</Name>
+    <Desc>When using a page whose original Cost is 3 or higher, all dice on that page gain +1 Power</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240408">
+    <Name>Lion’s Fist</Name>
+    <Desc>Blunt Dice Power +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240508">
+    <Name>Bestride</Name>
+    <Desc>At the end of the Scene, reunite with Emma</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240015">
+    <Name>Mind Hauler</Name>
+    <Desc>Recover 2 Stagger Resist on a successful attack</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240016">
+    <Name>Health Hauler</Name>
+    <Desc>Recover 2 HP on a successful attack</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241002">
+    <Name>Liquified Flesh</Name>
+    <Desc>Defensive Dice Power +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241102">
+    <Name>Corpse Cleanup</Name>
+    <Desc>When another character dies, recover 5% Max. HP at the end of that Scene (Max. 12)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241202">
+    <Name>Corpse Cleanup</Name>
+    <Desc>When another character dies, recover 20% Max. HP at the end of that Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240018">
+    <Name>Grace of the Prescript</Name>
+    <Desc>Each Scene, boost the Power of a random type of Offensive dice by +2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240118">
+    <Name>Skim Prescript</Name>
+    <Desc>Draw one more page at the start of the Act</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240019">
+    <Name>Quantum Leap</Name>
+    <Desc>If Speed is 4 or higher, deal 13 bonus damage on successful hits at a 10% chance</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240020">
+    <Name>Refraction</Name>
+    <Desc>On a successful hit, deal 13 bonus Stagger damage at a 5% chance</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240021">
+    <Name>Reaction Force</Name>
+    <Desc>If the character did not use any pages for a Scene, gain 1 Strength and Endurance next Scene</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240022">
+    <Name>Dimensional Sections</Name>
+    <Desc>On a successful hit, deal 10 bonus damage at a 10% chance</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240023">
+    <Name>Sooty Thwack</Name>
+    <Desc>If the character has 'Smoke', boost Stagger damage dealt with attacks by (Smoke x 10)%</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240024">
+    <Name>Smoke Addiction</Name>
+    <Desc>On a successful hit, if the target had 8 or more stacks of 'Smoke', inflict 2 Paralysis next Scene (Once per target per Scene)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240025">
+    <Name>Stimulating Fumes</Name>
+    <Desc>Once per Scene, if the character has 'Smoke', respond to a one-sided attack with a Block die [Roll: 1~(Smoke)]. (Not played in clashes where both characters use a Combat Page)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240026">
+    <Name>Puffy Brume</Name>
+    <Desc>'Smoke' amplifies outgoing damage instead of incoming damage on this character</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240027">
+    <Name>Flaring Brand</Name>
+    <Desc>Inflict 1-2 Burn on hit</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240127">
+    <Name>Plumed Escutcheon</Name>
+    <Desc>When hit, inflict 1-2 Burn to attacker</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240227">
+    <Name>Volatile Passion</Name>
+    <Desc>If target has Burn, boost the Power of Offensive dice by +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250001">
+    <Name>Fervor</Name>
+    <Desc>Offensive dice gain +1 Power at Emotion Level 3 or above</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250002">
+    <Name>A Fighter that Never Retreats</Name>
+    <Desc>Whenever the Emotion Level rises, gain 1 Strength and Endurance</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250003">
+    <Name>Firm as a Great Mountain</Name>
+    <Desc>Whenever the Emotion Level rises, recover 15% of Max HP(Max. 20)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250004">
+    <Name>Remain Vigilant in Peace</Name>
+    <Desc>Whenever the Emotion Level rises, recover 25% of Max Stagger Resist unless the character is staggered</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250005">
+    <Name>Ammo Supply</Name>
+    <Desc>After every three successful attacks with Melee Combat Pages, add a random Ammunition to hand.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250006">
+    <Name>The Boss’s Orders</Name>
+    <Desc>At the start of the Scene, give 1 Protection to 2 random allies.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250106">
+    <Name>Threefold Tenacity</Name>
+    <Desc>Every third Offensive die gains +1 Power. Starting with the fourth Scene, all Offensive dice gain +1 Power instead.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250007">
+    <Name>Grit</Name>
+    <Desc>Reduce incoming damage and Stagger damage by 1 (Including damage from non-attacks)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250008">
+    <Name>Empowered First Shot</Name>
+    <Desc>When playing a Ranged Combat Page, its first Offensive die gains +1 Power.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250009">
+    <Name>Additional Supplies</Name>
+    <Desc>Every time the character exhausts 3 Ammunition, add a random Ammunition to hand at the end of the Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250010">
+    <Name>Emergency Resuscitation Protocol</Name>
+    <Desc>Upon taking what would be a lethal blow, nullify the damage and spend all Charge to recover 5 HP per stack (Activates once per Act)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250011">
+    <Name>Force Field</Name>
+    <Desc>After spending Charge using a Combat Page, gain 1 Protection next Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250012">
+    <Name>Heavy-hearted Forte</Name>
+    <Desc>Deal 1-2 Stagger damage to the opponent upon winning a clash.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250110">
+    <Name>Charged Shield</Name>
+    <Desc>At Emotion Level 2 or above, if the character gained Charge using Combat Pages in the previous Scene, gain 1 Endurance at the start of the Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250210">
+    <Name>Energy Discharge</Name>
+    <Desc>At Emotion Level 2 or above, if the character spent Charge using Combat Pages in the previous Scene, gain 1 Strength at the start of the Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250013">
+    <Name>Shimmering</Name>
+    <Desc>At the start of each Scene, exhaust all pages in hand and deck; add new pages to hand. Their Cost becomes 0.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250113">
+    <Name>The Blue Reverberation</Name>
+    <Desc>Take no damage from Ranged Combat Pages.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250014">
+    <Name>Internal Combustion Engine</Name>
+    <Desc>When gaining Smoke using Combat Pages, gain +1 additional stack.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250114">
+    <Name>Meat Gear</Name>
+    <Desc>The first Offensive die of each Combat Page deals +2-3 damage.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250214">
+    <Name>Thought Gear</Name>
+    <Desc>Evade Dice Power +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250115">
+    <Name>Locked Potential</Name>
+    <Desc>After using six unique Combat Pages in a single Act, enter a 'Blade Unlocked' state, which boosts the Power of all dice by 1.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250015">
+    <Name>Raging Torrent</Name>
+    <Desc>Draw a page every time the character uses 4 unique Combat Pages.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250016">
+    <Name>Breaking Pressure</Name>
+    <Desc>In a clash, the opponent's Defensive dice lose 1 Power.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250017">
+    <Name>Easygoing Breather</Name>
+    <Desc>At Emotion Level 2 or above, each Scene, the Cost of a random Combat Page in hand whose Cost is 1 or higher is reduced by 1 for the Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250018">
+    <Name>Furious Fire Rending the Skies</Name>
+    <Desc>At the start of the Scene, two random Combat Pages in hand gain the following effect: 'While this page is being used, inflict twice as much Burn with Combat Page abilities'.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250020">
+    <Name>Force of a Wildfire</Name>
+    <Desc>On a melee hit, inflict 1 Burn and 'Force of a Wildfire', a status that lasts 2 Scenes.
+If an enemy with 'Force of a Wildfire' is Staggered, inflict all other enemies with Burn equal to half of the amount of Burn that enemy had. (Rounded down)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250021">
+    <Name>Hugging Fire, Sitting on Brushwood</Name>
+    <Desc>When targets hit by melee attacks from this character take Burn damage at the end of the Scene they were attacked, they also take Stagger damage equal to half of the Burn damage.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250222">
+    <Name>Retaliate</Name>
+    <Desc>Gain a Counter die (Slash, 4-8) at combat start.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250322">
+    <Name>The Strongest</Name>
+    <Desc>Choose the Speed dice with the lowest value; the Speed values of the dice change to the maximum possible value.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10011">
+    <Name>Incomplete Arbiter</Name>
+    <Desc>At the start of the Scene, draw until 4 pages are in hand.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250123">
+    <Name>Triple-R Suit</Name>
+    <Desc>Can store up to 20 Charges at once.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251001">
+    <Name>Rabbit Augmentation</Name>
+    <Desc>For every 30% of Max. HP lost this Act, gain 1 Haste at the start of each Scene. (Up to 3)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251002">
+    <Name>Rhino Procedure</Name>
+    <Desc>For every 30% of Max. HP lost this Act, gain 1 Endurance at the start of each Scene. (Up to 2)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251003">
+    <Name>Reindeer Treatment</Name>
+    <Desc>For every 30% of Max. HP lost this Act, gain 1 Strength at the start of each Scene. (Up to 2)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250023">
+    <Name>The Commander</Name>
+    <Desc>If the character has 11 or more Charge at the start of the Scene, give 1 Strength and Endurance to all allies.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250223">
+    <Name>Finishing Touch</Name>
+    <Desc>After using a Combat Page on a target, leave a 'mark' on them at the end of the Scene. The marked enemy takes 50% additional damage and Stagger damage from attacks. Only one enemy can be marked at a time.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251101">
+    <Name>Compressed Charge-stimulated Muscleforce</Name>
+    <Desc>If the character has 11 or more Charge at the start of the Scene, gain 1 Haste.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251102">
+    <Name>Bionic Charge-synchronized Hull</Name>
+    <Desc>If the character has 11 or more Charge at the start of the Scene, gain 2 Protection.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251103">
+    <Name>Brainwave Charge-focusing Antlers</Name>
+    <Desc>If the character has 11 or more Charge at the start of the Scene, deal +2 Stagger damage with attacks for the Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250024">
+    <Name>Myo’s Prowess</Name>
+    <Desc>When using a Combat Page, all dice on the page gain Power against targets with slower Speed. (+1 Power per 2 points of difference, up to 5)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250025">
+    <Name>Maximum Crash</Name>
+    <Desc>If the character has 20 or more Charge at the start of the Scene, deal 50% more damage and Stagger damage with attacks; also receive 30% less damage and Stagger damage from attacks.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250026">
+    <Name>Survivor</Name>
+    <Desc>Every time the character recovers from Stagger, gain 1 Strength and Endurance at the start of the Scene for the rest of the Act. (Up to 5)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251201">
+    <Name>Sufficient Ammo</Name>
+    <Desc>Combat Pages whose default type is 'Ranged' do not exhaust on use.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250027">
+    <Name>Manipulator of Odds</Name>
+    <Desc>When a die this character plays rolls the minimum value, reroll it. Activates once per die.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250127">
+    <Name>Changing Stances</Name>
+    <Desc>Can assume one of the four stances: Slash, Pierce, Blunt, and Guard. A different deck can be set up for each stance. At the start of the Act, a random stance is selected; the stance can be changed by paying Light.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250036">
+    <Name>Nine Children of the Dragon</Name>
+    <Desc>If Emotion Level is 2 or higher at the end of the Scene, manifest E.G.O.
+The manifested E.G.O is enhanced if the character's Emotion Level is 4 or higher at the end of the Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250336">
+    <Name>Bā Xià</Name>
+    <Desc>Take no damage from Burn. When inflicted with a status ailment that isn't Burn, reduce the amount by half. (Rounded down, does not go below 1)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250051">
+    <Name>얀샋ㄷ요무</Name>
+    <Desc>If the character has more (Red) Breakdown Abnormality pages than (Blue) Awakening pages, all dice gain +1 Power. If Breakdown pages outnumber Awakening pages by 2 or more, increase the damage and Stagger damage of Offensive dice by +1 in addition.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250151">
+    <Name>The Messenger</Name>
+    <Desc>Every Scene, gain a special Combat Page that can be used on allies.
+The type of Combat Page is randomly determined each Scene. At Emotion Level 3 or higher, the owner can pick one out of two random options instead.
+(There are four types of special Combat Pages with different functions: 'Give Strength', 'Give Protection and Stagger Protection', 'Page Draw', and 'Light Restoration'.)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260001">
+    <Name>Four Trigrams</Name>
+    <Desc>Gain four special Combat Pages that benefit the user for the Scene they're used. Only one of the Four Trigrams' pages can be played per Scene, and once a Four Trigrams' page is used, it cannot be reused until all four have been utilized.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260002">
+    <Name>Hana for All</Name>
+    <Desc>When gaining Strength, Endurance, Protection, or Stagger Protection through Combat Pages: give the same status effect to a random other ally as well.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260003">
+    <Name>All for Hana</Name>
+    <Desc>If the character took damage from attacks on the previous Scene, change this character's resistances against the type that dealt the most damage to "Endured" for the Scene. (Applies separately for physical and Stagger damage)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260004">
+    <Name>The Twelve Fixers</Name>
+    <Desc>Boost the *minimum* roll value of all dice by +2. At Emotion Level 3 or higher, also boost the *maximum* roll value of all dice by +1.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10013">
+    <Name>The Black Silence</Name>
+    <Desc>Draw 2 additional pages at the start of the Act. All dice on every third Combat Page used gain +2 Power.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243001">
+    <Name>Grasping Vulnerabilities</Name>
+    <Desc>When attacking a target with a damage type they're "Weak" or "Fatal" to, deal +1 damage.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243101">
+    <Name>Information Assessment</Name>
+    <Desc>At the end of the Scene, a random enemy's resistance to a random damage type changes to "Normal" for the Scene. (Chosen from resistances that are "Endured" or "Normal")</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243201">
+    <Name>Seeing Through Weaknesses</Name>
+    <Desc>If the character attacked an enemy last Scene with a damage type they're "Weak" to, and the enemy has 5 or more stacks of Fragile at the end of the Scene, their resistance against the type becomes "Fatal" for the rest of the Act.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243003">
+    <Name>Swordplay of the Homeland</Name>
+    <Desc>Slash Dice Power +2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243005">
+    <Name>Carver of Scars</Name>
+    <Desc>Offensive dice on the first Combat Page the character uses each Scene gain an additional effect: ‘[On Hit] Inflict 2 Bleed’</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243105">
+    <Name>Toughness</Name>
+    <Desc>At Emotion Level 1 or above, gain 1 Protection and Stagger Protection at the start of the Scene. The amount increases to 2 at Emotion Level 3, and 3 at Emotion Level 5.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243205">
+    <Name>Rupture Wound</Name>
+    <Desc>Deal +3 damage against enemies with Bleed.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260005">
+    <Name>Resonance</Name>
+    <Desc>When using a Melee Combat Page, if the difference between this character's Speed and the target's Vibration is 1 or less, all dice on the page gain +2 Power.
+At the start of the Act, draw 2 pages.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260006">
+    <Name>Overheat</Name>
+    <Desc>While the character has burn, Offensive dice gain +1 Power.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260007">
+    <Name>Masterful Smoker</Name>
+    <Desc>When using a Combat Page with an effect involving 'Smoke', all dice on the page gain +1 Power.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260008">
+    <Name>Prep Up the Main Dish</Name>
+    <Desc>When using a Melee Combat Page, if target has Bleed, Offensive dice on the page gain +1~2 Power.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260009">
+    <Name>Neigh~! Woof-woof! Bawk!</Name>
+    <Desc>On hit with a Melee Combat Page, activate one of the following effects (each effect activates once per Scene):
+- Inflict 1 Feeble next Scene
+- Inflict 1 Paralysis next Scene
+- Deal 2 Stagger damage to target
+- Recover 2 Stagger Resist</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260010">
+    <Name>Splendid Performance</Name>
+    <Desc>When using a Combat Page with 3 or more different types of non-Counter dice, all dice on the page gain +1 Power and deal +1 damage.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260011">
+    <Name>Guts</Name>
+    <Desc>Upon taking what would be a lethal blow, nullify the damage and recover 100 HP; at the end of the Scene this happens, fully restore Stagger Resist. (Once per reception)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260012">
+    <Name>Puppet Strings</Name>
+    <Desc>At the start of the Act, add a special Combat Page that can give 'Puppeteer’s Strings' to another ally to hand.
+The character with 'Puppeteer’s Strings' gains 1 Strength or Endurance at the start of each Scene, and their HP won't go below 1.
+If the HP of the character with 'Puppeteer’s Strings' reaches 1 or if the character with this passive ability is no longer present, 'Puppeteer’s Strings' is lost at the end of the Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260013">
+    <Name>Bloodfiendish</Name>
+    <Desc>On hit, recover 2 HP.
+If the character recovered 3 or more HP in a single Scene, gain 1 Strength next Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260014">
+    <Name>Contracts</Name>
+    <Desc>At the start of the Act, add Unsigned Contracts to the hands of all allies.
+If a character fulfills the condition stated by the Unsigned Contract in their hand, its effect will be granted, and the Contract will exhaust. It is possible to exchange Unsigned Contracts with another ally.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10112">
+    <Name>Weariness</Name>
+    <Desc>Starts the battle with 25% less HP</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="252001">
+    <Name>Mercy</Name>
+    <Desc>Offensive dice gain +1 Power against targets with less than 10% HP.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="252002">
+    <Name>Stiletto</Name>
+    <Desc>Pierce Dice Power +2, Blunt and Slash Dice Power -2.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="252003">
+    <Name>Chink in One’s Armor</Name>
+    <Desc>When using a Melee Combat Page, if this character's Speed is greater than the target's by 3 or more, destroy a Block die the target has.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="234001">
+    <Name>Bottom Deal</Name>
+    <Desc>If the character discards a page, draw 1 page at the start of the next Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="234002">
+    <Name>Stacking the Deck</Name>
+    <Desc>If the character discards a page, restore 1 Light at the end of the Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="253001">
+    <Name>Mirage</Name>
+    <Desc>At the end of the Scene, recover half of the Stagger damage taken during the Scene. (Minimum of 1; does not activate while Staggered)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="253002">
+    <Name>Hawk's Eye</Name>
+    <Desc>At the end of the Scene, give 2 Protection to the ally that suffered the most damage.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="253003">
+    <Name>Haboob</Name>
+    <Desc>Once per Scene, after suffering a one-sided attack, gain 1 Protection and Stagger Protection next Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="254001">
+    <Name>Insurance Benefits</Name>
+    <Desc>If the character suffered 1 or more one-sided attacks in a Scene, restore 1 Light.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="254002">
+    <Name>Policy Form</Name>
+    <Desc>At the end of the Scene, remove all stacks of a random status ailment (Feeble, Disarm, or Bind) that would be inflicted to the character next Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="254003">
+    <Name>Life Insurance</Name>
+    <Desc>Untransferable. At the end of the Scene, if the character has 30% or less HP, add a copy of 'Life Insurance' to hand.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="255001">
+    <Name>Smoke Overflow</Name>
+    <Desc>At the end of the Scene, if the character has 8 or more Smoke, gain 1 Strength next Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="255002">
+    <Name>Excess Supply</Name>
+    <Desc>If the character has 10 or more Smoke, deal +3 damage with attacks.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="255003">
+    <Name>Immediate Repairs</Name>
+    <Desc>When Staggered, recover from Stagger and fully recover Stagger Resist (Once per Act).</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="255004">
+    <Name>Madness</Name>
+    <Desc>At the start of the Scene, gain one of the following effects:
+- 2 Strength
+- 2 Haste
+- 2 Endurance
+- 5 Fragile</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="256001">
+    <Name>Offensive Position</Name>
+    <Desc>At the start of the Scene, inflict 3 Fragile to self and gain 1 Strength.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="256002">
+    <Name>Psych Up</Name>
+    <Desc>Restore 1 Light and draw 1 page at the end of the Scene if the character did not use any pages.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="256003">
+    <Name>Readied Position</Name>
+    <Desc>If the character suffered 'Immobilization' on the previous Scene, gain 1 Strength, 2 Protection, and 2 Stagger Protection.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="256004">
+    <Name>Ready for a Breakthrough</Name>
+    <Desc>Every 3 Scenes, uses the Combat Page 'Pinpoint Breakthrough'.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240010">
+    <Name>Acrobatic</Name>
+    <Desc>Ranged Attack Damage +1</Desc>
+  </PassiveDesc>
+</PassiveDescRoot>

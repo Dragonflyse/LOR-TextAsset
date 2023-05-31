@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbnormalityCardsRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sephirah SephirahType="Malkuth">
+    <AbnormalityCard ID="FairyCarnival_Care">
+      <Abnormality>精灵盛宴</Abnormality>
+      <CardName>精灵的关怀</CardName>
+      <AbilityDesc>为该角色恢复25%的体力。</AbilityDesc>
+      <FlaborText>精灵会保护职员们。在她们的细心照料下，一切都会变得安宁祥和。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">不用担心！我们会好好照顾你哒。</Dialogue>
+        <Dialogue ID="2">不要害怕，我们是来保护你哒。</Dialogue>
+        <Dialogue ID="3">精灵们都是神圣的化身，要对自己有信心哟。</Dialogue>
+        <Dialogue ID="4">待人友善，热爱自然的你，理应受到我们的关怀。</Dialogue>
+        <Dialogue ID="5">你很特别哦。而他们都需要回顾人生，好好反思反思。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="FairyCarnival_Gluttony">
+      <Abnormality>精灵盛宴</Abnormality>
+      <CardName>饕餮</CardName>
+      <AbilityDesc>5幕之内，每一幕结束时为该角色恢复10%的体力。
+若该角色被击中3次，则使该角色失去25%的现有体力并移除该效果。</AbilityDesc>
+      <FlaborText>说到底，这些精灵不过是一群爱吃肉的怪物罢了，所谓的“保护”也仅仅是为了保持食物的新鲜。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">我们为什么要守在你身边？当然是为了保护你呀！</Dialogue>
+        <Dialogue ID="2">尽情享受精灵们的关怀吧。</Dialogue>
+        <Dialogue ID="3">像你这么善良的人，可不能死在别人嘴里。</Dialogue>
+        <Dialogue ID="4">只要你不做坏事，我们就不会伤害你哟。</Dialogue>
+        <Dialogue ID="5">你在怀疑我们？真是坏心眼呐……</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="BeautyandtheBeast_Curse">
+      <Abnormality>美女与野兽</Abnormality>
+      <CardName>诅咒的枷锁</CardName>
+      <AbilityDesc>该角色被击中时，受到的伤害提高1点。
+击杀该角色的敌方角色在整场战斗中受到的伤害提高4点。</AbilityDesc>
+      <FlaborText>实际上，诅咒只会循环往复，永不解除。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">诅咒是不会解除的，但……</Dialogue>
+        <Dialogue ID="2">在我死前，每一刻都痛苦不堪。</Dialogue>
+        <Dialogue ID="3">我会等着的……等你帮我从诅咒中解脱。</Dialogue>
+        <Dialogue ID="4">贪婪鼠辈的诅咒无法解除，只是不断重复……</Dialogue>
+        <Dialogue ID="5">现在轮到你了，你也会想逃离诅咒的枷锁……</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="BeautyandtheBeast_Hate">
+      <Abnormality>美女与野兽</Abnormality>
+      <CardName>自我厌恶</CardName>
+      <AbilityDesc>有50%的概率强化该角色的所有骰子。
+该角色每投掷一颗骰子，就会失去1-2点体力。</AbilityDesc>
+      <FlaborText>我活着的每一分每一秒都是煎熬。
+与其永无休止地受苦，不如让我尽快去死。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">我一个人做不到……必须得有人帮我一把。</Dialogue>
+        <Dialogue ID="2">我的面貌惨不忍睹，我再也受不了。</Dialogue>
+        <Dialogue ID="3">为什么不来帮我？你不是打算帮我的吗？</Dialogue>
+        <Dialogue ID="4">用你那双手，杀了我。</Dialogue>
+        <Dialogue ID="5">来啊，快来打我！我想摆脱这种痛苦……</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ScorchedGirl_Walk">
+      <Abnormality>焦化少女</Abnormality>
+      <CardName>脚步</CardName>
+      <AbilityDesc>若该角色的现有体力低于20%，则下一次拼点或单方面攻击时该角色将立刻死亡并对目标造成伤害，伤害量等于目标体力上限的30%。</AbilityDesc>
+      <FlaborText>我来找你了，和我一起化成灰吧。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">如果我即将燃尽，那你也和我一起吧。</Dialogue>
+        <Dialogue ID="2">孤身一人死去是很悲哀的事……你懂我的心思吧？</Dialogue>
+        <Dialogue ID="3">将要化成灰的人，请再等一下，我这就来……</Dialogue>
+        <Dialogue ID="4">一步，又一步……然后烧成焦炭吧。</Dialogue>
+        <Dialogue ID="5">烧焦了的我，又能做些什么呢？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ScorchedGirl_Ashes">
+      <Abnormality>焦化少女</Abnormality>
+      <CardName>灰烬</CardName>
+      <AbilityDesc>该角色被击中时，受到的伤害减少1点。</AbilityDesc>
+      <FlaborText>“焦黑的身体象征着少女支离破碎的希望，永恒的火焰却寄托着对爱的强烈渴望。”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">要将所有明亮之物，尽数烧毁……</Dialogue>
+        <Dialogue ID="2">我很清楚，烧焦的身体再也变不回来了。</Dialogue>
+        <Dialogue ID="3">我害怕变成灰……可我不想熄灭火焰。</Dialogue>
+        <Dialogue ID="4">火焰，让我感到幸福，温暖……</Dialogue>
+        <Dialogue ID="5">总有一天，我会化为灰烬，自由地飘散，飞翔……</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="HappyTeddyBear_Hug">
+      <Abnormality>快乐泰迪</Abnormality>
+      <CardName>思念的拥抱</CardName>
+      <AbilityDesc>拼点胜利时，有10%的概率造成混乱伤害，伤害量等于该角色掷出的骰子点数。
+对同一目标的拼点胜利次数越多，该效果的触发概率就会越高。</AbilityDesc>
+      <FlaborText>泰迪正紧紧抱着某人。泰迪非常喜欢拥抱。但，似乎有点不太对劲。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">来抱抱我好不好？这样我会好受些的。</Dialogue>
+        <Dialogue ID="2">大家都喜欢拥抱，对不对？</Dialogue>
+        <Dialogue ID="3">快来感受一下，这份暖暖的心意吧。</Dialogue>
+        <Dialogue ID="4">没关系的，请不要害怕。我只是，想好好抱抱你。</Dialogue>
+        <Dialogue ID="5">累了吗？快来我怀里歇歇吧。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="HappyTeddyBear_Memory">
+      <Abnormality>快乐泰迪</Abnormality>
+      <CardName>幸福的记忆</CardName>
+      <AbilityDesc>从该角色手中选择一张费用最高的书页。该书页每被使用一次，其费用就减少1点。</AbilityDesc>
+      <FlaborText>可泰迪再也不想失去它的主人了。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">为什么要离开我？我们明明那么亲密……</Dialogue>
+        <Dialogue ID="2">不要离开我好不好，我们再来抱一抱吧，你一定会回心转意的。</Dialogue>
+        <Dialogue ID="3">又要说再见了，我会很难过的……</Dialogue>
+        <Dialogue ID="4">为什么要丢下我，为什么要说再见？</Dialogue>
+        <Dialogue ID="5">是因为我抱得太用力了，让你觉得讨厌了吗？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheDreamingCurrent_Sea">
+      <Abnormality>梦中的洋流</Abnormality>
+      <CardName>虹色之海</CardName>
+      <AbilityDesc>3幕之内，使所有角色的速度降低3点。
+3幕之内，每一幕开始时，使所有角色失去10%的现有体力并恢复1点光芒。</AbilityDesc>
+      <FlaborText>那孩子没能去往海边，却收到了能让他看见大海的糖果。五彩斑斓的海洋伴随他度过了无数个日夜。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">我想去看看大海，闪闪亮亮的大海……</Dialogue>
+        <Dialogue ID="2">彩虹般闪耀的波浪，大家快来看呀。</Dialogue>
+        <Dialogue ID="3">一看到装满大海的糖果，我的心情就会好起来。</Dialogue>
+        <Dialogue ID="4">看到美丽的东西时，稍微跑慢点儿也没关系哦。</Dialogue>
+        <Dialogue ID="5">我的眼珠儿也会染上彩虹的颜色吧。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheDreamingCurrent_Run">
+      <Abnormality>梦中的洋流</Abnormality>
+      <CardName>蹦跶</CardName>
+      <AbilityDesc>使该角色的速度提高3点。</AbilityDesc>
+      <FlaborText>狭小的实验室代替了暖阳下的草坪。那孩子所能做的，就是怀着不安与期待，迈出他小小的步伐。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">不知道是什么味道的糖果……好紧张好期待呀。</Dialogue>
+        <Dialogue ID="2">我好开心呀，身体要停不下来喽。</Dialogue>
+        <Dialogue ID="3">什么时候才能去更大的地方跑几圈呀？</Dialogue>
+        <Dialogue ID="4">阳光？草坪？我不需要这些啦。</Dialogue>
+        <Dialogue ID="5">我做了好幸福的梦。是在大海里游泳……那样的梦。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheDreamingCurrent_candy">
+      <Abnormality>梦中的洋流</Abnormality>
+      <CardName>糖果</CardName>
+      <AbilityDesc>每一幕开始时，每个敌方角色各有20%的概率获得任一口味的“糖果”。
+该角色攻击持有“糖果”的目标时，伤害提高50%。若为“葡萄味糖果”，则伤害提高100%。</AbilityDesc>
+      <FlaborText>请告诉宝贝，今天的糖果是他最爱吃的——葡萄味。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">今天会给我什么味道的糖果呀？</Dialogue>
+        <Dialogue ID="2">我要葡萄味的，我最最最最喜欢葡萄味了。</Dialogue>
+        <Dialogue ID="3">不是葡萄味的也很好吃呀。</Dialogue>
+        <Dialogue ID="4">我觉得呀，吃糖果的时候……是我最幸福的时候。</Dialogue>
+        <Dialogue ID="5">美滋滋地咽下糖，我就会幸福地睡着。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="27thofMarch_Shelter">
+      <Abnormality>3月27日的避难所</Abnormality>
+      <CardName>避难所</CardName>
+      <AbilityDesc>这一幕中，使该角色获得“匿踪”状态。
+这一幕中，使该角色陷入“眩晕”状态。
+为该角色恢复50%的体力。</AbilityDesc>
+      <FlaborText>避难所在确保绝对安全的同时，也使外界的现实变得更加绝望。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">我能保护你，让你成为世界上最安全的人。</Dialogue>
+        <Dialogue ID="2">不要在意外面的声音，那不关你的事。</Dialogue>
+        <Dialogue ID="3">只要你愿意坚持下去，再漫长的岁月都无法撼动这里。</Dialogue>
+        <Dialogue ID="4">只要待在这里，你就是安全的。</Dialogue>
+        <Dialogue ID="5">自己的安全永远是第一位的。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Yesod">
+    <AbnormalityCard ID="1.76 MHz_MHz">
+      <Abnormality>1.76兆赫</Abnormality>
+      <CardName>1.76兆赫</CardName>
+      <AbilityDesc>使所有友方角色的“进攻型”骰子提高0-1点威力。
+使所有友方角色的“防御型”骰子降低0-1点威力。</AbilityDesc>
+      <FlaborText>不知是什么让在场的每一名职员都陷入了狂暴。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">救救我…这里…有………怪物。</Dialogue>
+        <Dialogue ID="2">能听见……我的声音吗？……如果收到……请回复。</Dialogue>
+        <Dialogue ID="3">……请……帮帮………我…</Dialogue>
+        <Dialogue ID="4">突然出现了………所有…人……</Dialogue>
+        <Dialogue ID="5">紧急………大家………快跑……</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="1.76MHz_423">
+      <Abnormality>1.76兆赫</Abnormality>
+      <CardName>4月23日的记忆</CardName>
+      <AbilityDesc>使用书页时，书页中“进攻型”骰子的数量越多，该角色造成的伤害就越高。</AbilityDesc>
+      <FlaborText>这段神秘的频率将我们带回到已被许多人淡忘的混乱之地，可它本身绝不能被忘却。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">那一天发生的事，哪怕所有人都淡忘了，我们也绝不能忘记……</Dialogue>
+        <Dialogue ID="2">如果记忆模糊了，那就反反复复一直播下去。</Dialogue>
+        <Dialogue ID="3">记住，这一段绝不能抹掉，不管是出于何种原因，绝对不能。</Dialogue>
+        <Dialogue ID="4">这个频率，希望你们能一直维持住。</Dialogue>
+        <Dialogue ID="5">此等恐怖的事件，一定要铭记在心。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ForsakenMurderer_Tie">
+      <Abnormality>被遗弃的杀人魔</Abnormality>
+      <CardName>受缚的愤怒</CardName>
+      <AbilityDesc>使该角色的速度降低2点。
+使该角色的伤害提高1-3点。</AbilityDesc>
+      <FlaborText>即使全身遭到束缚，他也比任何人都要自由。这还远远无法阻止他施暴。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">就算绑住俺的身体……俺也比你们都要自由。</Dialogue>
+        <Dialogue ID="2">放开俺……凭什么绑着俺！</Dialogue>
+        <Dialogue ID="3">别用那种眼神盯着俺，可怜的家伙是你们才对……</Dialogue>
+        <Dialogue ID="4">这东西绑不住俺！</Dialogue>
+        <Dialogue ID="5">就算被绑成这副鸟样，你们也照样会怕俺。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ForsakenMurderer_Metal">
+      <Abnormality>被遗弃的杀人魔</Abnormality>
+      <CardName>铁块的回声</CardName>
+      <AbilityDesc>强化该角色的打击骰子。</AbilityDesc>
+      <FlaborText>“脑袋……铁块……大脑上的褶皱……变光滑了……”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">俺的脑袋又在嗡嗡响了，又吵又闹的铁块敲击声……</Dialogue>
+        <Dialogue ID="2">感觉就像，脑袋变成了冰冷的铁块。</Dialogue>
+        <Dialogue ID="3">俺的脑袋，真变成铁块了？</Dialogue>
+        <Dialogue ID="4">脑袋一碰，就会响起清脆的声音。</Dialogue>
+        <Dialogue ID="5">大脑变成铁块的话，上面的褶皱也会消失吧。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="LittleHelper_Clean">
+      <Abnormality>小帮手</Abnormality>
+      <CardName>清洁用具</CardName>
+      <AbilityDesc>强化该角色的斩击骰子。</AbilityDesc>
+      <FlaborText>本应装有清洁用具的机械臂全部被替换成极度锋利的切割工具。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">小帮手是可以为您代劳任何事情的帮手机器人！</Dialogue>
+        <Dialogue ID="2">需要帮忙喵？小帮手可以为您做任何事情。</Dialogue>
+        <Dialogue ID="3">检测到污染，开始清洁工作。</Dialogue>
+        <Dialogue ID="4">哔哔哔~嘀。发现污染对象！启动清洁模式。</Dialogue>
+        <Dialogue ID="5">小帮手内置的上百种工具为您解决一切烦恼！</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="LittleHelper_Pattern">
+      <Abnormality>小帮手</Abnormality>
+      <CardName>反复识别功能</CardName>
+      <AbilityDesc>每一幕结束时，若该角色在这一幕中至少造成10点伤害，则获得3层“迅捷”和1层“强壮”。</AbilityDesc>
+      <FlaborText>搬进新家的第一天，我把那个人期盼已久的礼物转交给了他们。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">清洁完毕后，人们总会称赞小帮手！</Dialogue>
+        <Dialogue ID="2">识别到高分贝称赞，小帮手将继续清洁工作。</Dialogue>
+        <Dialogue ID="3">哔哔~哔！模式切换完毕。</Dialogue>
+        <Dialogue ID="4">小帮手喜欢人们的高分贝称赞！</Dialogue>
+        <Dialogue ID="5">一切归功于小帮手出色的学习系统。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Schadenfreude_See">
+      <Abnormality>幸灾乐祸</Abnormality>
+      <CardName>视线</CardName>
+      <AbilityDesc>拼点结束时，有25的概率施加2层“虚弱”和2层“缴械”。</AbilityDesc>
+      <FlaborText>透过机器的锁孔，你察觉到有人正死死盯着你。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">无论你要做什么，我的视线都会紧跟着你。</Dialogue>
+        <Dialogue ID="2">我的视线无处不在，你休想摆脱。</Dialogue>
+        <Dialogue ID="3">你是否窥视过他人的不幸，以此慰藉自己？</Dialogue>
+        <Dialogue ID="4">我会牢牢盯着你的，直到你最终抛下这一切。</Dialogue>
+        <Dialogue ID="5">回头戒备也无法缓解不安。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Schadenfreude_Eye">
+      <Abnormality>幸灾乐祸</Abnormality>
+      <CardName>对视</CardName>
+      <AbilityDesc>拼点时，使该角色的所有骰子提高0-2点威力。
+单方面攻击时，使该角色的所有骰子降低0-2点威力。</AbilityDesc>
+      <FlaborText>面朝异想体方向站立10秒以上。5秒后，该异想体带着明显的攻击意图迅速冲向员工。实验中断。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">一接触到他人的视线，我的心情就会变糟。</Dialogue>
+        <Dialogue ID="2">不要把视线投向我，不要再盯着我了。</Dialogue>
+        <Dialogue ID="3">再不移开视线，我就挖掉你的眼睛。</Dialogue>
+        <Dialogue ID="4">偷窥的只有一人。</Dialogue>
+        <Dialogue ID="5">我讨厌与人对视，我讨厌把自己暴露在他人眼中。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="YouMustBeHappy_Q">
+      <Abnormality>你必须幸福</Abnormality>
+      <CardName>提问</CardName>
+      <AbilityDesc>使用书页时，该角色的第一颗骰子只会掷出最大值或最小值。</AbilityDesc>
+      <FlaborText>请问，您热爱您的都市吗？</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">您热爱这座都市吗？</Dialogue>
+        <Dialogue ID="2">回答得越快越好。</Dialogue>
+        <Dialogue ID="3">答案只有“是”和“否”。</Dialogue>
+        <Dialogue ID="4">如果您的答案是“否”，那恐怕我不能让您出院。</Dialogue>
+        <Dialogue ID="5">您没有必须回答“是”的义务……但道理您都懂的，对吧？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChangeAnything_Energy">
+      <Abnormality>我们可以改变一切</Abnormality>
+      <CardName>能源转换</CardName>
+      <AbilityDesc>使用书页时，从该角色手中随机丢弃1张书页并恢复1点光芒。</AbilityDesc>
+      <FlaborText>打开机器后请朝里走，然后按下“关闭”按钮。现在，一切都会好起来哒！</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">所有不喜欢的东西都能拿来转换。</Dialogue>
+        <Dialogue ID="2">觉得自己的力量太过单薄了，不满于现状吗？</Dialogue>
+        <Dialogue ID="3">我来帮您把讨厌的东西统统转换掉。</Dialogue>
+        <Dialogue ID="4">一切都会好起来哒。</Dialogue>
+        <Dialogue ID="5">机器内部相当舒适，请勿担心。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Variant_Dimensional">
+      <Abnormality>次元衍射变体</Abnormality>
+      <CardName>次元衍射</CardName>
+      <AbilityDesc>使该角色在整场战斗中获得“匿踪”状态。
+该角色的攻击无法迫使敌方角色改变攻击目标。</AbilityDesc>
+      <FlaborText>那片区域几乎处于真空状态。严格来说，该异想体本身就是一片真空。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">它会细心地切开你的四肢。</Dialogue>
+        <Dialogue ID="2">如果不想落得五马分尸的下场，那最好集中注意力。</Dialogue>
+        <Dialogue ID="3">我只能建议你时刻保持警惕。</Dialogue>
+        <Dialogue ID="4">要用心灵的眼光去发现肉眼察觉不到的事物。</Dialogue>
+        <Dialogue ID="5">那里是一片真空，我透不过气来。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Behavior_Adjustment">
+      <Abnormality>行为矫正仪</Abnormality>
+      <CardName>矫正</CardName>
+      <AbilityDesc>拼点失败时，有50%的概率强化该角色的下一颗“进攻型”骰子。</AbilityDesc>
+      <FlaborText>无论你先前有多么傲慢，无耻，穷凶极恶，都能被这台机器矫正，走上正义之路。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">让所有人变得公平公正。</Dialogue>
+        <Dialogue ID="2">请不要过于依赖这台机器。</Dialogue>
+        <Dialogue ID="3">使用这台机器时千万不能停止思考。</Dialogue>
+        <Dialogue ID="4">请不要过早收起想要改正的心。</Dialogue>
+        <Dialogue ID="5">我来矫正您的行为。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Hod">
+    <AbnormalityCard ID="SpiderBud_Cocoon">
+      <Abnormality>蜘蛛巢</Abnormality>
+      <CardName>蛛茧</CardName>
+      <AbilityDesc>击中目标时，若该角色掷出最大值，则追加2-4点混乱伤害并施加1层“易损”。</AbilityDesc>
+      <FlaborText>没有人自愿去取回茧中的尸体。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">是哪个瞎了眼的踩死了我的宝宝？</Dialogue>
+        <Dialogue ID="2">那个包裹在茧中的员工其实并没有死，但不会有人知道的。</Dialogue>
+        <Dialogue ID="3">蜘蛛的毒液非常特别，它不会让猎物立刻死去。</Dialogue>
+        <Dialogue ID="4">注意脚下，一旦出了岔子，就要当心头顶。</Dialogue>
+        <Dialogue ID="5">没人会狠下心去解救他们。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="SpiderBud_Dinner">
+      <Abnormality>蜘蛛巢</Abnormality>
+      <CardName>进食</CardName>
+      <AbilityDesc>若目标已陷入“混乱”状态，则每次命中都将为该角色恢复2-7点体力。</AbilityDesc>
+      <FlaborText>成为茧后，员工彼得被倒吊在收容单元的天花板上，为蜘蛛可爱的子女们献上丰盛的一餐。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">感到欢喜吧，你会让我的宝宝们更加幸福。</Dialogue>
+        <Dialogue ID="2">成长期的宝宝们总是饥肠辘辘。</Dialogue>
+        <Dialogue ID="3">进食，生存，天经地义。</Dialogue>
+        <Dialogue ID="4">食物充足，无所忧虑。</Dialogue>
+        <Dialogue ID="5">我们有了可口的食物……宝宝们，聚过来。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ShyLookToday_Face">
+      <Abnormality>今天也很害羞</Abnormality>
+      <CardName>此刻的神情</CardName>
+      <AbilityDesc>该异想体的神情时刻在变。
+该角色的骰子威力随着神情的变化而变化。（最小-2，最大+3）</AbilityDesc>
+      <FlaborText>某一天，又是一个阳光明媚的好日子，我就像很久以前小心翼翼地晾干衣服那样，晾起了自己的脸皮。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">因为害羞，我很怕羞……</Dialogue>
+        <Dialogue ID="2">悲伤的神情并不适合这座都市。</Dialogue>
+        <Dialogue ID="3">要更加清晰地表达你自己……这一点非常重要。</Dialogue>
+        <Dialogue ID="4">请不要向后窥探，这是最起码的礼貌。</Dialogue>
+        <Dialogue ID="5">你也像我一样开怀大笑吧，这有什么难的？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="OldLady_Lonely">
+      <Abnormality>老妇人</Abnormality>
+      <CardName>孤独</CardName>
+      <AbilityDesc>单方面攻击时，每次命中都有15%的概率使目标在下2幕中陷入“孤独”状态。
+每一次单方面命中都将使触发概率提高5%。
+陷入“孤独”状态的角色速度降低2点并在每一幕开始时受到1-2点伤害。（不可叠加）</AbilityDesc>
+      <FlaborText>即使生前有再多的故事能够讲述，可到了死后，唯有孤独才是唯一的倾听者</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">小乖乖，为了不让奶奶这么孤独，能过来陪陪奶奶吗？</Dialogue>
+        <Dialogue ID="2">年纪大啦，没人理喽……</Dialogue>
+        <Dialogue ID="3">直到最后，依旧在听奶奶讲话的，只剩下这寂静了。</Dialogue>
+        <Dialogue ID="4">为什么没人来奶奶这儿呢？</Dialogue>
+        <Dialogue ID="5">恐怕奶奶终将被遗忘，迎来孤独的结局啊。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="OldLady_Story">
+      <Abnormality>老妇人</Abnormality>
+      <CardName>故事</CardName>
+      <AbilityDesc>使该角色的混乱抗性上限降低25%。
+使该角色的伤害提高1-2点。</AbilityDesc>
+      <FlaborText>一直听她讲下去可不太妙，她知道世上存在的所有故事，也知道不该存在于世的故事。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">乖乖，小乖乖……想听听很久很久以前的故事吗？</Dialogue>
+        <Dialogue ID="2">好，好……奶奶的小乖乖喜欢听什么样的故事呀？</Dialogue>
+        <Dialogue ID="3">来，就坐在奶奶身边吧，奶奶给你讲几个有趣的故事。</Dialogue>
+        <Dialogue ID="4">奶奶想想……一起唱歌的动物伙伴，这个故事怎么样？</Dialogue>
+        <Dialogue ID="5">奶奶知道的很多，奶奶都能讲给你听。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MeatLantern_Predation">
+      <Abnormality>陆生鮟鱇</Abnormality>
+      <CardName>捕食</CardName>
+      <AbilityDesc>若目标的速度高于该角色，则使该角色的伤害提高1-3点。</AbilityDesc>
+      <FlaborText>啊，完蛋了。好好赏你的花去吧……</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">继续赏花吧……你会觉得很安逸的……</Dialogue>
+        <Dialogue ID="2">你已经站在我头上了……来不及咯……</Dialogue>
+        <Dialogue ID="3">别担心……这用不了多久……</Dialogue>
+        <Dialogue ID="4">食物自己会送上门的……</Dialogue>
+        <Dialogue ID="5">我只需要……及时合上嘴……</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MeatLantern_Bait">
+      <Abnormality>陆生鮟鱇</Abnormality>
+      <CardName>诱饵</CardName>
+      <AbilityDesc>迫使该角色选定的攻击目标转而攻击该角色，无视其速度。
+使该角色的“防御型”骰子提高0-1点威力。</AbilityDesc>
+      <FlaborText>花苞在隐隐发光，这实在是太神奇了。不仅是我，许多职员也在看那朵花……</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">这束光……照亮了黑暗……</Dialogue>
+        <Dialogue ID="2">真的很漂亮吧……再靠近点瞧瞧呀……</Dialogue>
+        <Dialogue ID="3">这束光的存在意义……不只是为了照亮黑暗……</Dialogue>
+        <Dialogue ID="4">美丽的事物……会让双脚，不由自主地动起来……</Dialogue>
+        <Dialogue ID="5">近点……再近点……只差一步了……</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MeatLantern_Ambush">
+      <Abnormality>陆生鮟鱇</Abnormality>
+      <CardName>伏击</CardName>
+      <AbilityDesc>每一幕结束时，若该角色的现有体力低于20%，则使该角色在下一幕中获得“匿踪”状态。</AbilityDesc>
+      <FlaborText>收容失效时无法预测它的移动路径，因为它并非通过公司的走廊移动，而是在地下穿梭。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">比诱饵更重要的，是如何隐藏……</Dialogue>
+        <Dialogue ID="2">不能被任何人发现……一定要藏起来……</Dialogue>
+        <Dialogue ID="3">这样一来……没人能找到我……</Dialogue>
+        <Dialogue ID="4">在黑暗中，安静地……等待食物……</Dialogue>
+        <Dialogue ID="5">找不到我了吧，要被吃掉咯……</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Porccubus_Thorn">
+      <Abnormality>棘刺公交</Abnormality>
+      <CardName>棘刺</CardName>
+      <AbilityDesc>击中目标时，有50%的概率削弱目标的下一颗“防御型”骰子。</AbilityDesc>
+      <FlaborText>最初只需要把刺儿轻轻戳进皮肉，而如今需要用全身疯狂地摩擦才能获得等同的刺激。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">好呀，人家会亲热地弯下腰~这样你就可以摸摸人家啦~</Dialogue>
+        <Dialogue ID="2">一开始会有点儿害怕，但接下来就好办了。</Dialogue>
+        <Dialogue ID="3">快到人家下面来，让人家帮你摆脱痛苦。</Dialogue>
+        <Dialogue ID="4">品尝一小口天堂的滋味罢了，这有什么不好的？</Dialogue>
+        <Dialogue ID="5">那些不懂幸福的家伙，还真是可怜呢~</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Porccubus_Happy">
+      <Abnormality>棘刺公交</Abnormality>
+      <CardName>欢乐</CardName>
+      <AbilityDesc>被击中时，若伤害量不低于该角色体力上限的20%，则为该角色恢复2点光芒。
+被击中时，若该角色的现有体力低于25%，则该角色直接死亡。</AbilityDesc>
+      <FlaborText>我的脑袋就要爆炸了，再见咯。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">贪求常人无法承受的欢乐，迟早会崩溃的啦。</Dialogue>
+        <Dialogue ID="2">人家只是为你们送来临终前的欢笑~</Dialogue>
+        <Dialogue ID="3">先从一根开始，往后越来越多。</Dialogue>
+        <Dialogue ID="4">幸福得就像脑袋要爆了一样。</Dialogue>
+        <Dialogue ID="5">尝过了甜头，就别想逃脱了。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="RedShoes_Kirakira">
+      <Abnormality>红舞鞋</Abnormality>
+      <CardName>闪亮</CardName>
+      <AbilityDesc>每一幕开始时，每个敌方角色各有50%的概率陷入“着魔”状态。
+陷入“着魔”状态的角色伤害提高2-4点并会将使用该书页的角色视为攻击目标。
+该角色攻击已陷入“着魔”状态的目标时，伤害提高3-5点。</AbilityDesc>
+      <FlaborText>这双鞋是无色的。
+不过很快就会变红了。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">红得太鲜艳了，会觉得晃眼吗？</Dialogue>
+        <Dialogue ID="2">杀掉这个人……鞋子就是你的了。</Dialogue>
+        <Dialogue ID="3">没关系，砍断脚踝就能轻松摘下鞋子了。</Dialogue>
+        <Dialogue ID="4">想不想成为最靓的仔？</Dialogue>
+        <Dialogue ID="5">这份华丽，只有你配得上。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="RedShoes_Desire">
+      <Abnormality>红舞鞋</Abnormality>
+      <CardName>血之渴望</CardName>
+      <AbilityDesc>使该角色的速度提高1点。击中目标时，有50%的概率施加1层“流血”。
+该角色获得正面硬币时，有50%的概率替换为负面硬币。</AbilityDesc>
+      <FlaborText>我要砍断你的狗腿，让你永远跳不了舞。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">最受关注的人必须是我！</Dialogue>
+        <Dialogue ID="2">只有我才能跳出优美的舞蹈……</Dialogue>
+        <Dialogue ID="3">我要让你永远无法起舞。</Dialogue>
+        <Dialogue ID="4">只要废了那双腿，我就能成为主角吧？</Dialogue>
+        <Dialogue ID="5">让我瞧瞧你的最后一支舞吧。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Netzach">
+    <AbnormalityCard ID="UniverseZogak_Echo">
+      <Abnormality>宇宙碎片</Abnormality>
+      <CardName>回响</CardName>
+      <AbilityDesc>被击中时，若该角色的现有体力低于20%，则有50%的概率摧毁双方的所有骰子。</AbilityDesc>
+      <FlaborText>眼前响起了悦耳的歌声，它正慢慢朝你靠近……</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">歌声。制作。人类。歌声。双耳。聆听。</Dialogue>
+        <Dialogue ID="2">歌声。精神。集中。瞬间。看见。存在。</Dialogue>
+        <Dialogue ID="3">双目。合拢。感觉。美丽。存在。幸福。理想。</Dialogue>
+        <Dialogue ID="4">理解。完美。瞬间。知晓。我们。知识。意义。传达。</Dialogue>
+        <Dialogue ID="5">制作。一同。呼唤。歌声。领悟。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="UniverseZogak_Tentacle">
+      <Abnormality>宇宙碎片</Abnormality>
+      <CardName>触须</CardName>
+      <AbilityDesc>强化该角色的突刺骰子。</AbilityDesc>
+      <FlaborText>被触须穿透的那一瞬间，往后的人生将再也无法激起你分毫的兴趣……</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">否定。攻击。用以。帮助。给予。</Dialogue>
+        <Dialogue ID="2">我们。知识。只是。给予。传达。尚未。</Dialogue>
+        <Dialogue ID="3">人类。攻击。我们。遵从。协同。攻击。</Dialogue>
+        <Dialogue ID="4">攻击。快速。穿透。</Dialogue>
+        <Dialogue ID="5">人类。攻击。灵魂。消散。希望。毫无。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChildofGalaxy_Friend">
+      <Abnormality>银河之子</Abnormality>
+      <CardName>朋友</CardName>
+      <AbilityDesc>对上一幕攻击过的目标再次发起攻击时，每次命中都将为该角色恢复2-3点体力。
+若对方并非上一幕攻击过的目标，则每次命中都将对该角色造成1-2点伤害。</AbilityDesc>
+      <FlaborText>她真有那么好吗？和我相比呢？这是理所当然的？我什么都知道，无论你做过什么，无论你要去往何方……</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">你为什么要到其他朋友那儿去……比起我，你更喜欢她吗？</Dialogue>
+        <Dialogue ID="2">我是那么的珍视你……可你却一点儿也不珍视我……</Dialogue>
+        <Dialogue ID="3">无论你去往何方，无论你要做什么……我会一直看着你的。</Dialogue>
+        <Dialogue ID="4">如果你不想继续留在我的身边，那我也不再需要你了。</Dialogue>
+        <Dialogue ID="5">再见，还有，以后请不要再来找我了。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChildofGalaxy_Tear">
+      <Abnormality>银河之子</Abnormality>
+      <CardName>泪水</CardName>
+      <AbilityDesc>该角色死亡时，所有角色都将受到伤害。伤害量等于该角色体力上限的25%。</AbilityDesc>
+      <FlaborText>耳畔传来他的低语和呼吸……接着便是一片漆黑……就像我与他初见的那个夜晚……</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">和我一起，在银河中漫步吧。</Dialogue>
+        <Dialogue ID="2">你也变成卵石吧，和我永不分离。</Dialogue>
+        <Dialogue ID="3">就和那夜一样，让我们再度回到从前……</Dialogue>
+        <Dialogue ID="4">能和你相遇，我很开心。</Dialogue>
+        <Dialogue ID="5">如果我又哭鼻子了，请帮我擦掉泪水吧。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ChildofGalaxy_Token">
+      <Abnormality>银河之子</Abnormality>
+      <CardName>友谊之证</CardName>
+      <AbilityDesc>3幕之内，每一幕开始时为所有友方角色恢复体力，恢复量等于各角色体力上限的10%。
+一名友方角色死亡时，该角色受到自身体力上限20%的伤害。</AbilityDesc>
+      <FlaborText>你手中的鹅卵石闪耀着，摇曳着，颤动着。在那之后，它便成为了整个银河。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">请不要丢掉它，也不要把它交给别人……</Dialogue>
+        <Dialogue ID="2">这是友谊的证明，请好好珍惜……</Dialogue>
+        <Dialogue ID="3">如果你带上它，我就能永远陪在你身边。</Dialogue>
+        <Dialogue ID="4">无论何时都要陪在我身边哦？请不要忘记我们的约定。</Dialogue>
+        <Dialogue ID="5">朋友受伤什么的……真让人伤心难过呐。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="SingingMachine_Music">
+      <Abnormality>歌唱机</Abnormality>
+      <CardName>音乐</CardName>
+      <AbilityDesc>击中目标时，有50%的概率强化该角色的下一颗骰子。</AbilityDesc>
+      <FlaborText>这是，旋律。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">由一个活人制造出的旋律是最美妙的。</Dialogue>
+        <Dialogue ID="2">想不想听听美妙的音乐呢？你知道该怎么做的。</Dialogue>
+        <Dialogue ID="3">没关系的，他肯定愿意成为一台好乐器。</Dialogue>
+        <Dialogue ID="4">人人都有音乐天赋。</Dialogue>
+        <Dialogue ID="5">勇敢的人儿呐，快来靠近我呀，和我一起演奏吧。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="SingingMachine_Rhythm">
+      <Abnormality>歌唱机</Abnormality>
+      <CardName>旋律</CardName>
+      <AbilityDesc>使该角色被“旋律”感染。
+有50%的概率强化该角色的“进攻型”骰子，该角色受到的伤害提高1-3点。
+当该角色击杀一名敌方角色时，场上任一未被“旋律”感染的角色将被传染“旋律”。</AbilityDesc>
+      <FlaborText>这世上再也没有比“人”更加动听的旋律了。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">大家都想再听我唱歌呢。</Dialogue>
+        <Dialogue ID="2">各种各样的声音混合在一起，就形成了音乐。</Dialogue>
+        <Dialogue ID="3">你和我都想成为乐器呀……</Dialogue>
+        <Dialogue ID="4">如果人人都愿意献出自身，那一定可以产生更加甜美的音色。</Dialogue>
+        <Dialogue ID="5">其他旋律再也传不进你的耳朵里啦。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheLittlePrince_Bigbusut">
+      <Abnormality>小王子</Abnormality>
+      <CardName>大蘑菇</CardName>
+      <AbilityDesc>所有角色击中目标时都将追加2-4点混乱伤害。</AbilityDesc>
+      <FlaborText>如果你将该异想体视为一朵巨大的蘑菇，那纯粹是你的刻板偏见在作怪。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">我可以看清事物的本质。</Dialogue>
+        <Dialogue ID="2">收获人心是非常困难的事。</Dialogue>
+        <Dialogue ID="3">请慢慢地，靠近我吧。</Dialogue>
+        <Dialogue ID="4">你和其他人不同，只有你可以听见我的声音。</Dialogue>
+        <Dialogue ID="5">你愿意称我为朋友吗？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Alriune_Bush">
+      <Abnormality>爱娜温</Abnormality>
+      <CardName>花丛</CardName>
+      <AbilityDesc>若该角色的攻击使目标陷入“混乱”状态，则追加5-7点伤害。</AbilityDesc>
+      <FlaborText>暖春将至。
+恍若花开，心也随之死去。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">生于尘土，欲归于尘土。</Dialogue>
+        <Dialogue ID="2">内心的绝望始于永不凋零的花朵。</Dialogue>
+        <Dialogue ID="3">想受人宠爱，想成为人类。</Dialogue>
+        <Dialogue ID="4">裂隙之中，依然可以绽放美丽的花朵。</Dialogue>
+        <Dialogue ID="5">你能实现我的愿望吗？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Alriune_flower">
+      <Abnormality>爱娜温</Abnormality>
+      <CardName>花瓣</CardName>
+      <AbilityDesc>每一幕结束时，若该角色在这一幕中使用过骰子数为3的书页，则对所有角色造成1-5点伤害并使该角色在下一幕中获得“匿踪”状态。</AbilityDesc>
+      <FlaborText>你曾对我说，要用花瓣代替泪水。
+我们都是从尘土中走来的，请不要轻言我的结局。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">空洞的眼窝也能看清一切。</Dialogue>
+        <Dialogue ID="2">和所有渴望“生”的事物，一起归于尘土吧。</Dialogue>
+        <Dialogue ID="3">我的赎罪在冰冷的窒息中，迎来尾声。</Dialogue>
+        <Dialogue ID="4">这些花朵肆意绽放，永不凋零。</Dialogue>
+        <Dialogue ID="5">被遗弃在黑暗的森林里，身心交瘁。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Rudolta_Gift">
+      <Abnormality>雪橇鲁道塔</Abnormality>
+      <CardName>礼物</CardName>
+      <AbilityDesc>拼点胜利时，有50%的概率施加2层“缠绕”并追加1-2点混乱伤害。</AbilityDesc>
+      <FlaborText>以我无尽的恨意献上这份赠礼。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">幸福快乐的孩子都有资格收到礼物！</Dialogue>
+        <Dialogue ID="2">怀着无尽的憎恨，我向你送出了礼物。</Dialogue>
+        <Dialogue ID="3">即使流着热泪，只要觉得幸福，仍然可以收到礼物。</Dialogue>
+        <Dialogue ID="4">圣诞老人会拜访所有幸福快乐的孩子。</Dialogue>
+        <Dialogue ID="5">如果你不觉得幸福，那请收下我的礼物，然后变得幸福吧。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Theresia_Orgel">
+      <Abnormality>特蕾西娅</Abnormality>
+      <CardName>八音盒之乐</CardName>
+      <AbilityDesc>使该角色的混乱抗性恢复提高50%。</AbilityDesc>
+      <FlaborText>“还记得这段旋律吗？每当学生们犯困时，教授就会把这旋律放给他们听。生日快乐——”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">还记得这段旋律吗？</Dialogue>
+        <Dialogue ID="2">生日快乐——满怀爱意，特蕾西娅。</Dialogue>
+        <Dialogue ID="3">旋转发条，治愈心灵的伤痛。</Dialogue>
+        <Dialogue ID="4">留着长发的孩子……鲜花盛开的庭院……还有那对姐弟俩……</Dialogue>
+        <Dialogue ID="5">这段旋律听着有些瘆人，到底发生过什么？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  <Sephirah SephirahType="Keter">
+    <AbnormalityCard ID="Bloodbath_Blood">
+      <Abnormality>血浴缸</Abnormality>
+      <CardName>鲜血</CardName>
+      <AbilityDesc>使该角色的速度降低3点。
+强化该角色的“防御型”骰子。</AbilityDesc>
+      <FlaborText>望向浴缸内部，你会莫名感到无法承受的忧郁。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">他只是无法直面这悲惨的现实。</Dialogue>
+        <Dialogue ID="2">这份深切的绝望，你能承受住吗？</Dialogue>
+        <Dialogue ID="3">快来，泡进这血池中。</Dialogue>
+        <Dialogue ID="4">放下一切，闭上双眼，没入无尽。</Dialogue>
+        <Dialogue ID="5">无论添入多少，缸中的血都不曾溢出。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Bloodbath_Scar">
+      <Abnormality>血浴缸</Abnormality>
+      <CardName>疤痕</CardName>
+      <AbilityDesc>该角色受到的斩击伤害降低1-5点。</AbilityDesc>
+      <FlaborText>当我注视着她那伤痕累累的手腕时，我想起了我们的酒窖。那一天，我把最后一瓶喝得精光。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">要想割开手腕，必须拥有强大的勇气与意志。</Dialogue>
+        <Dialogue ID="2">请不要称这些人愚蠢，你才是那个最胆小的懦夫。</Dialogue>
+        <Dialogue ID="3">疤痕是失败的印记，却也并非一文不值。</Dialogue>
+        <Dialogue ID="4">轻柔地抚平这伤痛。</Dialogue>
+        <Dialogue ID="5">伤口的深度取决于那一瞬间的精神与意志。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Bloodbath_Hands">
+      <Abnormality>血浴缸</Abnormality>
+      <CardName>瘆白之手</CardName>
+      <AbilityDesc>拼点时，若该角色已累计拼点失败3次，则对目标造成2-10点混乱伤害。</AbilityDesc>
+      <FlaborText>我触碰到的，是冰冷而僵硬的手。
+我曾经深爱之人的手。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">你，或者说，我们所爱之人的手都在这里。</Dialogue>
+        <Dialogue ID="2">那满怀希望向你伸出的手，你会去握住吗？</Dialogue>
+        <Dialogue ID="3">想要牢牢抓住从指间流去的事物……</Dialogue>
+        <Dialogue ID="4">没人会看向那些渴求帮助的手。</Dialogue>
+        <Dialogue ID="5">她一定在不住地发抖，仿佛要甩落手中的刀。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheSnowQueen_Sord">
+      <Abnormality>冰雪女皇</Abnormality>
+      <CardName>霜剑</CardName>
+      <AbilityDesc>单方面攻击时，每次命中都将施加1-2层“缠绕”。</AbilityDesc>
+      <FlaborText>寒冷的冬林中，唯有一位女王。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">锐利的剑锋冰冷无比。</Dialogue>
+        <Dialogue ID="2">唯有温暖的春日，才能使剑消融。</Dialogue>
+        <Dialogue ID="3">笔直延伸的漆黑将去向何方。</Dialogue>
+        <Dialogue ID="4">在冰雪消融的温暖中，这把剑也将一并融化。</Dialogue>
+        <Dialogue ID="5">被这把武器穿透心脏之时，你将短暂地忘却自我。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheSnowQueen_Chu">
+      <Abnormality>冰雪女皇</Abnormality>
+      <CardName>亲吻</CardName>
+      <AbilityDesc>拼点时，若该角色至少取得2次拼点胜利，则向目标刺入1枚“霜片”。
+每一幕结束时，被刺入3枚或更多“霜片”的角色将在下2幕内陷入“眩晕”状态。</AbilityDesc>
+      <FlaborText>冰雪女王的吻冰封了他的内心，使他不再感到寒冷。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">唯有知晓玫瑰芬芳之人，方能了结这一切。</Dialogue>
+        <Dialogue ID="2">你一定是位胸怀热心之人。</Dialogue>
+        <Dialogue ID="3">忘却寒冷，失去记忆，直至最后……</Dialogue>
+        <Dialogue ID="4">不识寒冷的冰封之心，终有一日能够融化吗？</Dialogue>
+        <Dialogue ID="5">唯有内心坚强之人，才能拯救冰封之物。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="TheSnowQueen_Snow">
+      <Abnormality>冰雪女皇</Abnormality>
+      <CardName>雪暴</CardName>
+      <AbilityDesc>击中目标时，若该角色的体力低于50%，则追加1-5点混乱伤害。</AbilityDesc>
+      <FlaborText>玫瑰盛开，雪宫崩塌。欢笑的人们不曾记得，在那有位沉睡的美人。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">我沉睡于此，无人知晓。</Dialogue>
+        <Dialogue ID="2">如若冰雪消去，我亦就此忘却。</Dialogue>
+        <Dialogue ID="3">究竟是我在消融，还是春天即将到来……</Dialogue>
+        <Dialogue ID="4">玫瑰芬芳馥郁，向世人宣告着春日的到来。</Dialogue>
+        <Dialogue ID="5">他再也不愿回想那刺骨严寒了。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Pinocchio_Learn">
+      <Abnormality>匹诺曹</Abnormality>
+      <CardName>学习</CardName>
+      <AbilityDesc>在该角色的手中添加一张1费“匹诺曹”书页，效果为“拼点前：复制目标所选书页中的骰子。”</AbilityDesc>
+      <FlaborText>这孩子只会跟在别人身后“学习”，而这就是问题所在。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">我今天也在努力学习，要向你展示一下吗？</Dialogue>
+        <Dialogue ID="2">人们教我如何说话。</Dialogue>
+        <Dialogue ID="3">学习太慢了，干脆模仿别人吧。</Dialogue>
+        <Dialogue ID="4">模仿别人并不难，这不需要思考。</Dialogue>
+        <Dialogue ID="5">我明明学了不少东西，却总是在原地踏步。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Pinocchio_Lie">
+      <Abnormality>匹诺曹</Abnormality>
+      <CardName>谎言</CardName>
+      <AbilityDesc>每一幕开始时，洗回该角色手中的书页并抽取6张书页。</AbilityDesc>
+      <FlaborText>所有人都在说谎，这有什么不好的？</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">人们总是在说反话。</Dialogue>
+        <Dialogue ID="2">不是为了自己，而是为了全人类的那种谎言……</Dialogue>
+        <Dialogue ID="3">啦啦啦……我唱起了人人都在唱的谎言之歌。</Dialogue>
+        <Dialogue ID="4">就像人们教导的那样，我颠倒着看待这个世界。</Dialogue>
+        <Dialogue ID="5">每个人都在说谎，这有什么错吗？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="QuietKid_Hammer">
+      <Abnormality>噤默处子</Abnormality>
+      <CardName>钉与锤</CardName>
+      <AbilityDesc>拼点胜利时追加1-5点混乱伤害。</AbilityDesc>
+      <FlaborText>然而，遇到心中怀有“负罪感”或“恐惧”的人时，那孩子会拿出藏在背后的钉子和锤子。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">你的心中有能钉入钉子的缝隙吗？</Dialogue>
+        <Dialogue ID="2">钉子钉入裂缝后，裂缝会成倍扩大。</Dialogue>
+        <Dialogue ID="3">内心的污秽要及时倾倒。</Dialogue>
+        <Dialogue ID="4">没有什么比在胸前钉钉子更叫人痛苦的了。</Dialogue>
+        <Dialogue ID="5">喂，你看起来……非常害怕？</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="QuietKid_Eyeshine">
+      <Abnormality>噤默处子</Abnormality>
+      <CardName>目光</CardName>
+      <AbilityDesc>降低该角色的混乱抗性上限（最小0%，最大50%）和速度（最小1点，最大5点）并使伤害提高（最小1-1点，最大1-5点）。
+变量取决于负面硬币的个数。</AbilityDesc>
+      <FlaborText>又一次地，那孩子闭口不言，只是用那深邃的目光窥探着人们的内心。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">小时候，你偷过东西。</Dialogue>
+        <Dialogue ID="2">带着如此痛苦的记忆活到现在……可怜的朋友。</Dialogue>
+        <Dialogue ID="3">你知道吗？因为你犯下的错，那个人才会……</Dialogue>
+        <Dialogue ID="4">不要推卸责任，伤痛要由自己承担。</Dialogue>
+        <Dialogue ID="5">这就是你能做到的事，不过是慌乱地逃避罢了。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="MirrorofAdjustment_Mirror">
+      <Abnormality>转性魔镜</Abnormality>
+      <CardName>魔镜</CardName>
+      <AbilityDesc>每一幕开始时，随机调整该角色手中书页的费用。</AbilityDesc>
+      <FlaborText>凝视镜子的人从外表上看可能没有变化，但实际上他已经变成了截然不同的另一人。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">满意只会是暂时的。</Dialogue>
+        <Dialogue ID="2">你对现在的自己满意了吗？</Dialogue>
+        <Dialogue ID="3">镜中映出了相同的，却又更加完美的人。</Dialogue>
+        <Dialogue ID="4">还是不满意？我可不推荐再照一次。</Dialogue>
+        <Dialogue ID="5">照的次数越多，人性就会流失得越快。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="HeartofAspiration_Doki">
+      <Abnormality>渴望之心</Abnormality>
+      <CardName>渴望</CardName>
+      <AbilityDesc>使该角色的体力上限提高40%。
+使该角色的速度提高3点。
+每一幕结束时，若该角色在这一幕中未使用“进攻型”骰子造成过伤害，则使该角色失去10%的现有体力。</AbilityDesc>
+      <FlaborText>过度的渴望会使人发狂。</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">过度的渴望将使人发狂。</Dialogue>
+        <Dialogue ID="2">明明获得了力量，却没有催生出欲望吗？</Dialogue>
+        <Dialogue ID="3">获得力量之人，必须行正确之事。</Dialogue>
+        <Dialogue ID="4">没错，你能感受到心跳正在疯狂加速。</Dialogue>
+        <Dialogue ID="5">我们都迫切地期盼着某物，所以理应互相帮助。</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+</AbnormalityCardsRoot>

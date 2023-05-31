@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BattleCardAbility ID="energy1">
+    <Desc>[使用時] 光 1 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy2">
+    <Desc>[使用時] 光 2 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy4">
+    <Desc>[使用時] 光 4 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1paralysis1">
+    <Desc>[使用時] 光1 回復。次の幕にて麻痺1 を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawAndEnergy">
+    <Desc>[使用時] 光を1回復。ページを1枚引く。</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp1">
+    <Desc>[使用時] 体力 1 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="quickness1">
+    <Desc>[使用時] 次の幕にてクイック1 を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="quickness2">
+    <Desc>[使用時] 次の幕にてクイック2 を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance2">
+    <Desc>[使用時] 次の幕にて忍耐2 を獲得</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance1emotion">
+    <Desc>[使用時] 次の幕に忍耐を1得る。感情レベルが3以上なら2を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection2">
+    <Desc>[使用時] 次の幕にて保護2 を獲得</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection3">
+    <Desc>[使用時] 次の幕にて保護3 を獲得</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1">
+    <Desc>[使用時] 次の幕にてパワー1 を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength2">
+    <Desc>[使用時] 次の幕にてパワー2 を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength3">
+    <Desc>[使用時] 次の幕にてパワー3 を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection3start">
+    <Desc>[戦闘開始] 保護3 を獲得</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection1friend">
+    <Desc>[使用時] 次の幕にて、すべての味方に保護1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance1friend">
+    <Desc>[使用時] 次の幕にて、すべての味方に忍耐1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance2friend">
+    <Desc>[使用時] 次の幕にて、すべての味方に忍耐2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard_lowest">
+    <Desc>[使用時] コストが一番低いページを1枚捨てる</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discardall">
+    <Desc>[使用時] 全てのページを捨てる</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discardAndEnergy">
+    <Desc>[使用時] コストが1番低いページを1枚捨てる。光2 を回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawDiscard">
+    <Desc>このページを捨てた場合、ページを1枚引く</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard">
+    <Desc>[使用時] ページを1枚引く</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard2">
+    <Desc>[使用時] ページを2枚引く</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="power_2">
+    <Desc>[使用時] このページのすべてのダイス威力-2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2fullCard">
+    <Desc>[使用時] 手元にページが7枚ある場合、このページのすべてのダイス威力 +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2speed6">
+    <Desc>[使用時] 速度が6以上ならこのページのすべてのダイス威力 +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tomerry1">
+    <Desc>[使用時] 自分の体力が25%以下なら全ダイスの威力 +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp1Hp">
+    <Desc>[使用時] 自分の体力が25%以下ならこのページの全ダイスの威力 +1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2Hp">
+    <Desc>[使用時] 自分の体力が25%以下ならこのページの全ダイスの威力  +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="clashPowerUp">
+    <Desc>[マッチ開始時] 自身に5ダメージ。このページのすべてのダイス威力 +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="otherAlly2protection2">
+    <Desc>[使用時] 次の幕にて、他の味方2人にランダムで保護2 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="gainNegative1">
+    <Desc>[使用時] ネガティブエモーション1 蓄積</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="costDown1self">
+    <Desc>[使用時] このページのコストを1減少(最大 2回)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tomerry2">
+    <Desc>[使用時] 自分に7ダメージ。全ダイスの威力 +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2protection1thisRound">
+    <Desc>[戦闘開始] ランダムな味方2名に保護1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="enemy1weak1thisRound">
+    <Desc>[戦闘開始] 敵1名に虚弱1をランダムに付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="enemy2weak1thisRound">
+    <Desc>[戦闘開始] 敵2名に虚弱1をランダムに付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally1strength1thisRound">
+    <Desc>[戦闘開始] 味方1名にパワー1をランダムに付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2strength1thisRound">
+    <Desc>[戦闘開始] 味方2名にパワー1をランダムに付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1hp">
+    <Desc>[使用時] 体力が25%以下なら光1 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sweeperUnique">
+    <Desc>[使用時] 4幕の間、「しつこさ」を得る。</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sweeperOnly">
+    <Desc>[使用時] このページ全ての攻撃ダイスが「[的中] 体力2回復」になる。</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpSkill">
+    <Desc>[使用時] (充電x9.9)%の確率で成功, 充電を全て消耗。</Desc>
+    <Desc>[成功] このページのすべてのダイス威力 +8
+[失敗] 自分に20ダメージ</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="power3costCharge">
+    <Desc>[使用時] 充電3を消耗し、このページのすべてのダイス威力 +3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpOvercharge">
+    <Desc>[使用時] 充電10を得て次の幕に行動不能状態になる。</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge3">
+    <Desc>[使用時] 充電3を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge4">
+    <Desc>[使用時] 充電4を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge5">
+    <Desc>[使用時] 充電5を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge6">
+    <Desc>[使用時] 充電6を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge2energy1">
+    <Desc>[使用時] 充電2を得て光1 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCardWarp">
+    <Desc>[使用時] 次の幕にクイック1を得る。充電3を消耗し、ページ2枚を引く。</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="badaCard">
+    <Desc>[マッチ開始時] 充電3を消耗し、相手のすべてのダイス威力を -2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="badaCardRemake">
+    <Desc>[使用時] 充電4を消耗し、このページの全ダイスの威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="chargeProtection">
+    <Desc>[使用時] 充電2を消耗し、全ての味方に今回の幕と次の幕に保護1を付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="chargeEnergy">
+    <Desc>[使用時] 充電4を消耗し、光を3回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf2">
+    <Desc>[使用時] 煙2を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf3">
+    <Desc>[使用時] 煙3を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf4">
+    <Desc>[使用時] 煙4を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf7">
+    <Desc>[使用時] 煙7を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf8">
+    <Desc>[使用時] 煙8を得る</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energySmoke">
+    <Desc>[使用時] 煙2を得る。光1 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energySmoke2">
+    <Desc>[使用時] 煙2を得る。光2 回復</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2smoke">
+    <Desc>[使用時] 煙2を消耗し、このページのすべての威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerup2byselfsmoke9">
+    <Desc>[使用時] 自分に煙が9以上あれば、このページの全ダイス威力+ 2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="philipEgo">
+    <Desc>感情レベルが3以上のときに使用可能</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="liuUnique">
+    <Desc>[使用時] 感情レベルが2つ上昇するたび、このページの全ダイスの威力 +1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="costDown1emotion3">
+    <Desc>感情レベルが3以上のとき、このページのコスト -1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="gainPositive1">
+    <Desc>[使用時] ポジティブエモーション1 蓄積</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="AddBullet1">
+    <Desc>[使用時] 手元に弾丸をランダムに1枚追加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="AddBullet2">
+    <Desc>[使用時] 手元に弾丸をランダムに2枚追加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard1">
+    <Desc>[使用時] コストが1番低いページを1枚捨てる。</Desc>
+    <Desc>弾丸を捨てた場合、このページの全ての攻撃ダイスの威力を+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard2draw1">
+    <Desc>[使用時] コストが1番低いページを2枚捨てて、ページを1枚引く</Desc>
+    <Desc>この効果で捨てた弾丸の数だけ、このページのすべての攻撃ダイスの威力を増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="negatePower">
+    <Desc>このページを使用する間、互いのダイスは威力の効果を受けない</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dmgUpFriend3">
+    <Desc>[使用時] 次の幕の間、全ての味方の攻撃ダイスのダメージ量+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="AddBullet1AndDraw">
+    <Desc>[使用時] 手元にランダムな弾丸を1枚追加。ページを1枚引く</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf4draw">
+    <Desc>[使用時] 煙4を得る。ページを1枚引く</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokePowerUp">
+    <Desc>[使用時] 相手に煙が2以上あれば、このページの全ダイスの威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nullifyPower">
+    <Desc>[使用時] 相手は次の幕の間、威力の効果が無効になる</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cardPowerDown2target">
+    <Desc>[マッチ開始時] 相手の全ダイスの威力 -2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cardPowerDown4target">
+    <Desc>[マッチ開始時] 相手の全ダイスの威力 -4</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="redshoesEgo">
+    <Desc>[戦闘開始] 今回の幕の間、全ての敵は攻撃ダイスを振っても出血値が減少しない</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1friendKill">
+    <Desc>相手を倒したとき、全ての味方に次の幕にてパワーを1付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cardPowerDown1targetHighlander">
+    <Desc>[マッチ開始時] 「唯一」状態なら相手の全ダイス威力を-1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="draw1CardAndHighlanderEnergy">
+    <Desc>[使用時] ページを1枚引く。「唯一」状態なら光を2回復する</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp1highlander">
+    <Desc>[使用時] 「唯一」状態ならこのこのページのすべてのダイス威力 +1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard3highlander">
+    <Desc>[使用時] 「唯一」状態ならページを3枚引く</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard4bullet">
+    <Desc>[使用時] コストが0のページを最大4枚捨てる</Desc>
+    <Desc>この能力で捨てた弾丸の数だけ、このページの全攻撃ダイスの威力が増加</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="voidEgo">
+    <Desc>[使用時] 手元にページがない場合、全ての敵に今回と次の幕に虚弱、武装解除、束縛、麻痺4を付与する</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="slashUp2thisRound">
+    <Desc>[戦闘開始] この幕の間、斬撃威力 +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dmgUp1thisRound">
+    <Desc>[戦闘開始] 今回の幕の間、全ての攻撃ダイスのダメージ量 +1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleedingSlash1thisRound">
+    <Desc>[戦闘開始] 今回の幕の間、斬撃攻撃が的中したとき、次の幕にて相手に出血1 付与</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burnPlus">
+    <Desc>[戦闘開始] 今回の幕の間、バトルページで火傷を付与したときに、付与する火傷の値 +1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown2thisRound">
+    <Desc>[戦闘開始] 今回の幕の間、全ダイスの威力 -2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown3thisRound">
+    <Desc>[戦闘開始] 今回の幕の間、全ダイスの威力 -3</Desc>
+  </BattleCardAbility>
+</BattleCardAbilityDescRoot>

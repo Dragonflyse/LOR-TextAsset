@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BattleCardAbility ID="energy1">
+    <Desc>[On Use] Restore 1 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy2">
+    <Desc>[On Use] Restore 2 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy4">
+    <Desc>[On Use] Restore 4 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1paralysis1">
+    <Desc>[On Use] Restore 1 Light; Inflict 1 Paralysis on self next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawAndEnergy">
+    <Desc>[On Use] Restore 1 Light and draw 1 page</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp1">
+    <Desc>[On Use] Recover 1 HP</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="quickness1">
+    <Desc>[On Use] Gain 1 Haste next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="quickness2">
+    <Desc>[On Use] Gain 2 Haste next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance2">
+    <Desc>[On Use] Gain 2 Endurance next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance1emotion">
+    <Desc>[On Use] Gain 1 Endurance next Scene. At Emotion Level 3 or higher, gain 2 Endurance instead.</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection2">
+    <Desc>[On Use] Gain 2 Protection next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection3">
+    <Desc>[On Use] Gain 3 Protection next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1">
+    <Desc>[On Use] Gain 1 Strength next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength2">
+    <Desc>[On Use] Gain 2 Strength next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength3">
+    <Desc>[On Use] Gain 3 Strength next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection3start">
+    <Desc>[Combat Start] Gain 3 Protection</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection1friend">
+    <Desc>[On Use] Give 1 Protection to all allies next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance1friend">
+    <Desc>[On Use] Give 1 Endurance to all allies next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance2friend">
+    <Desc>[On Use] Give 2 Endurance to all allies next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard_lowest">
+    <Desc>[On Use] Discard a page with the lowest Cost</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discardall">
+    <Desc>[On Use] Discard all pages</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discardAndEnergy">
+    <Desc>[On Use] Discard a page with the lowest Cost and restore 2 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawDiscard">
+    <Desc>Draw a page upon discarding this page</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard">
+    <Desc>[On Use] Draw 1 page</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard2">
+    <Desc>[On Use] Draw 2 pages</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="power_2">
+    <Desc>[On Use] All dice on this page lose 2 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2fullCard">
+    <Desc>[On Use] If there are 7 or more pages in hand, all dice on this page gain +2 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2speed6">
+    <Desc>[On Use] If Speed is 6 or higher, all dice on this page gain +2 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tomerry1">
+    <Desc>[On Use] If HP is at 25% or lower, all dice on this page gain +2 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp1Hp">
+    <Desc>[On Use] If HP is at 25% or lower, all dice on this page gain +1 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2Hp">
+    <Desc>[On Use] If HP is at 25% or lower, all dice on this page gain +2 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="clashPowerUp">
+    <Desc>[Start of Clash] Deal 5 damage to self; all dice on this page gain +2 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="otherAlly2protection2">
+    <Desc>[On Use] Give 2 Protection to two random other allies next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="gainNegative1">
+    <Desc>[On Use] Gain 1 Negative Emotion Point</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="costDown1self">
+    <Desc>[On Use] Lower this page's Cost by 1 (Up to 2 times)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tomerry2">
+    <Desc>[On Use] Deal 7 damage to self; all dice on this page gain +2 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2protection1thisRound">
+    <Desc>[Combat Start] Give 1 Protection to two random allies</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="enemy1weak1thisRound">
+    <Desc>[Combat Start] Inflict 1 Feeble to a random enemy</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="enemy2weak1thisRound">
+    <Desc>[Combat Start] Inflict 1 Feeble to two random enemies</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally1strength1thisRound">
+    <Desc>[Combat Start] Give 1 Strength to a random ally</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2strength1thisRound">
+    <Desc>[Combat Start] Give 1 Strength to two random allies</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1hp">
+    <Desc>[On Use] If HP is at 50% or lower, restore 1 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sweeperUnique">
+    <Desc>[On Use] Gain 'Persistence' for 4 Scenes.</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sweeperOnly">
+    <Desc>[On Use] All Offensive dice of this page gain '[On Hit] Recover 2 HP'</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpSkill">
+    <Desc>[Exclusive Page], [On Use] Spend all Charge; has a (Charge x 9.9)% chance to succeed.</Desc>
+    <Desc>[Success] All dice on this page gain +8 Power;
+[Failure] Deal 20 damage to self</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="power3costCharge">
+    <Desc>[On Use] Spend 3 Charge to boost Power of all dice on this page by +3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpOvercharge">
+    <Desc>[On Use] Gain 10 Charge and become Immobilized next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge3">
+    <Desc>[On Use] Gain 3 Charge</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge4">
+    <Desc>[On Use] Gain 4 Charge</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge5">
+    <Desc>[On Use] Gain 5 Charge</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge6">
+    <Desc>[On Use] Gain 6 Charge</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge2energy1">
+    <Desc>[On Use] Gain 2 Charge and restore 1 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCardWarp">
+    <Desc>[On Use] Gain 1 Haste next Scene; spend 3 Charge to draw 2 pages</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="badaCard">
+    <Desc>[Start of Clash] Spend 3 Charge to reduce Power of all dice on opponent's page by 2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="badaCardRemake">
+    <Desc>[On Use] Spend 4 Charge to boost Power of all dice on this page by +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="chargeProtection">
+    <Desc>[On Use] Spend 2 Charge to give 1 Protection to all allies this Scene and next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="chargeEnergy">
+    <Desc>[On Use] Spend 4 Charge to restore 3 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf2">
+    <Desc>[On Use] Gain 2 Smoke</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf3">
+    <Desc>[On Use] Gain 3 Smoke</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf4">
+    <Desc>[On Use] Gain 4 Smoke</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf7">
+    <Desc>[On Use] Gain 7 Smoke</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf8">
+    <Desc>[On Use] Gain 8 Smoke</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energySmoke">
+    <Desc>[On Use] Gain 2 Smoke. Restore 1 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energySmoke2">
+    <Desc>[On Use] Gain 2 Smoke. Restore 2 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2smoke">
+    <Desc>[On Use] Use 2 Smoke to boost Power of all dice on this page by +2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerup2byselfsmoke9">
+    <Desc>[On Use] If user has 9+ Smoke, all dice on this page gain +2 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="philipEgo">
+    <Desc>Can only be used at Emotion Level 3 and above</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="liuUnique">
+    <Desc>[On Use] All dice on this page gain +1 Power for every 2 Emotion Levels</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="costDown1emotion3">
+    <Desc>Costs 1 less at Emotion Level 3 or higher</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="gainPositive1">
+    <Desc>[On Use] Gain 1 Positive Emotion Point</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="AddBullet1">
+    <Desc>[On Use] Add a random Ammunition to hand</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="AddBullet2">
+    <Desc>[On Use] Add 2 random Ammunition to hand</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard1">
+    <Desc>[On Use] Discard a page with the lowest Cost</Desc>
+    <Desc>If an Ammunition was discarded, all Offensive dice on this page gain +1 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard2draw1">
+    <Desc>[On Use] Discard 2 pages with the lowest Cost from hand, and draw a page</Desc>
+    <Desc>All dice on this page gain +1 Power for each Ammunition discarded</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="negatePower">
+    <Desc>Dice on this page and the page clashing with it are unaffected by Power gain or loss</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dmgUpFriend3">
+    <Desc>[On Use] All allies deal +2 damage with their Offensive dice next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="AddBullet1AndDraw">
+    <Desc>[On Use] Add a random Ammunition to hand; draw 1 page</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf4draw">
+    <Desc>[On Use] Gain 4 Smoke and draw 1 page</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokePowerUp">
+    <Desc>[On Use] If target has 2 or more Smoke, all Offensive dice on this page gain +1 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nullifyPower">
+    <Desc>[On Use] Target's dice Power cannot be influenced by any effects next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cardPowerDown2target">
+    <Desc>[Start of Clash] Reduce Power of all target's dice by 2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cardPowerDown4target">
+    <Desc>[Start of Clash] Reduce Power of all target's dice by 4</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="redshoesEgo">
+    <Desc>[Combat Start] Enemies do not lose Bleed stacks after rolling Offensive dice for this Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1friendKill">
+    <Desc>On kill, give 1 Strength to all allies next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cardPowerDown1targetHighlander">
+    <Desc>[Start of Clash] If Singleton, reduce Power of all target's dice by 1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="draw1CardAndHighlanderEnergy">
+    <Desc>[On Use] Draw 1 Page. If Singleton, restore 2 Light as well</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp1highlander">
+    <Desc>[On Use] If Singleton, all dice on this page gain +1 Power</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard3highlander">
+    <Desc>[On Use] If Singleton, draw 3 pages</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard4bullet">
+    <Desc>[On Use] Discard up to four 0-Cost pages from hand</Desc>
+    <Desc>Offensive dice on this page gain +1 Power for each Ammunition discarded this way</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="voidEgo">
+    <Desc>[On Use] If there are no pages in hand, inflict 4 Feeble, Disarm, Bind, and Paralysis to all enemies this Scene and next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="slashUp2thisRound">
+    <Desc>[Combat Start] Boost Slash dice Power by +2 for this Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dmgUp1thisRound">
+    <Desc>[Combat Start] Offensive dice deal +1 damage for this Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleedingSlash1thisRound">
+    <Desc>[Combat Start] Upon each successful Slash attack this Scene, inflict 1 Bleed next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burnPlus">
+    <Desc>[Combat Start] When inflicting Burn using Combat Pages this Scene, inflict 1 additional stack</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown2thisRound">
+    <Desc>[Combat Start] All dice the user plays lose 2 Power for this Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown3thisRound">
+    <Desc>[Combat Start] All dice the user plays lose 3 Power for this Scene</Desc>
+  </BattleCardAbility>
+</BattleCardAbilityDescRoot>

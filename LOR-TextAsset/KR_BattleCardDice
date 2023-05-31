@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <!-- 기본적 -->
+  <BattleCardAbility ID="recoverHp1atk">
+    <Desc>[적중] 체력 1 회복</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp2atk">
+    <Desc>[적중] 체력 2 회복</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp3atk">
+    <Desc>[적중] 체력 3 회복</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp4atk">
+    <Desc>[적중] 체력 4 회복</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp6atk">
+    <Desc>[적중] 체력 6 회복</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="galaxyEgoDice">
+    <Desc>[적중] 원래 주사위 값만큼 자신의 체력 회복</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="recoverBreak3atk">
+    <Desc>[적중] 흐트러짐 저항 3 회복</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverBreak5atk">
+    <Desc>[적중] 흐트러짐 저항 5 회복</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="vulnerable1atk">
+    <Desc>[적중] 다음 막에 취약 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable2atk">
+    <Desc>[적중] 다음 막에 취약 2 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable3atk">
+    <Desc>[적중] 다음 막에 취약 3 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable4atk">
+    <Desc>[적중] 다음 막에 취약 4 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable5atk">
+    <Desc>[적중] 다음 막에 취약 5 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable2pw">
+    <Desc>[합 승리] 다음 막에 취약 2 부여</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="bleeding1atk">
+    <Desc>[적중] 다음 막에 출혈 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding2atk">
+    <Desc>[적중] 다음 막에 출혈 2 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3atk">
+    <Desc>[적중] 다음 막에 출혈 3 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding4atk">
+    <Desc>[적중] 다음 막에 출혈 4 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding6atk">
+    <Desc>[적중] 다음 막에 출혈 6 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3pw">
+    <Desc>[합 승리] 다음 막에 출혈 3 부여</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="bleeding2pw">
+    <Desc>[합 승리] 다음 막에 출혈 2 부여</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="pierre">
+    <Desc>[적중] 대상의 출혈 수치만큼 체력 회복</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="burn1atk">
+    <Desc>[적중] 화상 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn2atk">
+    <Desc>[적중] 화상 2 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn3atk">
+    <Desc>[적중] 화상 3 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn4atk">
+    <Desc>[적중] 화상 4 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn6atk">
+    <Desc>[적중] 화상 6 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn10atk">
+    <Desc>[적중] 화상 10 부여</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="burn2pw">
+    <Desc>[합 승리] 화상 2 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1atk2times">
+    <Desc>[적중] '화상 1 부여'를 2번 발동</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1atk3times">
+    <Desc>[적중] '화상 1 부여'를 3번 발동</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="weak1atk">
+    <Desc>[적중] 다음 막에 허약 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak2atk">
+    <Desc>[적중] 다음 막에 허약 2 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak1pw">
+    <Desc>[합 승리] 다음 막에 허약 1 부여</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="disarm1atk">
+    <Desc>[적중] 다음 막에 무장 해제 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm2atk">
+    <Desc>[적중] 다음 막에 무장 해제 2 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm3atk">
+    <Desc>[적중] 다음 막에 무장 해제 3 부여</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="binding1atk">
+    <Desc>[적중] 다음 막에 속박 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding2atk">
+    <Desc>[적중] 다음 막에 속박 2 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding3atk">
+    <Desc>[적중] 다음 막에 속박 3 부여</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="paralysis1atk">
+    <Desc>[적중] 다음 막에 마비 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis2atk">
+    <Desc>[적중] 다음 막에 마비 2 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis3atk">
+    <Desc>[적중] 다음 막에 마비 3 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis4atk">
+    <Desc>[적중] 다음 막에 마비 4 부여</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="paralysis1pw">
+    <Desc>[합 승리] 다음 막에 마비 1 부여</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="paralysis2pw">
+    <Desc>[합 승리] 다음 막에 마비 2 부여</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="orchestraEgoDice3">
+    <Desc>[적중] 이번 막에 허약 1과 무장해제 1 부여</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="weakDisarmBinding1atk">
+    <Desc>[적중] 다음 막에 허약 1, 무장해제 1, 속박 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weakDisarmBinding2atk">
+    <Desc>[적중] 다음 막에 허약 2, 무장해제 2, 속박 2 부여</Desc>
+  </BattleCardAbility>
+
+  <!-- 힘 -->
+  <BattleCardAbility ID="strength1atk">
+    <Desc>[적중] 다음 막에 힘 1을 얻음</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength2atk">
+    <Desc>[적중] 다음 막에 힘 2를 얻음</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="kaliAttackBuf">
+    <Desc>[적중] 다음 막에 힘 3을 얻음</Desc>
+  </BattleCardAbility>
+
+  <!-- 광역 버프 -->
+  <BattleCardAbility ID="ally2strength1atk">
+    <Desc>[적중] 무작위 아군 2명에게 다음 막에 힘 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2recover3atk">
+    <Desc>[적중] 무작위 아군 2명의 체력 3 회복</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2recover3atkfordef">
+    <Desc>[합 승리] 무작위 아군 2명의 체력 3 회복</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaBuf">
+    <Desc>[적중] 모든 아군에게 다음 막에 힘 1과 인내 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tomerryBuf">
+    <Desc>[적중] 모든 아군에게 다음 막에 힘 3 부여</Desc>
+  </BattleCardAbility>
+
+  <!-- 빛 -->
+  <BattleCardAbility ID="energy1atk">
+    <Desc>[적중] 빛 1 회복</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1pw">
+    <Desc>[합 승리] 빛 1 회복</Desc>
+  </BattleCardAbility>
+
+  <!-- 피해 -->
+  <BattleCardAbility ID="damage2atk">
+    <Desc>[적중] 대상에게 피해 2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage3atk">
+    <Desc>[적중] 대상에게 피해 3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage5atk">
+    <Desc>[적중] 대상에게 피해 5</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="break2atk">
+    <Desc>[적중] 대상에게 흐트러짐 피해 2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break3atk">
+    <Desc>[적중] 대상에게 흐트러짐 피해 3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break5atk">
+    <Desc>[적중] 대상에게 흐트러짐 피해 5</Desc>
+  </BattleCardAbility>
+
+  <!-- 현재 주사위 위력 -->
+  <BattleCardAbility ID="powerPerHand">
+    <Desc>손에 있는 책장 수만큼 위력 증가</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDownNext2pwTarget">
+    <Desc>[합 승리] 대상의 다음 주사위 위력 -2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown2targetDfn">
+    <Desc>대상의 현재 수비 주사위 위력 -2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown3targetDfn">
+    <Desc>대상의 현재 수비 주사위 위력 -3</Desc>
+  </BattleCardAbility>
+
+
+  <!-- 원래 적 기믹용 -->
+  <BattleCardAbility ID="lovetownPower">
+    <Desc>일방공격이면 위력 +10</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lovetownNextPower">
+    <Desc>[합 패배] 다음 주사위 위력 +6</Desc>
+  </BattleCardAbility>
+
+  
+
+  <!-- shi -->
+  <BattleCardAbility ID="yujin">
+    <Desc>원래 주사위 값이 4 이상이고 최댓값이면 위력 +45</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1atkAndHp">
+    <Desc>[적중] 체력이 25% 이하면 빛 1 회복</Desc>
+  </BattleCardAbility>
+  
+
+  <!-- circus -->
+  <BattleCardAbility ID="strength1atkMostHp">
+    <Desc>[적중] 체력이 가장 높은 아군에게 다음 막에 힘 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection2atkMostHp">
+    <Desc>[적중] 체력이 가장 높은 아군에게 다음 막에 보호 2 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1atkAllFriend">
+    <Desc>[적중] 모든 아군에게 다음 막에 힘 1 부여</Desc>
+  </BattleCardAbility>
+
+
+  <BattleCardAbility ID="powerUpDice4highlander">
+    <Desc>'유일'상태라면 위력 +4</Desc>
+  </BattleCardAbility>
+
+  <!-- 연기 -->
+  <BattleCardAbility ID="bleedingXsmoke">
+    <Desc>[적중] 대상에게 있는 (연기 x 0.5) 만큼 출혈 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3smoke">
+    <Desc>[적중] 연기 2를 소모하여 다음 막에 출혈 3 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="debufsSmoke">
+    <Desc>[적중] 대상에게 연기가 7 이상 있다면 마비 2와 허약 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="debufsSmokeRemake">
+    <Desc>[적중] 대상에게 연기가 4 이상 있다면 마비 2와 허약 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawSmoke">
+    <Desc>[적중] 대상에게 연기가 3 이상 있다면 책장을 2장 뽑음</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="light1smoke3atk">
+    <Desc>[적중] 빛 1 회복, 연기 3 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke2selfsmoke1atk">
+    <Desc>[적중] 연기 2 부여, 연기 1 얻음</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke3atkparalysis3atkbytagetsmoke5">
+    <Desc>[적중] 연기 3 부여, 대상에게 연기가 5 이상 있다면 다음 막 마비 3 부여</Desc>
+  </BattleCardAbility>
+
+
+  <!-- 주사위 재사용 -->
+  <BattleCardAbility ID="repeat3">
+    <Desc>이 주사위는 3번 사용한다</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="repeat4">
+    <Desc>이 주사위는 4번 사용한다</Desc>
+  </BattleCardAbility>
+
+  <!-- 충전 -->
+  <BattleCardAbility ID="charge2pw">
+    <Desc>[합 승리] 충전 2를 얻음</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge2pl">
+    <Desc>[합 패배] 충전 1을 얻음</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge1atk">
+    <Desc>[적중] 충전 1을 얻음</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge8atk">
+    <Desc>[적중] 충전 8을 얻음</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="badaCardRemake">
+    <Desc>[사용시] 충전 4를 소모하여 이 책장의 모든 주사위 위력 +2</Desc>
+  </BattleCardAbility>
+  
+  <!-- R 충전 -->
+  <BattleCardAbility ID="deerDice">
+    <Desc>[적중] 충전 3을 소모하여 대상에게 흐트러짐 피해 8</Desc>
+  </BattleCardAbility>
+  
+  <!-- 비나 -->
+  <BattleCardAbility ID="fairy1atk">
+    <Desc>[적중] 요정 1 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy2atk">
+    <Desc>[적중] 요정 2 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy3atk">
+    <Desc>[적중] 요정 3 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="forbidReuseDice">
+    <Desc>대상의 현재 주사위는 다시 사용할 수 없다.</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="forbidCardAtk">
+    <Desc>[적중] 다음 막 동안 대상의 원래 비용이 4 이상인 책장들의 비용 2 증가</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sealTargetAtk">
+    <Desc>[적중] 다음 막 동안 대상의 속도 주사위 1개 봉인</Desc>
+  </BattleCardAbility>
+
+  <!-- 특수: 오케스트라 -->
+  <BattleCardAbility ID="orchestraEgoDice1">
+    <Desc>[적중] 다음 막에 대상의 빛 2 감소</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="orchestraEgoDice2">
+    <Desc>[적중] 대상은 다음 막 동안 속도가 1로 고정된다</Desc>
+  </BattleCardAbility>
+
+</BattleCardAbilityDescRoot>
+

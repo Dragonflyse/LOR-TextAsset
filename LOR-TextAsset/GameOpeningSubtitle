@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameOpeingSubtitleRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <subtitle id="1" display="1.610" duration="-1" />
+  <subtitle id="2" display="4.430" duration="-1" />
+  <subtitle id="3" display="6.427" duration="-1" />
+  <subtitle id="4" display="7.96" duration="-1" />
+  <subtitle id="5" display="10.082" duration="-1" />
+  <subtitle id="6" display="12.750" duration="-1" />
+  <subtitle id="7" display="14.747" duration="19.047" />
+  <subtitle id="8" display="21.075" duration="-1" />
+  <subtitle id="9" display="24.05" duration="-1" />
+  <subtitle id="10" display="25.122" duration="-1" />
+  <subtitle id="11" display="29.375" duration="-1" />
+  <subtitle id="12" display="32.200" duration="-1" />
+  <subtitle id="13" display="33.217" duration="-1" />
+  <subtitle id="14" display="34.217" duration="-1" />
+  <subtitle id="15" display="35.217" duration="-1" />
+  <subtitle id="16" display="36" duration="-1" />
+  <subtitle id="17" display="37" duration="-1" />
+  <subtitle id="18" display="38" duration="-1" />
+  <subtitle id="19" display="39.697" duration="-1" />
+  <subtitle id="20" display="41.935" duration="-1" />
+  <subtitle id="21" display="45.505" duration="-1" />
+  <subtitle id="22" display="47.9" duration="-1" />
+  <subtitle id="23" display="50.5" duration="-1" />
+  <subtitle id="24" display="52.08" duration="-1" />
+  <subtitle id="25" display="53.785" duration="58.5" />
+  <subtitle id="26" display="60.365" duration="-1" />
+  <subtitle id="27" display="63.522" duration="-1" />
+  <subtitle id="28" display="64.447" duration="67.492" />
+  <subtitle id="29" display="68.867" duration="-1" />
+  <subtitle id="30" display="71.762" duration="-1" />
+  <subtitle id="31" display="72.768" duration="-1" />
+  <subtitle id="32" display="73.455" duration="-1" />
+  <subtitle id="33" display="74.270" duration="-1" />
+  <subtitle id="34" display="75.027" duration="-1" />
+  <subtitle id="35" display="76.110" duration="-1" />
+  <subtitle id="36" display="80.160" duration="-1" />
+  <subtitle id="37" display="81.590" duration="-1" />
+  <subtitle id="38" display="83.350" duration="-1" />
+  <subtitle id="39" display="87.437" duration="-1" />
+  <subtitle id="40" display="91.637" duration="-1" />
+  <subtitle id="41" display="93.587" duration="97.432" />
+</GameOpeingSubtitleRoot>

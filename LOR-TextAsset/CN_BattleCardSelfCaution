@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BattleCardAbility ID="angela_guard">
+    <Desc>本书页的费用无法改变</Desc>
+    <Desc>[使用时]恢复3点光芒并抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="angela_galaxy">
+    <Desc>[使用时]为体力最低的我方角色恢复6点体力与混乱抗性</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="angela_heaven">
+    <Desc>本书页的费用无法改变</Desc>
+    <Desc>[使用时]恢复1点光芒并抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="angela_teddy">
+    <Desc>[拼点开始]使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="angela_final_ego">
+    <Desc>本书页目前无法使用</Desc>
+    <Desc>累计使用9张不同E.G.O书页并满足特定条件后将1张特殊书页置入手中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="angela_final_card">
+    <Desc>[使用时]失去所有体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="final_heart_eager">
+    <Desc>[使用时]失去40点体力并为存活的友方角色恢复所有体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="final_detection_lie">
+    <Desc>[拼点开始]将本书页的所有骰子替换为谎言书页中的骰子</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="final_remove_error">
+    <Desc>使双方当前书页的所有骰子不受威力增减效果影响</Desc>
+    <Desc>[命中时]若目标为[匹诺曹]则直接将其击杀</Desc>
+    <Desc>若成功击杀则这一幕结束时为所有我方角色恢复所有体力与混乱抗性并在下一幕中使其获得2层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="final_netzach_orchestra2_oneside">
+    <Desc>单方面攻击时本书页的骰子效果将对所有敌方角色生效</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bremenCard">
+    <Desc>[战斗开始]这一幕中使所有友方角色获得1层[强壮]</Desc>
+    <Desc>(触发后移除此效果)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bremen2_concert">
+    <Desc>[战斗开始]若目标为友方角色则这一幕中使其获得2层[迅捷]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bremen2_musictherapy">
+    <Desc>[战斗开始]若目标为友方角色则为其恢复20点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bremen2_canselectfriend">
+    <Desc>[战斗开始]若目标为友方角色则这一幕中使所有我方角色获得1层[强壮]并恢复20点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="philip_negative1atk">
+    <Desc>击中目标时使自身获得1点[负面情感]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="philip_powerup2bytargetburn8">
+    <Desc>[使用时]若目标至少拥有8层[烧伤]则使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Seven_Engagement">
+    <Desc>[使用时]将1张2费[起势动作]置入手中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Seven_EnGarde">
+    <Desc>[使用时]下一幕中使双方获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="limit1">
+    <Desc>本书页至多可持有1张</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dmgUpbybleedingbuf">
+    <Desc>击中目标时目标每有1层[流血]便使伤害+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="myoCard">
+    <Desc>本书页仅限[充能]层数达到20层后方可使用</Desc>
+    <Desc>击中目标时将在下一幕中对其施加3层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="rudolphCard">
+    <Desc>本书页仅限[充能]层数达到20层后方可使用</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="maximCard">
+    <Desc>本书页仅限[充能]层数达到20层后方可使用</Desc>
+    <Desc>[使用时]消耗20层[充能]并使本书页的所有骰子威力+10</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nicolaiCard2">
+    <Desc>本书页仅限[充能]层数达到20层后方可使用</Desc>
+    <Desc>若击杀目标则将1张同名书页置入手中并使其费用-1</Desc>
+    <Desc>若目标体力不高于50%则伤害x2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="deerCard">
+    <Desc>[使用时]对自身造成4点混乱伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="rhinoCard">
+    <Desc>[战斗开始]这一幕中使自身获得2层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCardWarpOnly">
+    <Desc>[使用时]消耗3层[充能]并抽取2张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energyAndCharge">
+    <Desc>[使用时]使自身获得3层[充能]并恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge8">
+    <Desc>[使用时]使自身获得8层[充能]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge10">
+    <Desc>[使用时]使自身获得10层[充能]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="otherAlly2strength1thisRound">
+    <Desc>[战斗开始]这一幕中随机使2名友方角色获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="copyMostCost">
+    <Desc>[使用时]随机从手中选择1张初始费用最高的书页并将1张复制置入手中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="costdown">
+    <Desc>手中每有1张同名书页便使本书页费用-1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="myoBerserk">
+    <Desc>[使用时]将1张6费[狂暴血刃]置入手中 下一幕起自身的所有骰子威力+1并将远程书页转换为近战书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2speed6exhaust">
+    <Desc>[使用时]若自身速度不低于6点则使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp1speed6exhaust">
+    <Desc>[使用时]若自身速度不低于6点则使本书页的所有骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cryingChildArea">
+    <Desc>这一幕结束时使自身陷入[混乱]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vibrateActivatePlayer">
+    <Desc>[使用时]若自身速度与目标[震颤]层数相等则使本书页的所有骰子威力+4</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vibrateAddition">
+    <Desc>若以本书页触发[心灵共振]则抽取2张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vibrateAdditionEnergy">
+    <Desc>若以本书页触发[心灵共振]则抽取1张书页</Desc>
+    <Desc>[使用时]恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vibrateActivate">
+    <Desc>[使用时]若自身速度与目标[震颤]层数相等则使本书页的所有骰子威力+4并移除目标的[震颤]层数</Desc>
+    <Desc />
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp1thisRound">
+    <Desc>[战斗开始]这一幕中使自身的进攻型骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="blackbind">
+    <Desc>[战斗开始]若目标为[安吉丽卡]则这一幕中使其获得1层[强壮][忍耐]与[守护]
+若目标不为[安吉丽卡]则使其获得[黑色气息]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="atkcombo_zelkova">
+    <Desc>[战斗开始]若与[安吉丽卡]攻击同一目标则将本书页的进攻型骰子移至[安吉丽卡]所用的书页中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="atkcombo_allas">
+    <Desc>[战斗开始]若与[安吉丽卡]攻击同一目标则将本书页的进攻型骰子移至[安吉丽卡]所用的书页中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="atkcombo_logic">
+    <Desc>[战斗开始]若与[安吉丽卡]攻击同一目标则将本书页的进攻型骰子移至[安吉丽卡]所用的书页中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerup2highspeed">
+    <Desc>[使用时]若自身速度高于目标则使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="whitebind">
+    <Desc>[战斗开始]若目标为[罗兰]则这一幕中使其获得1层[强壮][忍耐]与[守护]
+若目标不为[罗兰]则使其获得[白色气息]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_lance">
+    <Desc>单方面攻击时使本书页的骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_durandalstrong">
+    <Desc>[使用时]若目标处于[束缚]状态则使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_durandal">
+    <Desc>[使用时]若目标处于[束缚]状态则使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_durandalweak">
+    <Desc>若造成伤害不足15点则下一幕中使自身获得1层[强壮]并失去15点混乱抗性</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_area">
+    <Desc>重复投掷第3颗骰子
+次数等同于[嵌入地面的武器数]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="black_4th_afterimage">
+    <Desc>[装备时]移除自身所有负面状态</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2">
+    <Desc>[使用时]使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="elenaStartBuf">
+    <Desc>[战斗开始]若目标为[朱红十字]则使其获得3层[强壮]与[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="elenaMinionStrong">
+    <Desc>[装备时]这一幕中使自身速度-3</Desc>
+    <Desc>击中目标时随机对1名未被攻击的敌方角色再次使用本书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="elenaMinionDefense">
+    <Desc>若本书页的反击骰子未被全部使用则下一幕中[伊莲娜]将无法被指定为攻击目标</Desc>
+    <Desc />
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheon_string">
+    <Desc>[战斗开始]下一幕中对目标施加1层[操纵]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheon_link">
+    <Desc>本书页的攻击目标无法改变
+[战斗开始]下一幕开始时向目标及马戏团团员手中各置入1张[红线]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_string">
+    <Desc>本书页将在使用后回到手中
+持有本书页时获得[红线]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_summonandhide">
+    <Desc>下一幕开始时生成[美人鱼小姐]与[利刃先生]
+下一幕开始时自身将从舞台中消失2幕</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_summon">
+    <Desc>[战斗开始]下一幕开始时生成1只[超级兔子大宝贝](若自身死亡则不生效)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_distract">
+    <Desc>[战斗开始]这一幕结束时若目标处于[混乱]状态则将其变为我方角色</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_vulnerable">
+    <Desc>[战斗开始]这一幕中使目标的所有攻击抗性变为[致命]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_climax">
+    <Desc>[使用时]下一幕中使目标随机获得2层[易损]/[破绽]/[虚弱]/[守护]/[强壮]/[忍耐]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswald_boom">
+    <Desc>[战斗开始]下一幕开始时自身将直接死亡</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Pluto_UC_Protect">
+    <Desc>若击中目标则下一幕开始时将1张[非正当合同: 保护]置入其手中</Desc>
+    <Desc>[非正当合同: 保护]至多可持有1张</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Pluto_UC_Atk">
+    <Desc>若击中目标则下一幕开始时将1张[非正当合同: 攻击]置入其手中</Desc>
+    <Desc>[非正当合同: 攻击]至多可持有1张</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Pluto_UC_Light">
+    <Desc>若击中目标则下一幕开始时将1张[非正当合同: 光明]置入其手中</Desc>
+    <Desc>[非正当合同: 光明]至多可持有1张</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="UC_Protect">
+    <Desc>这一幕结束时若持有本书页则随机丢弃另1张书页并在下一幕中使自身获得X层[守护](X=丢弃书页费用)</Desc>
+    <Desc>[装备时]将本书页移出战斗</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="UC_Atk">
+    <Desc>这一幕结束时若持有本书页则将本书页置于牌组顶并在下一幕中使自身的进攻型骰子伤害+1</Desc>
+    <Desc>[装备时]将本书页移出战斗</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="UC_Light">
+    <Desc>这一幕结束时若持有本书页则恢复1点光芒并将1张[镣铐]洗入牌组</Desc>
+    <Desc>[装备时]将本书页移出战斗</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="shackles">
+    <Desc>[装备时]将本书页移出战斗</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tanyaSpeed">
+    <Desc>[使用时]若自身速度高于目标则使本书页的所有骰子威力+6</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tanyaAll">
+    <Desc>本书页的攻击目标无法改变
+本书页将对所有敌方角色分别使用1次</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="quickness1">
+    <Desc>[使用时]下一幕中使自身获得1层[迅捷]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="quickness2">
+    <Desc>[使用时]下一幕中使自身获得2层[迅捷]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance2">
+    <Desc>[使用时]下一幕中使自身获得2层[忍耐]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance1friend">
+    <Desc>[使用时]下一幕中使所有我方角色获得1层[忍耐]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance2friend">
+    <Desc>[使用时]下一幕中使所有我方角色获得2层[忍耐]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection2">
+    <Desc>[使用时]下一幕中使自身获得2层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection3">
+    <Desc>[使用时]下一幕中使自身获得3层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection3start">
+    <Desc>[战斗开始]这一幕中使自身获得3层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection1friend">
+    <Desc>[使用时]下一幕中使所有友方角色获得1层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1">
+    <Desc>[使用时]恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1hp">
+    <Desc>[使用时]若自身体力不高于50%则恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy2">
+    <Desc>[使用时]恢复2点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy4">
+    <Desc>[使用时]恢复4点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1paralysis1">
+    <Desc>[使用时]恢复1点光芒并在下一幕中对自身施加1层[麻痹]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1">
+    <Desc>[使用时]下一幕中使自身获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength2">
+    <Desc>[使用时]下一幕中使自身获得2层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength3">
+    <Desc>[使用时]下一幕中使自身获得3层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp1">
+    <Desc>[使用时]恢复1点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard_lowest">
+    <Desc>[使用时]随机丢弃1张费用最低的书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discardAndEnergy">
+    <Desc>[使用时]随机丢弃1张费用最低的书页并恢复2点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discardall">
+    <Desc>[使用时]丢弃所有书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="gyeongmi">
+    <Desc>[使用时]随机从手中选择1张初始费用不高于4的书页并复制其骰子(反击除外)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="gyeongmiRemake">
+    <Desc>[使用时]摧毁本书页的骰子 从手中随机复制1张初始费用不高于4的书页中的骰子(反击除外)</Desc>
+    <Desc />
+  </BattleCardAbility>
+  <BattleCardAbility ID="power_2">
+    <Desc>[使用时]使本书页的所有骰子威力-2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawDiscard">
+    <Desc>[丢弃时]抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="limit3">
+    <Desc>本书页至多可持有3张</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="exhaust">
+    <Desc>[佚亡]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="gainNegative1">
+    <Desc>[使用时]使自身获得1点[负面情感]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="otherAlly2protection2">
+    <Desc>[使用时]下一幕中随机使2名友方角色获得2层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard">
+    <Desc>[使用时]抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard2">
+    <Desc>[使用时]抽取2张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="costDown1self">
+    <Desc>[使用时]使本书页费用-1(至多-2 不包含同名书页)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cardPowerDown1target">
+    <Desc>[拼点开始]使目标当前书页的所有骰子威力-1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cardPowerDown2target">
+    <Desc>[拼点开始]使目标当前书页的所有骰子威力-2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cardPowerDown4target">
+    <Desc>[拼点开始]使目标当前书页的所有骰子威力-4</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tomerry1">
+    <Desc>[使用时]若自身体力不高于25%则使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tomerry2">
+    <Desc>[使用时]对自身造成7点伤害并使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tomerryReady">
+    <Desc>[战斗开始]下一幕中使自身获得5层[强壮]并发起猛攻 这一幕中自身的混乱攻击抗性将变为[致命]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="slashUp1thisRound">
+    <Desc>[战斗开始]这一幕中使自身的斩击骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="slashUp2thisRound">
+    <Desc>[战斗开始]这一幕中使自身的斩击骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="slashUp3thisRound">
+    <Desc>[战斗开始]这一幕中使自身的斩击骰子威力+3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleedingSlash1thisRound">
+    <Desc>[战斗开始]这一幕中自身以斩击骰子击中目标时将在下一幕中对其施加1层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="enemy1weak1thisRound">
+    <Desc>[战斗开始]这一幕中随机对1名敌方角色施加1层[虚弱]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="enemy2weak1thisRound">
+    <Desc>[战斗开始]这一幕中随机对2名敌方角色施加1层[虚弱]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally1strength1thisRound">
+    <Desc>[战斗开始]这一幕中随机使1名我方角色获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2strength1thisRound">
+    <Desc>[战斗开始]这一幕中随机使2名我方角色获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2speed6">
+    <Desc>[使用时]若自身速度不低于6点则使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp1Hp">
+    <Desc>[使用时]若自身体力不高于25%则使本书页的所有骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2Hp">
+    <Desc>[使用时]若自身体力不高于25%则使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="clashPowerUp">
+    <Desc>[拼点开始]对自身造成5点伤害并使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="onlypage">
+    <Desc>[专用战斗书页]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sweeperUnique">
+    <Desc>[使用时]使自身获得[坚韧]持续4幕</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2protection1thisRound">
+    <Desc>[战斗开始]这一幕中随机使2名我方角色获得1层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown2thisRound">
+    <Desc>[战斗开始]这一幕中使自身的所有骰子威力-2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sweeperOnly">
+    <Desc>击中目标时恢复2点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="addRecoverHp2Atkalldice">
+    <Desc>击中目标时恢复2点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="addRecoverHp3Atkalldice">
+    <Desc>击中目标时恢复3点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp1highlander">
+    <Desc>[使用时]若自身处于[独一]状态则使本书页的所有骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2fullCard">
+    <Desc>[使用时]若手中至少有7张书页则使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown3thisRound">
+    <Desc>[战斗开始]这一幕中使自身的所有骰子威力-3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCard3highlander">
+    <Desc>[使用时]若自身处于[独一]状态则抽取3张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpSkill">
+    <Desc>[使用时]消耗所有[充能]并有([充能]x9.9)%的概率成功</Desc>
+    <Desc>[成功]使本书页的所有骰子威力+8 
+[失败]对自身造成20点伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="power1costCharge">
+    <Desc>[使用时]消耗3层[充能]并使本书页的所有骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="power3costCharge">
+    <Desc>[使用时]消耗3层[充能]并使本书页的所有骰子威力+3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpOvercharge">
+    <Desc>[使用时]使自身获得10层[充能]并在下一幕中陷入[眩晕]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge3">
+    <Desc>[使用时]使自身获得3层[充能]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge4">
+    <Desc>[使用时]使自身获得4层[充能]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge5">
+    <Desc>[使用时]使自身获得5层[充能]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge6">
+    <Desc>[使用时]使自身获得6层[充能]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="warpCharge2energy1">
+    <Desc>[使用时]使自身获得2层[充能]并恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawCardWarp">
+    <Desc>[使用时]下一幕中使自身获得1层[迅捷]
+消耗3层[充能]并抽取2张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUp2smoke">
+    <Desc>[使用时]消耗2层[烟气]并使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeOnly1">
+    <Desc>[使用时]抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeOnly2">
+    <Desc>[使用时]使自身获得2层[烟气]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf1">
+    <Desc>[使用时]使自身获得1层[烟气]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf2">
+    <Desc>[使用时]使自身获得2层[烟气]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf3">
+    <Desc>[使用时]使自身获得3层[烟气]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf4">
+    <Desc>[使用时]使自身获得4层[烟气]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf7">
+    <Desc>[使用时]使自身获得7层[烟气]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf8">
+    <Desc>[使用时]使自身获得8层[烟气]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokeSelf4draw">
+    <Desc>[使用时]使自身获得4层[烟气]并抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energySmoke">
+    <Desc>[使用时]使自身获得2层[烟气]并恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energySmoke2">
+    <Desc>[使用时]使自身获得2层[烟气]并恢复2点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="philipEgo">
+    <Desc>本书页仅限情感等级达到3级后方可使用</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burningGirl">
+    <Desc>[使用时]向本书页添入1颗火苗</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="pinocchio">
+    <Desc>[拼点开始]将本书页的骰子替换为目标当前书页中的骰子</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="freischutz">
+    <Desc>将除自身外的所有角色指定为攻击目标</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ozma_forgotten">
+    <Desc>[装备时]这一幕中使自身陷入[眩晕]并无法行动且无法被指定为攻击目标</Desc>
+    <Desc>这一幕结束时恢复40%的体力与所有光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oz_emerald">
+    <Desc>本书页的费用无法改变</Desc>
+    <Desc>[装备时]指定1名敌方角色并随机摧毁其即将使用的2张书页</Desc>
+    <Desc>这一幕中该角色每被击中1次便为攻击方恢复1点光芒(同一攻击方至多触发2次)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oz_control">
+    <Desc>本书页的费用无法改变</Desc>
+    <Desc>[装备时]使手中的书页费用减为0(使用后复原)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="emotion_small_beak">
+    <Desc>本书页将在装备后回到手中</Desc>
+    <Desc>[装备时]承受[自身体力上限x5%]的伤害并恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="emotion_martyr">
+    <Desc>[装备时]这一幕中击中目标时将追加4~6点混乱伤害并对自身造成1~3点伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="emotion_bless">
+    <Desc>本书页将在装备后回到手中</Desc>
+    <Desc>[装备时]指定1名友方角色并在这一幕中使其获得1层[忍耐]且恢复6点体力</Desc>
+    <Desc>(每一幕至多使用1张)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="emotion_bless_upgraded">
+    <Desc>本书页将在装备后回到手中</Desc>
+    <Desc>[装备时]指定1名友方角色并在这一幕中使其获得2层[忍耐]且恢复12点体力</Desc>
+    <Desc>(每一幕至多使用1张)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Wizard_potion">
+    <Desc>[装备时]指定1名友方角色并使其获得[激发勇气的药水](整场接待有效)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Wizard_poket">
+    <Desc>[装备时]指定1名友方角色并使其获得[装有锯末的布袋](整场接待有效)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Wizard_heart">
+    <Desc>[装备时]指定1名友方角色并使其获得[用铅制成的心脏](整场接待有效)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Wizard_home">
+    <Desc>[装备时]指定1名友方角色并使其获得[永远回不去的家](整场接待有效)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Wizard_change">
+    <Desc>[装备时]指定1名友方角色并使其获得[催生变异的粉末](整场接待有效)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="selfbleeding5powerup3">
+    <Desc>[使用时]这一幕中对自身施加5层[流血]并使本书页的所有骰子威力+3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="selfbleeding3powerup2">
+    <Desc>[使用时]这一幕中对自身施加3层[流血]并使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="selfbleeding1">
+    <Desc>[使用时]下一幕中对自身施加1层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="selfbleeding2">
+    <Desc>[使用时]下一幕中对自身施加2层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="selfbleeding1energy1">
+    <Desc>[使用时]恢复1点光芒并在下一幕中对自身施加1层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="alliespower1">
+    <Desc>[使用时]下一幕中使所有我方角色获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="penetrateup1recoverplayerpoint1">
+    <Desc>[战斗开始]这一幕中使自身的突刺骰子威力+1</Desc>
+    <Desc>[使用时]恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="penetrateUp2thisRound">
+    <Desc>[战斗开始]这一幕中使自身的突刺骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="quick1discard">
+    <Desc>[丢弃时]下一幕中使自身获得1层[迅捷]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="quickall1discard">
+    <Desc>[丢弃时]下一幕中使所有我方角色获得1层[迅捷]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discardlowest1draw">
+    <Desc>[使用时]随机丢弃1张费用最低的书页并抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sakura">
+    <Desc>[使用时]若手中至少有4张书页则随机丢弃4张并使本书页的进攻型骰子最小值+3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="liuUnique">
+    <Desc>[使用时]自身每有2级情感等级便使本书页的所有骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="costDown1emotion3">
+    <Desc>若自身情感等级达到3级则使本书页费用-1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dmgUp1thisRound">
+    <Desc>[战斗开始]这一幕中使自身的进攻型骰子伤害+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="gainPositive1">
+    <Desc>[使用时]使自身获得1点[正面情感]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lowelonly">
+    <Desc>[使用时]摧毁本书页的所有骰子并将1张仅限下一幕使用的1费[燎原烈火]置入手中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lowelCreated">
+    <Desc>本书页仅限这一幕使用</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="endurance1emotion">
+    <Desc>[使用时]下一幕中使自身获得1层[忍耐]若自身情感等级达到3级则改为获得2层</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="AddBullet1">
+    <Desc>[使用时]随机将1张[子弹书页]置入手中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="AddBullet2">
+    <Desc>[使用时]随机将2张[子弹书页]置入手中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="AddBullet1AndDraw">
+    <Desc>[使用时]随机将1张[子弹书页]置入手中并抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard1">
+    <Desc>[使用时]随机丢弃1张费用最低的书页</Desc>
+    <Desc>若丢弃[子弹书页]则使本书页的进攻型骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard2draw1">
+    <Desc>[使用时]随机丢弃2张费用最低的书页并抽取1张书页</Desc>
+    <Desc>每丢弃1张[子弹书页]便使本书页的进攻型骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discard4bullet">
+    <Desc>[使用时]至多丢弃4张费用为0的书页</Desc>
+    <Desc>每丢弃1张[子弹书页]便使本书页的进攻型骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="thumbBullet1">
+    <Desc>本书页将在使用或丢弃后移出战斗</Desc>
+    <Desc>这一幕中以远程书页拼点时将使目标当前书页的骰子威力-1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="thumbBullet2">
+    <Desc>本书页将在使用或丢弃后移出战斗</Desc>
+    <Desc>这一幕中以远程书页击中目标时将在下一幕中对其施加1层[麻痹]与[破绽]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="thumbBullet3">
+    <Desc>本书页将在使用或丢弃后移出战斗</Desc>
+    <Desc>这一幕中以远程书页击中目标时将对其施加2层[烧伤]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="negatePower">
+    <Desc>使双方当前书页的所有骰子不受威力增减效果影响</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dmgUpFriend3">
+    <Desc>[使用时]下一幕中使所有我方角色的进攻型骰子伤害+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="badaCard">
+    <Desc>[拼点开始]消耗3层[充能]并使目标当前书页的所有骰子威力-2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="badaCardRemake">
+    <Desc>[使用时]消耗4层[充能]并使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="chargeProtection">
+    <Desc>[使用时]消耗2层[充能]并在这一幕及下一幕中使所有我方角色获得1层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="chargeEnergy">
+    <Desc>[使用时]消耗4层[充能]并恢复3点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smokePowerUp">
+    <Desc>[使用时]若目标至少拥有2层[烟气]则使本书页的进攻型骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nullifyPower">
+    <Desc>[使用时]下一幕中对目标施加[威力无效]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="gloriaCard">
+    <Desc>本书页仅限[剑刃解放]状态下使用</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="estherCard">
+    <Desc>本书页仅限[剑刃解放]状态下使用</Desc>
+    <Desc>以第1颗骰子拼点时将使目标当前骰子威力-12</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="hubertCard">
+    <Desc>本书页仅限[剑刃解放]状态下使用</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1friendKill">
+    <Desc>若击杀目标则下一幕中使所有我方角色获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cardPowerDown1targetHighlander">
+    <Desc>[拼点开始]若自身处于[独一]状态则使目标当前书页的所有骰子威力-1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="draw1CardAndHighlanderEnergy">
+    <Desc>[使用时]抽取1张书页
+若自身处于[独一]状态则恢复2点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="indexRelease1">
+    <Desc>[使用时]将1张0费[剑刃解放-Ⅱ]置入手中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="indexRelease2">
+    <Desc>[使用时]将1张0费[剑刃解放-Ⅲ]置入手中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawAndEnergy">
+    <Desc>[使用时]恢复1点光芒并抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burnPlus">
+    <Desc>[战斗开始]这一幕中自身使用书页施加[烧伤]时层数+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="punchDraw">
+    <Desc>[使用时]下一幕开始时抽取其余同名书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fireIlsum">
+    <Desc>[使用时]丢弃1张同名书页并抽取1张书页
+将丢弃书页中的骰子置入本书页末尾</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="kaliNormalAttackJ">
+    <Desc>若至少造成8点伤害则抽取1张书页并使其余同名书页费用-1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="kaliNormalAttackH">
+    <Desc>若至少造成8点伤害则恢复2点光芒并使其余同名书页费用-1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="kaliNormalAttackZ">
+    <Desc>若至少造成8点伤害则抽取1张书页并使其余同名书页费用-1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="kaliEgoAwaken">
+    <Desc>[使用时]恢复6点光芒与所有混乱抗性并在下一幕中展现[殷红迷雾E.G.O]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="kaliSuperAttack">
+    <Desc>击中目标时随机摧毁其即将使用的1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="kali">
+    <Desc>若击杀目标或使其陷入混乱则随机对1名敌方角色再次使用本书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection3friendThisRound">
+    <Desc>[使用时]这一幕中使所有我方角色获得3层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawUntil4">
+    <Desc>[使用时]重复抽取书页直至手中有4张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy3atkCard">
+    <Desc>击中目标时对其施加3层[妖灵]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy5atkCard">
+    <Desc>击中目标时对其施加5层[妖灵]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="usett_adddice">
+    <Desc>若本书页的招架骰子掷出最大值则将1颗突刺骰子(4~5)置入本书页末尾</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleedingPlus">
+    <Desc>[战斗开始]这一幕中自身使用书页施加[流血]时层数+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="breakDmg2thisRoundHit">
+    <Desc>[战斗开始]这一幕中自身以打击骰子击中目标时将追加2点混乱伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="purpleSpecialDice">
+    <Desc>[使用时]本书页的进攻型骰子属性将转变为目标弱点攻击抗性的属性</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="slashStance">
+    <Desc>[装备时]切换为[斩击架势]且这一幕中斩击骰子威力额外+1(每2幕至多切换1次)</Desc>
+    <Desc />
+  </BattleCardAbility>
+  <BattleCardAbility ID="penetrateStance">
+    <Desc>[装备时]切换为[突刺架势]且这一幕中突刺骰子威力额外+1(每2幕至多切换1次)</Desc>
+    <Desc />
+  </BattleCardAbility>
+  <BattleCardAbility ID="hitStance">
+    <Desc>[装备时]切换为[打击架势]且这一幕中打击骰子威力额外+1(每2幕至多切换1次)</Desc>
+    <Desc />
+  </BattleCardAbility>
+  <BattleCardAbility ID="defeneseStance">
+    <Desc>[装备时]切换为[防御架势]且这一幕中防御型骰子威力额外+1(每2幕至多切换1次)</Desc>
+    <Desc />
+  </BattleCardAbility>
+  <BattleCardAbility ID="nodice">
+    <Desc>本书页仅有反击骰子
+无法主动发起攻击</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nodiceAndDraw">
+    <Desc>本书页仅有反击骰子
+无法主动发起攻击</Desc>
+    <Desc>[战斗开始]抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="allyBuf">
+    <Desc>[战斗开始]这一幕中随机使1名友方角色获得2层[守护][振奋]与1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="shyaoAreaStrength">
+    <Desc>[使用时]下一幕中使自身获得2层[强壮]与[忍耐]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="shyaoSelfBurn">
+    <Desc>[战斗开始]这一幕结束时所受[烧伤]伤害-10</Desc>
+    <Desc>[使用时]若自身处于[烧伤]状态则恢复4点体力并在下一幕中获得2层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="dragonAnger">
+    <Desc>若[逆鳞骰子]拼点失败则对自身造成70点混乱伤害并在下一幕中获得4层[强壮]与[忍耐]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanEnemyBuf1">
+    <Desc>本书页仅限舞台中存在体力不低于31的[手]时方可使用</Desc>
+    <Desc>[战斗开始]若目标为[手]则使其获得3层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanEnemyBuf2">
+    <Desc>本书页仅限舞台中存在体力不低于31的[手]时方可使用</Desc>
+    <Desc>[战斗开始]若目标为[手]则使其获得3层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanEnemyBuf3">
+    <Desc>本书页仅限舞台中存在体力不低于31的[手]时方可使用</Desc>
+    <Desc>[战斗开始]这一幕中使目标的骰子不受威力增减效果影响</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanEnemyBuf4">
+    <Desc>[战斗开始]若目标为[手]则为其恢复40点体力</Desc>
+    <Desc>若目标不为[手]则为其恢复5点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanEnemyBuf5">
+    <Desc>[战斗开始]为所有友方角色恢复80点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanInstantEnergy">
+    <Desc>[装备时]恢复3点光芒且下一幕开始时失去3点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanSword">
+    <Desc>本书页的费用等同于[自身光芒上限]</Desc>
+    <Desc>[使用时]恢复所有光芒且自身每有1级情感等级便使本书页的所有骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDownAndEnergy">
+    <Desc>[使用时]恢复1点光芒并使本书页的所有骰子威力-2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy3AndDraw1">
+    <Desc>[使用时]恢复3点光芒并抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanSpecial1">
+    <Desc>每一幕至多使用1张[指令书页]</Desc>
+    <Desc>[装备时]指定1名友方角色并在这一幕中使其获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanSpecial2">
+    <Desc>每一幕至多使用1张[指令书页]</Desc>
+    <Desc>[装备时]指定1名友方角色并在这一幕中使其获得1层[守护]与[振奋]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanSpecial3">
+    <Desc>每一幕至多使用1张[指令书页]</Desc>
+    <Desc>[装备时]指定1名友方角色并使其抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yanSpecial4">
+    <Desc>每一幕至多使用1张[指令书页]</Desc>
+    <Desc>[装备时]指定1名友方角色并为其恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="awlofnight1">
+    <Desc>[使用时]自身每有1层[迅捷]目标每有1层[束缚]便使本书页的进攻型骰子伤害+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="handCountDmgUp">
+    <Desc>[使用时]手中每有1张书页便使本书页的进攻型骰子伤害+1
+丢弃所有书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discardRandomAndEnergy">
+    <Desc>[使用时]随机丢弃1张书页并恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discardAllEnergy1">
+    <Desc>[丢弃时]为所有友方角色恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerup2byselfsmoke9">
+    <Desc>[使用时]若自身至少拥有9层[烟气]则使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="costdecrease1allcardExhaust">
+    <Desc>[佚亡][使用时]使手中的书页费用-1(使用后复原)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="selfstunwithabil">
+    <Desc>[装备时]将1张2费[一点突破]置入手中
+这一幕中使自身陷入[眩晕]并无法行动
+下一幕中使自身获得3层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fixedCost">
+    <Desc>本书页的费用无法改变</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="rolandDrawUtil">
+    <Desc>本书页的费用无法改变</Desc>
+    <Desc>[使用时]抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="blackSilenceSpecial">
+    <Desc>本书页仅限9种[漆黑噤默书页]全部用毕后方可使用</Desc>
+    <Desc>[命中时]下一幕中对目标施加5层[流血]3层[麻痹]与[易损]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="hanaSpecial">
+    <Desc>根据这一幕中装备的[卦象书页]获得额外效果</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="debufHalf">
+    <Desc>[战斗开始]将自身的负面状态层数减半(向上取整)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="discardAllAndPower2">
+    <Desc>[使用时]丢弃所有书页并使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="hanaDiscardDraw">
+    <Desc>[使用时]随机丢弃1张书页
+下一幕开始时抽取2张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="hanaQuick">
+    <Desc>[使用时]下一幕中使自身获得1层[迅捷]</Desc>
+    <Desc>若自身速度不低于7点则使本书页的所有骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="hanaPassive1">
+    <Desc>每一幕至多使用1张[卦象书页]且同一书页仅限其余3种[卦象书页]全部用毕后方可再次使用</Desc>
+    <Desc>[装备时]这一幕中使自身获得1层[强壮]且击中目标时伤害与混乱伤害+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="hanaPassive2">
+    <Desc>每一幕至多使用1张[卦象书页]且同一书页仅限其余3种[卦象书页]全部用毕后方可再次使用</Desc>
+    <Desc>[装备时]这一幕中使自身获得1层[忍耐]且被击中时所受伤害与混乱伤害-30%</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="hanaPassive3">
+    <Desc>每一幕至多使用1张[卦象书页]且同一书页仅限其余3种[卦象书页]全部用毕后方可再次使用</Desc>
+    <Desc>[装备时]恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="hanaPassive4">
+    <Desc>每一幕至多使用1张[卦象书页]且同一书页仅限其余3种[卦象书页]全部用毕后方可再次使用</Desc>
+    <Desc>[装备时]抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="elieenalliespower2">
+    <Desc>[使用时]下一幕中使所有友方角色获得2层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="elieenallieshp10">
+    <Desc>[使用时]为所有友方角色恢复10点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="elieenalliesquickness2">
+    <Desc>[使用时]下一幕中使所有友方角色获得2层[迅捷]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="plutoCard">
+    <Desc>[丢弃时]恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="contract1">
+    <Desc>[生效条件]这一幕中使用费用增加/减少的书页
+</Desc>
+    <Desc>[合同内容]每一幕开始时书页随机变费但必须使用特定费用的书页
+</Desc>
+    <Desc>[装备时]指定1名持有[未署名合同]的友方角色并摧毁双方的[未署名合同]
+下一幕开始时与其互换[未署名合同]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="contract2">
+    <Desc>[生效条件]这一幕结束时持有费用为1,2,3的书页
+</Desc>
+    <Desc>[合同内容]特定费用的书页威力增加但其余费用的书页威力减少
+</Desc>
+    <Desc>[装备时]指定1名持有[未署名合同]的友方角色并摧毁双方的[未署名合同]
+下一幕开始时与其互换[未署名合同]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="contract3">
+    <Desc>[生效条件]使用防御型骰子取得4次拼点胜利
+</Desc>
+    <Desc>[合同内容]每一幕开始时获得[迅捷]但必须进行拼点
+</Desc>
+    <Desc>[装备时]指定1名持有[未署名合同]的友方角色并摧毁双方的[未署名合同]
+下一幕开始时与其互换[未署名合同]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="contract4">
+    <Desc>[生效条件]这一幕结束时拥有[强壮]
+</Desc>
+    <Desc>[合同内容]每一幕开始时获得[强壮]但必须使用进攻型骰子数不多于1的书页
+</Desc>
+    <Desc>[装备时]指定1名持有[未署名合同]的友方角色并摧毁双方的[未署名合同]
+下一幕开始时与其互换[未署名合同]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="contract5">
+    <Desc>[生效条件]这一幕结束时情感等级达到2级
+</Desc>
+    <Desc>[合同内容]每一幕开始时恢复所有光芒但必须一幕之内将其用尽
+</Desc>
+    <Desc>[装备时]指定1名持有[未署名合同]的友方角色并摧毁双方的[未署名合同]
+下一幕开始时与其互换[未署名合同]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke2addatk">
+    <Desc>[使用时]若目标至少拥有5层[烟气]则击中目标时对其施加2层[烟气]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength2quickness2friendbytargetsmoke">
+    <Desc>[使用时]若目标至少拥有5层[烟气]则下一幕中随机使1名我方角色获得2层[强壮]与[迅捷]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="unitePower">
+    <Desc>[联合书页]</Desc>
+    <Desc>[战斗开始]这一幕中所有友方角色使用[联合书页]时将获得骰子威力+1(不可叠加)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="uniteAttack">
+    <Desc>[联合书页]</Desc>
+    <Desc>[战斗开始]这一幕中所有友方角色使用[联合书页]时将获得1颗斩击骰子(4~8)(置于书页末尾且不可叠加)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="uniteDefense">
+    <Desc>[联合书页]</Desc>
+    <Desc>[战斗开始]这一幕中所有友方角色使用[联合书页]时将获得1颗招架骰子(6~9)(置于书页开头且不可叠加)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="resonanceControl">
+    <Desc>[战斗开始]这一幕中将[心灵共振]的触发条件临时改为[若目标震颤层数不低于4]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaDistortedArea">
+    <Desc>本书页无法在前两幕中使用</Desc>
+    <Desc>[使用时]将1张[落幕终曲]置入手中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="plutoArea">
+    <Desc>本书页无法在前两幕中使用</Desc>
+    <Desc>本书页将在使用后移出战斗并在4幕后回到手中</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="elenaNewArea">
+    <Desc>本书页无法在前两幕中使用</Desc>
+    <Desc>本书页将在使用后移出战斗并在4幕后回到手中</Desc>
+    <Desc>若在本舞台中至少恢复20点体力则使本书页费用-2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheonArea">
+    <Desc>本书页无法在前两幕中使用</Desc>
+    <Desc>本书页将在使用后移出战斗并在4幕后回到手中</Desc>
+    <Desc>[使用时]为拥有[傀儡线]的友方角色恢复20点体力与混乱抗性</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oswaldArea">
+    <Desc>本书页无法在前两幕中使用</Desc>
+    <Desc>本书页将在使用后移出战斗并在4幕后回到手中</Desc>
+    <Desc>[使用时]下一幕中使所有敌方角色随机获得2层[易损]/[破绽]/[虚弱]/[守护]/[振奋]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bremenArea">
+    <Desc>本书页无法在前两幕中使用</Desc>
+    <Desc>本书页将在使用后移出战斗并在4幕后回到手中</Desc>
+    <Desc>[使用时]这一幕中对所有敌方角色施加2层[易损]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="eileenArea">
+    <Desc>本书页无法在前两幕中使用</Desc>
+    <Desc>本书页将在使用后移出战斗并在4幕后回到手中</Desc>
+    <Desc>若至少击中1名敌方角色则这一幕结束时为所有我方角色恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="philipSpecial">
+    <Desc>[使用时]若自身情感等级达到3级则将1张仅限下一幕使用的5费[焦灼死灰]置入手中并在下一幕中对所有敌方角色施加1层[烧伤]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="philipArea">
+    <Desc>本书页仅限这一幕使用</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="costDownAndPowerUp">
+    <Desc>持有本书页时每与进攻型骰子取得1次拼点失败便使本书页费用-1</Desc>
+    <Desc>[战斗开始]这一幕中使自身的进攻型骰子威力+1</Desc>
+    <Desc>[使用时]抽取1张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nextCostDown">
+    <Desc>[使用时]抽取1张书页并恢复1点光芒
+仅限下一幕使手中的书页费用-1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverNextRound">
+    <Desc>[战斗开始]下一幕开始时恢复50点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binahArea">
+    <Desc>[使用时]这一幕中使所有我方角色获得3层[守护]与[振奋]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="singingMachineEgo">
+    <Desc>击中目标时随机对1名我方角色造成3点混乱伤害并在下一幕中使其获得1层[强壮]</Desc>
+    <Desc>若击杀目标则下一幕中使所有我方角色获得2层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="buterflyEgo">
+    <Desc>本书页的骰子将重复投掷8次</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="freischutzEgo2">
+    <Desc>[使用时]与魔弹射手[同化]3幕</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="redshoesEgo">
+    <Desc>[战斗开始]这一幕中所有敌方角色使用进攻型骰子时不再减少[流血]层数</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="wrathEgo">
+    <Desc>将除自身外的所有角色指定为攻击目标</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="voidEgo">
+    <Desc>[使用时]若手中没有书页则这一幕及下一幕中对所有敌方角色施加4层[虚弱][破绽][束缚]与[麻痹]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="redHoodEgo">
+    <Desc>[使用时]与小红帽雇佣兵[同化]3幕</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="cancelChangeEgo">
+    <Desc>[使用时]下一幕开始时解除[同化]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="wolfEgo">
+    <Desc>击中目标时不造成伤害与混乱伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="nothingEgo">
+    <Desc>击中目标时恢复等同于[伤害值]的体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="wizardEgoDice">
+    <Desc>[使用时]仅限下一幕使死于本舞台的所有友方角色复活</Desc>
+    <Desc>被复活的友方角色拥有4点光芒且除情感等级外的其余状态将被重置</Desc>
+    <Desc>曾被该效果复活过的角色无法再次复活</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bigBirdEgo">
+    <Desc>[战斗开始]这一幕中对所有敌方角色施加[威力无效]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smallBirdEgo">
+    <Desc>[使用时]随机从手中选择2张书页并使其费用-1</Desc>
+    <Desc>(不可重复且使用后复原)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bossBirdSecondEgo">
+    <Desc>[使用时]若自身体力不高于50%则使本书页的所有骰子威力+8</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="clockEgo">
+    <Desc>[使用时]仅限下一幕获得1颗速度骰子</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="oneBadManyGoodEgo">
+    <Desc>[使用时]为所有我方角色恢复15点体力与混乱抗性</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="blueStarEgo">
+    <Desc>若至少击杀1名敌方角色则恢复30点混乱抗性</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="whiteNightEgo">
+    <Desc>[使用时]与白夜[同化]3幕并将其余司书转化为使徒</Desc>
+    <Desc>使徒无法控制无法死亡且承受致死伤害后将持续处于[眩晕]状态直至[同化]解除</Desc>
+    <Desc>[同化]解除后所有使徒将复原为司书</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="whiteNightCard1">
+    <Desc>[战斗开始]这一幕中使所有友方角色获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="whiteNightCard2">
+    <Desc>[战斗开始]为所有我方角色恢复6点体力与混乱抗性</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="whiteNightArea">
+    <Desc>[使用时]每有1名敌方角色存活便恢复8点体力与混乱抗性</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bloodEgo">
+    <Desc>击中目标时移除其[强壮][忍耐][守护]与[振奋]效果</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="heartEgo">
+    <Desc>[使用时]失去50%的体力并在下一幕中使所有我方角色获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="pinochioego">
+    <Desc>[使用时]仅限下一幕使手中的书页费用+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="silentEgo">
+    <Desc>击中目标时将在下一幕中随机对3名敌方角色施加1层[麻痹]/[虚弱]/[破绽]/[束缚]/[易损]</Desc>
+    <Desc />
+  </BattleCardAbility>
+  <BattleCardAbility ID="jaeheonPassive">
+    <Desc>[装备时]指定1名友方角色并对其施加[傀儡线]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="reBurnAttackCard">
+    <Desc>[使用时]对自身施加2层[烧伤]并使手中1张[燃烧一击]费用-1</Desc>
+  </BattleCardAbility>
+</BattleCardAbilityDescRoot>

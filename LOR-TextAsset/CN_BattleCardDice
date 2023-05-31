@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BattleCardAbility ID="recoverHp1atk">
+    <Desc>[命中时]恢复1点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp2atk">
+    <Desc>[命中时]恢复2点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp3atk">
+    <Desc>[命中时]恢复3点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp4atk">
+    <Desc>[命中时]恢复4点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverHp6atk">
+    <Desc>[命中时]恢复6点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="galaxyEgoDice">
+    <Desc>[命中时]恢复等同于[骰子基础值]的体力</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="recoverBreak3atk">
+    <Desc>[命中时]恢复3点混乱抗性</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="recoverBreak5atk">
+    <Desc>[命中时]恢复5点混乱抗性</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable1atk">
+    <Desc>[命中时]下一幕中对目标施加1层[易损]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable2atk">
+    <Desc>[命中时]下一幕中对目标施加2层[易损]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable3atk">
+    <Desc>[命中时]下一幕中对目标施加3层[易损]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable4atk">
+    <Desc>[命中时]下一幕中对目标施加4层[易损]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable5atk">
+    <Desc>[命中时]下一幕中对目标施加5层[易损]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="vulnerable2pw">
+    <Desc>[拼点胜利]下一幕中对目标施加2层[易损]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding1atk">
+    <Desc>[命中时]下一幕中对目标施加1层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding2atk">
+    <Desc>[命中时]下一幕中对目标施加2层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3atk">
+    <Desc>[命中时]下一幕中对目标施加3层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding4atk">
+    <Desc>[命中时]下一幕中对目标施加4层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding6atk">
+    <Desc>[命中时]下一幕中对目标施加6层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3pw">
+    <Desc>[拼点胜利]下一幕中对目标施加3层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding2pw">
+    <Desc>[拼点胜利]下一幕中对目标施加2层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="pierre">
+    <Desc>[命中时]恢复等同于目标[流血]层数的体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1atk">
+    <Desc>[命中时]对目标施加1层[烧伤]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn2atk">
+    <Desc>[命中时]对目标施加2层[烧伤]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn3atk">
+    <Desc>[命中时]对目标施加3层[烧伤]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn4atk">
+    <Desc>[命中时]对目标施加4层[烧伤]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn6atk">
+    <Desc>[命中时]对目标施加6层[烧伤]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn10atk">
+    <Desc>[命中时]对目标施加10层[烧伤]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn2pw">
+    <Desc>[拼点胜利]对目标施加2层[烧伤]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1atk2times">
+    <Desc>[命中时]对目标施加1层[烧伤](重复触发2次)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="burn1atk3times">
+    <Desc>[命中时]对目标施加1层[烧伤](重复触发3次)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak1atk">
+    <Desc>[命中时]下一幕中对目标施加1层[虚弱]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak2atk">
+    <Desc>[命中时]下一幕中对目标施加2层[虚弱]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weak1pw">
+    <Desc>[拼点胜利]下一幕中对目标施加1层[虚弱]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm1atk">
+    <Desc>[命中时]下一幕中对目标施加1层[破绽]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm2atk">
+    <Desc>[命中时]下一幕中对目标施加2层[破绽]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="disarm3atk">
+    <Desc>[命中时]下一幕中对目标施加3层[破绽]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding1atk">
+    <Desc>[命中时]下一幕中对目标施加1层[束缚]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding2atk">
+    <Desc>[命中时]下一幕中对目标施加2层[束缚]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="binding3atk">
+    <Desc>[命中时]下一幕中对目标施加3层[束缚]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis1atk">
+    <Desc>[命中时]下一幕中对目标施加1层[麻痹]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis2atk">
+    <Desc>[命中时]下一幕中对目标施加2层[麻痹]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis3atk">
+    <Desc>[命中时]下一幕中对目标施加3层[麻痹]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis4atk">
+    <Desc>[命中时]下一幕中对目标施加4层[麻痹]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis1pw">
+    <Desc>[拼点胜利]下一幕中对目标施加1层[麻痹]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="paralysis2pw">
+    <Desc>[拼点胜利]下一幕中对目标施加2层[麻痹]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="orchestraEgoDice3">
+    <Desc>[命中时]这一幕中对目标施加1层[虚弱]与[破绽]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weakDisarmBinding1atk">
+    <Desc>[命中时]下一幕中对目标施加1层[虚弱][破绽]与[束缚]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="weakDisarmBinding2atk">
+    <Desc>[命中时]下一幕中对目标施加2层[虚弱][破绽]与[束缚]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1atk">
+    <Desc>[命中时]下一幕中使自身获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength2atk">
+    <Desc>[命中时]下一幕中使自身获得2层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="kaliAttackBuf">
+    <Desc>[命中时]下一幕中使自身获得3层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2strength1atk">
+    <Desc>[命中时]下一幕中随机使2名我方角色获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2recover3atk">
+    <Desc>[命中时]随机为2名我方角色恢复3点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="ally2recover3atkfordef">
+    <Desc>[拼点胜利]随机为2名我方角色恢复3点体力</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="argaliaBuf">
+    <Desc>[命中时]下一幕中使所有我方角色获得1层[强壮]与[忍耐]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="tomerryBuf">
+    <Desc>[命中时]下一幕中使所有我方角色获得3层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1atk">
+    <Desc>[命中时]恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1pw">
+    <Desc>[拼点胜利]恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage2atk">
+    <Desc>[命中时]追加2点伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage3atk">
+    <Desc>[命中时]追加3点伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="damage5atk">
+    <Desc>[命中时]追加5点伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break2atk">
+    <Desc>[命中时]追加2点混乱伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break3atk">
+    <Desc>[命中时]追加3点混乱伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="break5atk">
+    <Desc>[命中时]追加5点混乱伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerPerHand">
+    <Desc>手中每有1张书页便使本骰子威力+1</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDownNext2pwTarget">
+    <Desc>[拼点胜利]使目标当前书页的下一颗骰子威力-2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown2targetDfn">
+    <Desc>若目标使用防御型骰子则使其威力-2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerDown3targetDfn">
+    <Desc>若目标使用防御型骰子则使其威力-3</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lovetownPower">
+    <Desc>单方面攻击时使本骰子威力+10</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="lovetownNextPower">
+    <Desc>[拼点失败]使自身当前书页的下一颗骰子威力+6</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="yujin">
+    <Desc>若骰子基础值不低于4点且为最大值则威力+45</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="energy1atkAndHp">
+    <Desc>[命中时]若自身体力不高于25%则恢复1点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1atkMostHp">
+    <Desc>[命中时]下一幕中使体力最高的我方角色获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="protection2atkMostHp">
+    <Desc>[命中时]下一幕中使体力最高的我方角色获得2层[守护]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="strength1atkAllFriend">
+    <Desc>[命中时]下一幕中使所有我方角色获得1层[强壮]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="powerUpDice4highlander">
+    <Desc>若自身处于[独一]状态则使本骰子威力+4</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleedingXsmoke">
+    <Desc>[命中时]目标每有2层[烟气]便在下一幕中对其施加1层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="bleeding3smoke">
+    <Desc>[命中时]消耗2层[烟气]并在下一幕中对目标施加3层[流血]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="debufsSmoke">
+    <Desc>[命中时]若目标至少拥有7层[烟气]则下一幕中对其施加2层[麻痹]与1层[虚弱]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="debufsSmokeRemake">
+    <Desc>[命中时]若目标至少拥有4层[烟气]则下一幕中对其施加2层[麻痹]与1层[虚弱]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="drawSmoke">
+    <Desc>[命中时]若目标至少拥有3层[烟气]则抽取2张书页</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="light1smoke3atk">
+    <Desc>[命中时]恢复1点光芒并对目标施加3层[烟气]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke2selfsmoke1atk">
+    <Desc>[命中时]使自身获得1层[烟气]并对目标施加2层[烟气]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="smoke3atkparalysis3atkbytagetsmoke5">
+    <Desc>[命中时]对目标施加3层[烟气]
+若目标至少拥有5层[烟气]则下一幕中对其施加3层[麻痹]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="repeat3">
+    <Desc>本骰子将重复投掷3次</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="repeat4">
+    <Desc>本骰子将重复投掷4次</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge2pw">
+    <Desc>[拼点胜利]使自身获得2层[充能]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge2pl">
+    <Desc>[拼点失败]使自身获得1层[充能]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge1atk">
+    <Desc>[命中时]使自身获得1层[充能]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="charge8atk">
+    <Desc>[命中时]使自身获得8层[充能]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="badaCardRemake">
+    <Desc>[使用时]消耗4层[充能]并使本书页的所有骰子威力+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="deerDice">
+    <Desc>[命中时]消耗3层[充能]并追加8点混乱伤害</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy1atk">
+    <Desc>[命中时]对目标施加1层[妖灵]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy2atk">
+    <Desc>[命中时]对目标施加2层[妖灵]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="fairy3atk">
+    <Desc>[命中时]对目标施加3层[妖灵]</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="forbidReuseDice">
+    <Desc>[拼点失败]摧毁目标当前骰子</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="forbidCardAtk">
+    <Desc>[命中时]下一幕中使目标手中初始费用不低于4的书页费用+2</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="sealTargetAtk">
+    <Desc>[命中时]下一幕中[封印]目标1颗速度骰子</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="orchestraEgoDice1">
+    <Desc>[命中时]下一幕中使目标失去2点光芒</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="orchestraEgoDice2">
+    <Desc>[命中时]下一幕中使目标速度固定为1点</Desc>
+  </BattleCardAbility>
+</BattleCardAbilityDescRoot>
