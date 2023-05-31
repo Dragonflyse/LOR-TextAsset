@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PassiveDesc ID="3007">
+    <Name>斬擊精通</Name>
+    <Desc>斬擊骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="3008">
+    <Name>突刺精通</Name>
+    <Desc>突刺骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="3009">
+    <Name>打擊精通</Name>
+    <Desc>打擊骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10001">
+    <Name>速戰速決</Name>
+    <Desc>速度骰子+1(唯一被動)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10004">
+    <Name>速戰速決2</Name>
+    <Desc>速度骰子+2(唯一被動)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10008">
+    <Name>速戰速決3</Name>
+    <Desc>速度骰子+1 情感等級達到3級後額外+1(唯一被動)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200004">
+    <Name>匹夫之勇</Name>
+    <Desc>1名友方角色死亡後將在下一幕中使自身獲得1層“強壯”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200006">
+    <Name>潤的靈活</Name>
+    <Desc>50%的機率使自身的閃避骰子最大值+3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200005">
+    <Name>防禦技術</Name>
+    <Desc>25%的機率使自身的“防禦型”骰子最大值+3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="201001">
+    <Name>9階斬擊</Name>
+    <Desc>50%的機率使斬擊傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="201002">
+    <Name>9階突刺</Name>
+    <Desc>50%的機率使突刺傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="201003">
+    <Name>9階打擊</Name>
+    <Desc>50%的機率使打擊傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200007">
+    <Name>電能衝擊</Name>
+    <Desc>擊中目標時有25%的機率在下一幕中對其施加1層“麻痺”(同一目標每一幕至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200010">
+    <Name>銹蝕吊鉤</Name>
+    <Desc>擊殺目標時將在下一幕中使自身獲得1層“強壯”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210002">
+    <Name>現場烹飪</Name>
+    <Desc>擊殺目標時恢復10%的體力(至多12點)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210001">
+    <Name>應急食品</Name>
+    <Desc>每一幕開始時恢復2點體力</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210003">
+    <Name>藏器待時</Name>
+    <Desc>擊中速度低於自身的目標時混亂傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210006">
+    <Name>吃我火棍！</Name>
+    <Desc>擊中目標時有50%的機率對其施加1層“燒傷”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="211005">
+    <Name>貫穿之刃</Name>
+    <Desc>50%的機率使突刺傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="211007">
+    <Name>割裂之刃</Name>
+    <Desc>50%的機率使斬擊傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="211003">
+    <Name>撕破傷口</Name>
+    <Desc>擊中處於“流血”狀態下的目標時傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221001">
+    <Name>調整呼吸</Name>
+    <Desc>拼點勝利時恢復1點體力</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221002">
+    <Name>調整呼吸</Name>
+    <Desc>拼點勝利時恢復1點體力</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220001">
+    <Name>保持鎮定</Name>
+    <Desc>拼點勝利時有25%的機率使自身當前書頁的下一顆骰子最大值+3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220002">
+    <Name>Zwei劍法1</Name>
+    <Desc>斬擊傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221003">
+    <Name>Zwei劍法2</Name>
+    <Desc>斬擊混亂傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220004">
+    <Name>您的盾牌</Name>
+    <Desc>“防禦型”骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220003">
+    <Name>下馬威</Name>
+    <Desc>斬擊混亂傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221004">
+    <Name>Zwei劍法3</Name>
+    <Desc>突刺傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220006">
+    <Name>利滾利</Name>
+    <Desc>每一幕結束時若手中沒有書頁則恢復1點光芒並抽取1張書頁</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220005">
+    <Name>最佳選擇</Name>
+    <Desc>每丟棄1張書頁便恢復3點體力</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220007">
+    <Name>越戰越勇！</Name>
+    <Desc>每一幕結束時若手中書頁不多於3張則下一幕中使自身獲得1層“強壯”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220008">
+    <Name>稍事歇息</Name>
+    <Desc>每一幕結束時若當幕未使用書頁則恢復1點光芒</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220010">
+    <Name>深呼吸</Name>
+    <Desc>每一幕開始時有25%的機率額外恢復1點光芒</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220009">
+    <Name>二連踢</Name>
+    <Desc>拼點勝利時追加1點傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221005">
+    <Name>內臟打擊</Name>
+    <Desc>打擊傷害+2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221007">
+    <Name>8階斬擊</Name>
+    <Desc>斬擊混亂傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221009">
+    <Name>8階突刺</Name>
+    <Desc>突刺混亂傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221010">
+    <Name>7階斬擊</Name>
+    <Desc>斬擊混亂傷害+2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221012">
+    <Name>7階突刺</Name>
+    <Desc>突刺混亂傷害+2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221013">
+    <Name>斧幫之魂</Name>
+    <Desc>打擊混亂傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221014">
+    <Name>雙面羅刹</Name>
+    <Desc>斬擊傷害+2
+突刺傷害-1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="221006">
+    <Name>要害打擊</Name>
+    <Desc>打擊傷害+3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230001">
+    <Name>裁師悼詞</Name>
+    <Desc>在同一舞臺中若有友方角色死亡則每一幕開始時使自身獲得2層“強壯”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230004">
+    <Name>集中精神</Name>
+    <Desc>第1幕中使自身的所有骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230005">
+    <Name>胡亂掃射</Name>
+    <Desc>第1幕中使自身的所有骰子威力+2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230006">
+    <Name>遠程狙殺</Name>
+    <Desc>第1幕中使自身的“進攻型”骰子威力+3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230007">
+    <Name>守護同伴</Name>
+    <Desc>開啟舞臺時隨機使3名我方角色獲得2層“守護”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230107">
+    <Name>黎明之火</Name>
+    <Desc>擊中處於“燒傷”狀態下的目標時追加1~2點混亂傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230207">
+    <Name>烙印工造</Name>
+    <Desc>使用書頁施加“燒傷”時層數+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230008">
+    <Name>踽踽獨行</Name>
+    <Desc>每一幕結束時若友方角色全部死亡則下一幕中使自身獲得3層“強壯”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230009">
+    <Name>神采奕奕</Name>
+    <Desc>情感等級達到1級後使自身的所有骰子威力+2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230010">
+    <Name>開幕雷擊</Name>
+    <Desc>開啟舞臺時隨機對3名敵方角色施加1層“麻痺”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230011">
+    <Name>滋溜滋溜</Name>
+    <Desc>擊中處於“麻痺”狀態下的目標時追加1~2點傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230012">
+    <Name>紊亂充能</Name>
+    <Desc>每一幕結束時有50%的機率在下一幕中使自身獲得1層“強壯”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230018">
+    <Name>未雨綢繆</Name>
+    <Desc>開啟舞臺時額外抽取2張書頁</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230118">
+    <Name>黑雲道</Name>
+    <Desc>斬擊骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230019">
+    <Name>刀光血影</Name>
+    <Desc>使用書頁施加“流血”時層數+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230020">
+    <Name>皮開肉綻</Name>
+    <Desc>以“進攻型”骰子取得拼點勝利時將在下一幕中對目標施加1層“流血”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="231001">
+    <Name>鋒利一擊</Name>
+    <Desc>以斬擊骰子擊中目標時將在下一幕中對其施加1層“流血”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230021">
+    <Name>喵嗚喵嗚~</Name>
+    <Desc>開啟舞臺時隨機使2名我方角色獲得1層“強壯”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230121">
+    <Name>即興亂打</Name>
+    <Desc>以打擊骰子擊中目標時將在下一幕中隨機對1名敵方角色施加1層“易損”(每一幕至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230022">
+    <Name>嘰嘰……嘰……？</Name>
+    <Desc>以打擊骰子擊中目標時追加1~2點傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230023">
+    <Name>哼哼！！哼！！！</Name>
+    <Desc>開啟舞臺時隨機對2名敵方角色施加1層“虛弱”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230024">
+    <Name>百折不撓</Name>
+    <Desc>承受致死傷害時使本次傷害及當幕即將承受的所有傷害-25(每一舞臺至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230124">
+    <Name>極銳之楔</Name>
+    <Desc>突刺骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230025">
+    <Name>強力突刺</Name>
+    <Desc>突刺傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="230026">
+    <Name>震撼突刺</Name>
+    <Desc>突刺混亂傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="232001">
+    <Name>鮮血昇華</Name>
+    <Desc>自身每有5層“流血”便使自身的所有骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="232002">
+    <Name>輕度扭傷</Name>
+    <Desc>擊中處於“流血”狀態下的目標時混亂傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="233001">
+    <Name>聯合進擊</Name>
+    <Desc>每一幕結束時若友方角色全部存活則下一幕中使自身獲得1層“強壯”
+每一幕結束時若友方角色全部死亡則下一幕中使自身獲得2層“虛弱”
+(本被動能力僅限開啟舞臺後存在友方角色時方可生效)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240001">
+    <Name>過度呼吸/疲憊不堪</Name>
+    <Desc>使用初始費用不低於4的書頁時恢復2點光芒
+首次開啟舞臺時永久摧毀1顆速度骰子</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240101">
+    <Name>正面迎敵</Name>
+    <Desc>被單方面攻擊時以1顆招架骰子(2~6)迎擊(每一幕至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240201">
+    <Name>疲憊不堪</Name>
+    <Desc>首次開啟舞臺時永久摧毀1顆速度骰子</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240301">
+    <Name>現死之眼/身心交瘁</Name>
+    <Desc>所有骰子威力+4
+所有骰子威力-3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240401">
+    <Name>身心交瘁</Name>
+    <Desc>所有骰子威力-3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240002">
+    <Name>一刀斃命</Name>
+    <Desc>使用初始骰子數為1的書頁時使該骰子威力+2並在拼點時獲得雙倍情感點數(不計入反擊骰子且不對反擊骰子生效)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240003">
+    <Name>喘息未定</Name>
+    <Desc>每一幕結束時若光芒為0則額外恢復1點光芒</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241001">
+    <Name>手足之情/遍體鱗傷</Name>
+    <Desc>在同一舞臺中每有1名友方角色死亡便在每一幕開始時使自身獲得1層“強壯”與“忍耐”(至多2層)
+首次開啟舞臺時失去75%的體力</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241101">
+    <Name>精疲力盡</Name>
+    <Desc>首次開啟舞臺時失去75%的體力</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241301">
+    <Name>手足之情/精疲力盡</Name>
+    <Desc>在同一舞臺中每有1名友方角色死亡便在每一幕開始時使自身獲得1層“強壯”與“忍耐”(至多2層)
+首次開啟舞臺時失去25%的體力</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240004">
+    <Name>再提速</Name>
+    <Desc>若自身速度不低於5點則混亂傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240005">
+    <Name>腦震盪</Name>
+    <Desc>以打擊骰子擊中目標時追加2點混亂傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240006">
+    <Name>傀儡支架</Name>
+    <Desc>打擊骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240308">
+    <Name>高難雜技</Name>
+    <Desc>使用初始費用不低於3的書頁時使其中的所有骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240408">
+    <Name>獅子之拳</Name>
+    <Desc>打擊骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240508">
+    <Name>飛身跨騎</Name>
+    <Desc>這一幕結束時與艾瑪合體</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240015">
+    <Name>精神回收</Name>
+    <Desc>擊中目標時恢復2點混亂抗性</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240016">
+    <Name>血肉回收</Name>
+    <Desc>擊中目標時恢復2點體力</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241002">
+    <Name>液態軀體</Name>
+    <Desc>“防禦型”骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241102">
+    <Name>清理屍體</Name>
+    <Desc>1名角色死亡後將在當幕結束時使自身恢復5%的體力(至多12點)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="241202">
+    <Name>清掃戰場</Name>
+    <Desc>1名角色死亡後將在當幕結束時使自身恢復20%的體力</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240018">
+    <Name>指令加護</Name>
+    <Desc>每一幕中隨機1種“進攻型”骰子威力+2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240118">
+    <Name>指令通覽</Name>
+    <Desc>開啟舞臺時額外抽取1張書頁</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240019">
+    <Name>量子躍遷</Name>
+    <Desc>若自身速度不低於4點則擊中目標時有10%的機率追加13點傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240020">
+    <Name>彎曲折射</Name>
+    <Desc>擊中目標時有5%的機率追加13點混亂傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240021">
+    <Name>反作用力</Name>
+    <Desc>若未使用書頁則下一幕中使自身獲得1層“強壯”與“忍耐”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240022">
+    <Name>次元截斷</Name>
+    <Desc>擊中目標時有10%的機率追加10點傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240023">
+    <Name>圍捕煙氣</Name>
+    <Desc>擊中目標時混亂傷害+(自身“煙氣”層數x10)%</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240024">
+    <Name>致癮煙氣</Name>
+    <Desc>擊中至少擁有8層“煙氣”的目標時將在下一幕中對其施加2層“麻痺”(同一目標每一幕至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240025">
+    <Name>清醒煙氣</Name>
+    <Desc>若自身擁有“煙氣”則被單方面攻擊時以1顆招架骰子(1~自身當幕開始時的“煙氣”層數)迎擊(每一幕至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240026">
+    <Name>煙氣繚繞</Name>
+    <Desc>“煙氣”將使自身提高傷害而不再承受額外傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240027">
+    <Name>熾熱之刃</Name>
+    <Desc>擊中目標時對其施加1~2層“燒傷”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240127">
+    <Name>鳳翎之盾</Name>
+    <Desc>被擊中時對攻擊方施加1~2層“燒傷”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="240227">
+    <Name>不穩定的神采</Name>
+    <Desc>若目標處於“燒傷”狀態則使自身的“進攻型”骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250001">
+    <Name>滿腔熱血</Name>
+    <Desc>情感等級達到3級後使自身的“進攻型”骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250002">
+    <Name>所向無前</Name>
+    <Desc>情感等級提升時使自身獲得1層“強壯”與“忍耐”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250003">
+    <Name>堅如磐石</Name>
+    <Desc>情感等級提升時恢復15%的體力(至多20點)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250004">
+    <Name>常備不懈</Name>
+    <Desc>情感等級提升時若未陷入混亂則恢復25%的混亂抗性</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250005">
+    <Name>子彈補給</Name>
+    <Desc>每以近戰書頁擊中目標3次便隨機將1張子彈書頁置入手中</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250006">
+    <Name>高層命令</Name>
+    <Desc>每一幕開始時隨機使2名我方角色獲得1層“守護”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250106">
+    <Name>厚積薄發</Name>
+    <Desc>每當使用第3顆骰子時若為“進攻型”骰子則使其威力+1
+自第4幕起效果改為使自身的“進攻型”骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250007">
+    <Name>刀槍不入</Name>
+    <Desc>所受傷害與混亂傷害-1(包含負面狀態傷害)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250008">
+    <Name>強化火藥</Name>
+    <Desc>遠程書頁的第1顆“進攻型”骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250009">
+    <Name>額外補給</Name>
+    <Desc>每將3張子彈書頁移出戰鬥便在當幕結束時隨機將1張子彈書頁置入手中</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250010">
+    <Name>緊急復蘇</Name>
+    <Desc>承受致死傷害時無視此次傷害並消耗所有“充能”恢復體力
+(每一舞臺至多觸發1次 每層“充能”恢復5點體力)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250011">
+    <Name>能量力場</Name>
+    <Desc>使用書頁消耗“充能”時將在下一幕中使自身獲得1層“守護”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250012">
+    <Name>陰沉氣息</Name>
+    <Desc>拼點勝利時追加1~2點混亂傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250110">
+    <Name>強化充能</Name>
+    <Desc>每一幕開始時若情感等級已達到2級且上一幕曾使用書頁獲得“充能”則使自身獲得1層“忍耐”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250210">
+    <Name>進階充能</Name>
+    <Desc>每一幕開始時若情感等級已達到2級且上一幕曾使用書頁消耗“充能”則使自身獲得1層“強壯”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250013">
+    <Name>變幻莫測</Name>
+    <Desc>每一幕開始時移除手中的書頁並將意圖使用的書頁置入手中
+自身的書頁費用為0</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250113">
+    <Name>蒼藍殘響</Name>
+    <Desc>無法被遠程書頁傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250014">
+    <Name>內燃機</Name>
+    <Desc>使用書頁獲得“煙氣”時層數+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250114">
+    <Name>血肉齒輪</Name>
+    <Desc>書頁的第1顆“進攻型”骰子傷害+2~3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250214">
+    <Name>思想齒輪</Name>
+    <Desc>閃避骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250115">
+    <Name>劍刃解放</Name>
+    <Desc>在同一舞臺中使用6張不同書頁後將使自身的所有骰子威力+1並處於“劍刃解放”狀態</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250015">
+    <Name>洶湧激流</Name>
+    <Desc>每使用4張不同書頁便抽取1張書頁</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250016">
+    <Name>高壓攻勢</Name>
+    <Desc>與“防禦型”骰子拼點時使其威力-1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250017">
+    <Name> 遊刃有餘</Name>
+    <Desc>每一幕開始時若情感等級已達到2級則隨機使手中1張費用不為0的書頁費用-1(減費效果僅持續1幕)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250018">
+    <Name>烽火連天</Name>
+    <Desc>每一幕開始時隨機從手中標記2張書頁並賦予其額外效果“這一幕中使用本書頁施加‘燒傷’時層數x2”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250020">
+    <Name>星星之火</Name>
+    <Desc>使用近戰書頁擊中目標時將對其施加1層“燒傷”並在2幕之內使其處於“星火”狀態
+處於“星火”狀態的角色若陷入混亂則將其一半的“燒傷”層數等量施予所有敵方角色(向下取整)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250021">
+    <Name>擁火臥薪</Name>
+    <Desc>使用近戰書頁擊中目標時將在這一幕中對其施加“引燃”
+引燃: 這一幕結束時若承受“燒傷”傷害則追加承受一半於“燒傷”層數的混亂傷害</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250222">
+    <Name>後發制敵</Name>
+    <Desc>下令戰鬥時獲得1顆斬擊反擊骰子(4~8)(每一幕至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250322">
+    <Name>最強之人</Name>
+    <Desc>每一幕開始時將自身數值最低的速度骰子設為無限大</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10011">
+    <Name>不完整的調律者</Name>
+    <Desc>每一幕開始時重複抽取書頁直至手中有4張書頁</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250123">
+    <Name>RRR戰術套裝</Name>
+    <Desc>“充能”層數上限增至20</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251001">
+    <Name>Rabbit改造手術</Name>
+    <Desc>在同一舞臺中每失去30%的體力便在每一幕開始時使自身獲得1層“迅捷”(至多3層)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251002">
+    <Name>Rhino改造手術</Name>
+    <Desc>在同一舞臺中每失去30%的體力便在每一幕開始時使自身獲得1層“忍耐”(至多2層)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251003">
+    <Name>Reindeer改造手術</Name>
+    <Desc>在同一舞臺中每失去30%的體力便在每一幕開始時使自身獲得1層“強壯”(至多2層)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250023">
+    <Name>第4集團軍總指揮</Name>
+    <Desc>每一幕開始時若“充能”層數不低於11則使所有我方角色獲得1層“強壯”與“忍耐”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250223">
+    <Name>收尾工作</Name>
+    <Desc>每一幕結束時對自身最後攻擊的敵方角色施加“集火”
+處於“集火”狀態的角色被擊中時所受傷害與混亂傷害+50%(至多同時存在1個“集火”目標)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251101">
+    <Name>刺激充能壓縮肌肉</Name>
+    <Desc>每一幕開始時若“充能”層數不低於11則使自身獲得1層“迅捷”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251102">
+    <Name>生物充能同步外皮</Name>
+    <Desc>每一幕開始時若“充能”層數不低於11則使自身獲得2層“守護”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251103">
+    <Name>腦波充能集束犄角</Name>
+    <Desc>每一幕開始時若“充能”層數不低於11則擊中目標時混亂傷害+2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250024">
+    <Name>繆的技巧</Name>
+    <Desc>速度每高於目標2點便使自身當前書頁的所有骰子威力+1(至多+5)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250025">
+    <Name>極限衝擊</Name>
+    <Desc>每一幕開始時若“充能”層數達到20則擊中目標時傷害與混亂傷害+50%且被擊中時所受傷害與混亂傷害-30%</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250026">
+    <Name>生還之人</Name>
+    <Desc>在同一舞臺中每解除1次混亂便在每一幕開始時使自身獲得1層“強壯”與“忍耐”(至多5層)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="251201">
+    <Name>備彈充足</Name>
+    <Desc>初始類型為“遠程”的書頁使用後將不再移出戰鬥</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250027">
+    <Name>機率變動者</Name>
+    <Desc>投擲骰子時若擲出最小值則重新投擲(每顆骰子至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250127">
+    <Name>架勢切換</Name>
+    <Desc>(本被動能力無法轉移)
+可為斬擊/突刺/打擊/防禦4種架勢分別設置一套牌組
+開啟舞臺時隨機選擇1種架勢並可在戰前準備階段消耗1點光芒瞬間切換架勢(每2幕至多切換1次)
+切換架勢時相應屬性骰子威力額外+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250036">
+    <Name>龍生九子</Name>
+    <Desc>(本被動能力無法轉移)
+每一幕結束時若情感等級已達到2級則展現E.G.O</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250336">
+    <Name>蚣蝮避水</Name>
+    <Desc>免疫“燒傷”傷害
+被施加除“燒傷”外的負面狀態時層數減半(向下取整且至少為1)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250051">
+    <Name>su.3fm u;6</Name>
+    <Desc>若應用於自身的崩潰異想體書頁(紅)多於覺醒異想體書頁(綠)則使自身的所有骰子威力+1
+若數量超出2張則擊中目標時傷害與混亂傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="250151">
+    <Name>傳令員</Name>
+    <Desc>每一幕開始時隨機將1張可對友方角色使用的“指令書頁”置入手中
+若情感等級已達到3級則隨機將2張“指令書頁”置入手中
+(指令書頁共有4種類型: 獲得強壯/獲得守護與振奮/抽取書頁/恢復光芒)
+(每一幕至多使用1張且當幕結束時移除)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260001">
+    <Name>乾坤坎離</Name>
+    <Desc>獲得4張強化自身的“卦象書頁”
+(每一幕至多使用1張“卦象書頁”且同一書頁在其餘3種“卦象書頁”全部用畢前無法再次使用)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260002">
+    <Name>하나為一切</Name>
+    <Desc>使用書頁獲得“強壯”“忍耐”“守護”與“振奮”時隨機使1名友方角色獲得相同效果</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260003">
+    <Name>一切為하나</Name>
+    <Desc>若在上一幕中承受傷害則這一幕中使承傷最多的攻擊抗性變為“耐性”
+(物理攻擊抗性與混亂攻擊抗性單獨計算)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260004">
+    <Name>十二收尾人</Name>
+    <Desc>使自身的所有骰子最小值+2
+情感等級達到3級後獲得額外效果“使自身的所有骰子最大值+1”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10013">
+    <Name>漆黑噤默</Name>
+    <Desc>開啟舞臺時額外抽取2張書頁
+每當使用第3張書頁時將使其中的所有骰子威力+2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243001">
+    <Name>弱點洞悉</Name>
+    <Desc>造成“脆弱”或“致命”傷害時傷害+1
+造成“脆弱”或“致命”混亂傷害時混亂傷害+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243101">
+    <Name>情報掌控</Name>
+    <Desc>每一幕結束時隨機使1名敵方角色的1種攻擊抗性在下一幕中變為“一般”
+(只對抗性為“耐性”或“一般”的攻擊抗性生效)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243201">
+    <Name>要害識破</Name>
+    <Desc>若對1名至少擁有5層“易損”的敵方角色造成“脆弱”傷害或混亂傷害則本舞臺中使其相應攻擊抗性變為“致命”
+(每一幕至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243003">
+    <Name>故土劍術</Name>
+    <Desc>斬擊骰子威力+2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243005">
+    <Name>創口雕琢</Name>
+    <Desc>為每一幕使用的第1張書頁中的所有“進攻型”骰子賦予額外效果“[命中時] 下一幕中對目標施加2層‘流血’”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243105">
+    <Name>千錘百煉</Name>
+    <Desc>每一幕開始時若情感等級已達到1/3/5級則使自身獲得1/2/3層“守護”與“振奮”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="243205">
+    <Name>傷口潰爛</Name>
+    <Desc>擊中處於“流血”狀態下的目標時傷害+3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260005">
+    <Name>心靈共振</Name>
+    <Desc>使用近戰書頁時若自身速度與目標“震顫”層數相差不高於1則使其中的所有骰子威力+2
+開啟舞臺時額外抽取2張書頁</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260006">
+    <Name>熱火朝天</Name>
+    <Desc>若自身處於“燒傷”狀態則使自身的“進攻型”骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260007">
+    <Name>煙氣精通</Name>
+    <Desc>使用具有“煙氣”關鍵詞的書頁時將使其中的所有骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260008">
+    <Name>正規料理</Name>
+    <Desc>使用近戰書頁時若目標處於“流血”狀態則使其中的“進攻型”骰子威力+1~2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260009">
+    <Name>咴咴咴~！汪汪！咯！</Name>
+    <Desc>使用近戰書頁擊中目標時隨機觸發1種效果
+-下一幕中對目標施加1層“虛弱”
+-下一幕中對目標施加1層“麻痺”
+-追加2點混亂傷害
+-恢復2點混亂抗性
+(1幕之內每種效果至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260010">
+    <Name>華麗演出</Name>
+    <Desc>使用至少由3種不同骰子組成的書頁時將使其中的所有骰子威力+1且擊中目標時傷害+1(不計入反擊骰子且不對反擊骰子生效)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260011">
+    <Name>傲然挺立</Name>
+    <Desc>承受致死傷害時無視此次傷害並恢復100點體力且當幕結束時恢復所有混亂抗性(整場接待至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260012">
+    <Name>傀儡線</Name>
+    <Desc>開啟舞臺時將1張可對友方角色施加“傀儡線”的裝備書頁置入手中
+擁有“傀儡線”的角色將無法死亡且每一幕開始時獲得1層“強壯”或“忍耐”
+若擁有“傀儡線”的角色體力減至1或自身死亡則當幕結束時移除此狀態</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260013">
+    <Name>血魔之力</Name>
+    <Desc>擊中目標時恢復2點體力
+若在1幕之內至少恢復3點體力則下一幕中使自身獲得1層“強壯”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="260014">
+    <Name>惡魔契約</Name>
+    <Desc>開啟舞臺時向所有我方角色手中隨機且不重複地置入1張“未署名合約”
+持有“未署名合約”時若滿足合約中的“生效條件”即可獲得合約效果並將該合約移出戰鬥
+允許與其他友方角色互換合約</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10112">
+    <Name>疲勞</Name>
+    <Desc>開啟舞臺時失去25%的體力</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="252001">
+    <Name>恩賜解脫</Name>
+    <Desc>若目標體力不高於10%則使自身的“進攻型”骰子威力+1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="252002">
+    <Name>短劍專精</Name>
+    <Desc>突刺骰子威力+2
+斬擊骰子與打擊骰子威力-2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="252003">
+    <Name>破綻攻擊</Name>
+    <Desc>使用近戰書頁時若目標速度低於自身3點則摧毀其當前書頁的第1顆招架骰子</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="234001">
+    <Name>抽洗控牌</Name>
+    <Desc>每一幕開始時若上一幕曾丟棄過書頁則抽取1張書頁</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="234002">
+    <Name>底下疊牌</Name>
+    <Desc>每一幕結束時若當幕曾丟棄過書頁則恢復1點光芒</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="253001">
+    <Name>海市蜃樓</Name>
+    <Desc>每一幕結束時當幕每承受2點混亂傷害便恢復1點混亂抗性
+(至少恢復1點 若陷入混亂則無法生效)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="253002">
+    <Name>蒼鷹之眼</Name>
+    <Desc>每一幕開始時使上一幕承傷最多的我方角色獲得2層“守護”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="253003">
+    <Name>飛沙走石</Name>
+    <Desc>每一幕結束時若當幕至少承受1整張書頁的單方面攻擊則下一幕中使自身獲得1層“守護”與“振奮”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="254001">
+    <Name>保險補償</Name>
+    <Desc>每一幕結束時若當幕至少承受1整張書頁的單方面攻擊則恢復1點光芒</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="254002">
+    <Name>同意條款</Name>
+    <Desc>每一幕開始時隨機移除自身1種負面狀態
+(虛弱/破綻/束縛)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="254003">
+    <Name>人壽保險</Name>
+    <Desc>(本被動能力無法轉移)
+每一幕結束時若自身體力不高於30%則將1張4費“人壽保險”置入手中
+(每一舞臺至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="255001">
+    <Name>煙氣過度</Name>
+    <Desc>每一幕結束時若自身至少擁有8層“煙氣”則下一幕中使自身獲得1層“強壯”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="255002">
+    <Name>供應過剩</Name>
+    <Desc>若自身擁有10層“煙氣”則擊中目標時傷害+3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="255003">
+    <Name>現場修整</Name>
+    <Desc>若陷入混亂則解除混亂狀態並恢復所有混亂抗性(每一舞臺至多觸發1次)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="255004">
+    <Name>走火入魔</Name>
+    <Desc>每一幕開始時隨機觸發1種效果
+- 獲得2層“強壯”
+- 獲得2層“忍耐”
+- 獲得2層“迅捷”
+- 獲得5層“易損”
+    </Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="256001">
+    <Name>衝鋒姿態</Name>
+    <Desc>每一幕開始時獲得3層“易損”與1層“強壯”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="256002">
+    <Name>精力恢復</Name>
+    <Desc>每一幕結束時若當幕未使用書頁則恢復1點光芒並抽取1張書頁</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="256003">
+    <Name>預備動作</Name>
+    <Desc>每一幕開始時若上一幕中自身處於“眩暈”狀態則使自身獲得1層“強壯”2層“守護”與“振奮”</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="256004">
+    <Name>一點突破</Name>
+    <Desc>每3幕使用1張特殊書頁“一點突破”</Desc>
+  </PassiveDesc>
+</PassiveDescRoot>
